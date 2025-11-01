@@ -1,0 +1,22 @@
+# Obsidian workspace (user-specific)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian cache
+.obsidian/cache
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Obsidian plugins (if you want to manage them separately)
+# Uncomment if you don't want to sync plugins
+# .obsidian/plugins/
+
+# Trash folder
+.trash/
