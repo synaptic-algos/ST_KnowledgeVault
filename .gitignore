@@ -20,3 +20,6 @@ Thumbs.db
 
 # Trash folder
 .trash/
+
+# Local machine-specific configuration (not synced)
+.local/
