@@ -1,0 +1,349 @@
+# Hierarchical Folder Structure - Visual Guide
+
+## Complete Folder Tree
+
+```
+SynapticTrading_Product/
+│
+├── README.md                                    # Main overview and navigation
+├── QUICK_START.md                               # Getting started guide
+├── IMPLEMENTATION_HIERARCHY.md                  # Complete breakdown
+├── STRUCTURE_VISUAL.md                          # This file
+│
+├── EPIC-001-Foundation/                         # ━━━ WEEKS 1-4 ━━━
+│   ├── README.md                                # Epic overview, 5 features, 15 stories
+│   │
+│   ├── FEATURE-001-PortInterfaces/              # 5 days, 5 stories
+│   │   ├── README.md                            # Feature overview
+│   │   ├── STORY-001-MarketDataPort/
+│   │   │   └── README.md                        # Story + 12 tasks ✅ Complete example
+│   │   ├── STORY-002-ClockPort/
+│   │   │   └── README.md                        # Story README + task list ✅
+│   │   ├── STORY-003-ExecutionPort/
+│   │   │   └── README.md                        # Story README + task list ✅
+│   │   ├── STORY-004-PortfolioPort/
+│   │   │   └── README.md                        # Story README + task list ✅
+│   │   └── STORY-005-TelemetryPort/
+│   │       └── README.md                        # Story README + task list ✅
+│   │
+│   ├── FEATURE-002-DomainModel/                 # 4 days, 4 stories
+│   │   ├── README.md                            # Feature overview ✅
+│   │   ├── STORY-001-ValueObjects/
+│   │   │   └── README.md                        # Story README + tasks ✅
+│   │   ├── STORY-002-MarketDataObjects/
+│   │   │   └── README.md                        # Story README + tasks ✅
+│   │   ├── STORY-003-OrderObjects/
+│   │   │   └── README.md                        # Story README + tasks ✅
+│   │   └── STORY-004-PortfolioObjects/
+│   │       └── README.md                        # Story README + tasks ✅
+│   │
+│   ├── FEATURE-003-StrategyBase/                # 3 days, 3 stories
+│   │   ├── README.md                            # Feature overview ✅
+│   │   ├── STORY-001-LifecycleStateMachine/
+│   │   │   └── README.md                        # Story README + tasks ✅
+│   │   ├── STORY-002-EventHandlers/
+│   │   │   └── README.md                        # Story README + tasks ✅
+│   │   └── STORY-003-HelperMethods/
+│   │       └── README.md                        # Story README + tasks ✅
+│   │
+│   ├── FEATURE-004-Orchestration/               # 4 days, 2 stories
+│   │   ├── README.md                            # Feature overview ✅
+│   │   ├── STORY-001-RuntimeBootstrapper/
+│   │   │   └── README.md                        # Story README + tasks ✅
+│   │   └── STORY-002-TickDispatcherCommandBus/
+│   │       └── README.md                        # Story README + tasks ✅
+│   │
+│   └── FEATURE-005-Testing/                     # 4 days, 1 story
+│       ├── README.md                            # Feature overview ✅
+│       └── STORY-001-MockImplementations/
+│           └── README.md                        # Story README + tasks ✅
+│
+├── EPIC-002-Backtesting/                        # ━━━ WEEKS 5-8 ━━━
+│   ├── README.md                                # Epic overview, 6 features, 18 stories
+│   │
+│   ├── FEATURE-001-BacktestAdapter/             # 3 days, 3 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-AdapterClass/
+│   │   ├── STORY-002-MarketDataPort/
+│   │   └── STORY-003-ClockPort/
+│   │
+│   ├── FEATURE-002-EventReplay/                 # 4 days, 3 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-EventReplayer/
+│   │   ├── STORY-002-DataProviderInterface/
+│   │   └── STORY-003-ParquetProvider/
+│   │
+│   ├── FEATURE-003-ExecutionSimulator/          # 5 days, 4 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-SimulatorCore/
+│   │   ├── STORY-002-OrderFillLogic/
+│   │   ├── STORY-003-SlippageModels/
+│   │   └── STORY-004-CommissionModels/
+│   │
+│   ├── FEATURE-004-Portfolio/                   # 3 days, 3 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-PositionTracking/
+│   │   ├── STORY-002-PnLCalculations/
+│   │   └── STORY-003-EquityCurve/
+│   │
+│   ├── FEATURE-005-Analytics/                   # 4 days, 3 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-PerformanceCalculator/
+│   │   ├── STORY-002-TradeAnalysis/
+│   │   └── STORY-003-BacktestResults/
+│   │
+│   └── FEATURE-006-Validation/                  # 3 days, 2 stories
+│       ├── README.md
+│       ├── STORY-001-ValidationSuite/
+│       └── STORY-002-FirstBacktest/
+│
+├── EPIC-003-PaperTrading/                       # ━━━ WEEKS 9-10 ━━━
+│   ├── README.md                                # Epic overview, 4 features, 12 stories
+│   │
+│   ├── FEATURE-001-PaperAdapter/                # 3 days, 3 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-AdapterClass/
+│   │   ├── STORY-002-LiveDataIntegration/
+│   │   └── STORY-003-PaperExecutionPort/
+│   │
+│   ├── FEATURE-002-SimulatedExecution/          # 3 days, 3 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-FillSimulation/
+│   │   ├── STORY-002-LiveSlippage/
+│   │   └── STORY-003-SimulatedPortfolio/
+│   │
+│   ├── FEATURE-003-ShadowMode/                  # 2 days, 3 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-ShadowModeRunner/
+│   │   ├── STORY-002-SignalComparator/
+│   │   └── STORY-003-DivergenceDetection/
+│   │
+│   └── FEATURE-004-Validation/                  # 2 days, 3 stories
+│       ├── README.md
+│       ├── STORY-001-DeployStrategies/
+│       ├── STORY-002-MonitorSevenDays/
+│       └── STORY-003-ValidateBehavior/
+│
+├── EPIC-004-LiveTrading/                        # ━━━ WEEKS 11-14 ━━━
+│   ├── README.md                                # Epic overview, 7 features, 21 stories
+│   │
+│   ├── FEATURE-001-LiveAdapter/                 # 4 days, 3 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-AdapterClass/
+│   │   ├── STORY-002-BrokerIntegration/
+│   │   └── STORY-003-LiveExecutionPort/
+│   │
+│   ├── FEATURE-002-RiskManagement/              # 5 days, 4 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-RiskOrchestratorCore/
+│   │   ├── STORY-002-PositionLossLimits/
+│   │   ├── STORY-003-ConcentrationLimits/
+│   │   └── STORY-004-PenetrationTesting/
+│   │
+│   ├── FEATURE-003-KillSwitch/                  # 3 days, 3 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-KillSwitchClass/
+│   │   ├── STORY-002-EmergencyPositionClose/
+│   │   └── STORY-003-ActivationTesting/
+│   │
+│   ├── FEATURE-004-Monitoring/                  # 4 days, 4 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-HeartbeatMonitor/
+│   │   ├── STORY-002-MetricsCollector/
+│   │   ├── STORY-003-AlertManager/
+│   │   └── STORY-004-MonitoringDashboards/
+│   │
+│   ├── FEATURE-005-AuditLogging/                # 2 days, 2 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-PersistentAuditLog/
+│   │   └── STORY-002-ComplianceEvents/
+│   │
+│   ├── FEATURE-006-Reconciliation/              # 2 days, 3 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-EODReconciliation/
+│   │   ├── STORY-002-PositionComparison/
+│   │   └── STORY-003-ReportGeneration/
+│   │
+│   └── FEATURE-007-ProductionValidation/        # 4 days, 2 stories
+│       ├── README.md
+│       ├── STORY-001-StagingDeployment/
+│       └── STORY-002-SevenDayUptimeTest/
+│
+├── EPIC-005-Adapters/                           # ━━━ WEEKS 15-16 ━━━
+│   ├── README.md                                # Epic overview, 3 features, 9 stories
+│   │
+│   ├── FEATURE-001-NautilusAdapter/             # 4 days, 3 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-AdapterClass/
+│   │   ├── STORY-002-PortImplementations/
+│   │   └── STORY-003-StrategyMigration/
+│   │
+│   ├── FEATURE-002-BacktraderAdapter/           # 3 days, 3 stories
+│   │   ├── README.md
+│   │   ├── STORY-001-AdapterClass/
+│   │   ├── STORY-002-PortImplementations/
+│   │   └── STORY-003-ValidationRun/
+│   │
+│   └── FEATURE-003-CrossEngineValidation/       # 3 days, 3 stories
+│       ├── README.md
+│       ├── STORY-001-RunOnAllAdapters/
+│       ├── STORY-002-CompareSignalsAndPnL/
+│       └── STORY-003-ValidateTolerance/
+│
+└── EPIC-006-Hardening/                          # ━━━ WEEKS 17-18 ━━━
+    ├── README.md                                # Epic overview, 5 features, 15 stories
+    │
+    ├── FEATURE-001-Documentation/               # 3 days, 3 stories
+    │   ├── README.md
+    │   ├── STORY-001-APIDocumentation/
+    │   ├── STORY-002-DeveloperGuide/
+    │   └── STORY-003-OperationalRunbooks/
+    │
+    ├── FEATURE-002-Performance/                 # 3 days, 3 stories
+    │   ├── README.md
+    │   ├── STORY-001-ProfilingOptimization/
+    │   ├── STORY-002-CachingImplementation/
+    │   └── STORY-003-BenchmarkValidation/
+    │
+    ├── FEATURE-003-Security/                    # 2 days, 3 stories
+    │   ├── README.md
+    │   ├── STORY-001-SecurityAudit/
+    │   ├── STORY-002-EncryptionImplementation/
+    │   └── STORY-003-VulnerabilityFixes/
+    │
+    ├── FEATURE-004-LoadTesting/                 # 2 days, 3 stories
+    │   ├── README.md
+    │   ├── STORY-001-LoadTestScenarios/
+    │   ├── STORY-002-RunLoadTests/
+    │   └── STORY-003-ScalabilityValidation/
+    │
+    └── FEATURE-005-ProductionRollout/           # 2 days, 3 stories
+        ├── README.md
+        ├── STORY-001-DeployToProduction/
+        ├── STORY-002-MonitorSevenDays/
+        └── STORY-003-RetrospectiveDocumentation/
+```
+
+## Hierarchy Summary
+
+### Level 1: Epics (6 total)
+```
+EPIC-001-Foundation      (4 weeks)  →  5 features,  15 stories
+EPIC-002-Backtesting     (4 weeks)  →  6 features,  18 stories
+EPIC-003-PaperTrading    (2 weeks)  →  4 features,  12 stories
+EPIC-004-LiveTrading     (4 weeks)  →  7 features,  21 stories
+EPIC-005-Adapters        (2 weeks)  →  3 features,   9 stories
+EPIC-006-Hardening       (2 weeks)  →  5 features,  15 stories
+─────────────────────────────────────────────────────────────
+TOTAL                    18 weeks     30 features,  90 stories
+```
+
+### Level 2: Features (30 total)
+Each feature folder contains:
+- `README.md` with feature overview
+- Multiple STORY-###-Name/ subfolders
+
+### Level 3: Stories (90 total)
+Each story folder contains:
+- `README.md` with story details and tasks
+
+### Level 4: Tasks (~360 total)
+Tasks embedded in story README.md files as markdown checklists
+
+## File Count
+
+```
+6 Epics         × 1 README.md  =   6 files
+30 Features     × 1 README.md  =  30 files
+90 Stories      × 1 README.md  =  90 files
+────────────────────────────────────────
+Total README.md files          = 126 files
+```
+
+Plus:
+- 1 main README.md
+- 1 QUICK_START.md
+- 1 IMPLEMENTATION_HIERARCHY.md
+- 1 STRUCTURE_VISUAL.md
+
+**Grand Total**: 130 markdown files
+
+## Current Status
+
+### ✅ Created
+- All 6 epic folders and README files
+- All 30 feature folders (README files to be created for 29)
+- 5 story folders in FEATURE-001-PortInterfaces
+- 1 complete story example (STORY-001-MarketDataPort) with 12 tasks
+
+### 📋 To Be Created
+- 29 feature README files (follow FEATURE-001 template)
+- 89 story folders with README files (follow STORY-001 template)
+
+## Example Paths
+
+### Navigate to Epic
+```bash
+cd EPIC-001-Foundation/
+open README.md
+```
+
+### Navigate to Feature
+```bash
+cd EPIC-001-Foundation/FEATURE-001-PortInterfaces/
+open README.md
+```
+
+### Navigate to Story
+```bash
+cd EPIC-001-Foundation/FEATURE-001-PortInterfaces/STORY-001-MarketDataPort/
+open README.md  # Contains 12 tasks
+```
+
+## Naming Rules
+
+### Folders
+- **Epic**: `EPIC-###-Name/` (e.g., `EPIC-001-Foundation/`)
+- **Feature**: `FEATURE-###-Name/` (e.g., `FEATURE-001-PortInterfaces/`)
+- **Story**: `STORY-###-Name/` (e.g., `STORY-001-MarketDataPort/`)
+
+### Files
+- Every folder has `README.md`
+- Tasks embedded in story README.md
+
+### Numbers
+- Epic: 001-006 (6 epics)
+- Feature: 001-007 (varies by epic)
+- Story: 001-005 (varies by feature)
+- Task: Listed as checklist items in story
+
+## Benefits of This Structure
+
+### ✅ Clear Hierarchy
+- Visual folder structure mirrors work breakdown
+- Easy to navigate with standard file managers
+
+### ✅ Self-Documenting
+- Folder names describe scope
+- README.md provides details at each level
+
+### ✅ Git-Friendly
+- Small files, easy to review
+- Merge conflicts minimized
+- Clear file ownership
+
+### ✅ Tool-Agnostic
+- Works in GitHub, GitLab, Bitbucket
+- Compatible with any markdown viewer
+- No special tooling required
+
+### ✅ Scalable
+- Easy to add new features/stories
+- Template pattern clear from examples
+- Consistent structure throughout
+
+---
+
+**Created**: 2025-11-03
+**Purpose**: Visual guide to hierarchical folder structure
+**Status**: Foundation folders created, content in progress
