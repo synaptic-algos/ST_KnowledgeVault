@@ -360,3 +360,51 @@ See [STORY-001-01-01-MarketDataPort.md](./stories/STORY-001-01-01-MarketDataPort
 
 **Last Updated**: 2025-11-03
 **Version**: 1.0.0
+---
+
+## EPIC-007: Strategy Lifecycle (Continuous)
+
+**Status**: 📋 Planned | **Priority**: P0 | **Features**: 5 | **Stories**: 17 | **Duration**: Ongoing
+
+### Features
+
+#### FEAT-007-01: Research Intake & Discovery Workflow (6 days)
+**Stories**: 4 | **Tasks**: ~40
+
+- **STORY-007-01-01**: Design Strategy Intake Workflow (2 days)
+- **STORY-007-01-02**: Publish Research Template & Checklist (1.5 days)
+- **STORY-007-01-03**: Implement Data & Compliance Validation Gate (1.5 days)
+- **STORY-007-01-04**: Create Strategy Catalogue Index (1 day)
+
+#### FEAT-007-02: Prioritisation Council & Scoring (4 days)
+**Stories**: 3 | **Tasks**: ~30
+
+- **STORY-007-02-01**: Design Strategy Scoring Model (1.5 days)
+- **STORY-007-02-02**: Operationalise Prioritisation Council (1.5 days)
+- **STORY-007-02-03**: Launch Lifecycle Dashboard (1 day)
+
+#### FEAT-007-03: Implementation Handoff & Traceability (4 days)
+**Stories**: 3 | **Tasks**: ~30
+
+- **STORY-007-03-01**: Create Engineering Handoff Dossier (1.5 days)
+- **STORY-007-03-02**: Map Strategy Requirements to Platform Components (1.5 days)
+- **STORY-007-03-03**: Establish Strategy → Engineering Sync Process (1 day)
+
+#### FEAT-007-04: Deployment & Rollout Playbooks (5 days)
+**Stories**: 3 | **Tasks**: ~36
+
+- **STORY-007-04-01**: Author Paper Trial Playbook (2 days)
+- **STORY-007-04-02**: Define Go/No-Go Checklist & Rollback Plan (1.5 days)
+- **STORY-007-04-03**: Publish Live Rollout Runbook (1.5 days)
+
+#### FEAT-007-05: Post-Trade Analytics & Iteration (5 days)
+**Stories**: 4 | **Tasks**: ~40
+
+- **STORY-007-05-01**: Define Post-Deployment KPI Framework (1.5 days)
+- **STORY-007-05-02**: Schedule Post-Deployment Review Cadence (1 day)
+- **STORY-007-05-03**: Create Strategy Iteration Backlog Process (1.5 days)
+- **STORY-007-05-04**: Document Strategy Retirement Protocol (1 day)
+
+**Milestone**: Strategy Lifecycle Framework operational (quarterly cadence)
+
+**Key Deliverables**: Intake template, research checklist, governance playbook, handoff dossier, deployment runbooks, KPI dashboards, retirement protocol.

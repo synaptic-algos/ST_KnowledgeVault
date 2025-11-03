@@ -6,10 +6,10 @@ This directory contains the complete implementation plan for the Framework-Agnos
 
 ## What's Included
 
-✅ **6 Epics** - Major initiatives (2-4 weeks each)
-✅ **30 Features** - Shippable capabilities (3-7 days each)
-✅ **90 Stories** - User-facing functionality (1-3 days each)
-✅ **~360 Tasks** - Technical work items (2-8 hours each)
+✅ **7 Epics** - Major initiatives (2-4 weeks each + strategy lifecycle)
+✅ **35 Features** - Shippable capabilities (3-7 days each)
+✅ **107 Stories** - User-facing functionality (1-3 days each)
+✅ **~420 Tasks** - Technical and operational work items (2-8 hours each)
 
 ## Vault Layout
 
@@ -20,6 +20,11 @@ SynapticTrading_Product/
 ├── IMPLEMENTATION_HIERARCHY.md   # Complete breakdown of all work
 ├── STRUCTURE_VISUAL.md           # Mermaid + tree overview
 ├── Templates/                    # Product documentation templates
+├── Strategies/                   # Strategy catalogue + templates
+│   ├── README.md                 # Lifecycle tracker
+│   ├── Templates/
+│   │   └── Strategy_Template.md
+│   └── STRAT-000-MomentumUSEquities/
 └── EPICS/
     ├── EPIC-001-Foundation/
     │   ├── README.md             # Epic overview
@@ -38,7 +43,8 @@ SynapticTrading_Product/
     ├── EPIC-003-PaperTrading/
     ├── EPIC-004-LiveTrading/
     ├── EPIC-005-Adapters/
-    └── EPIC-006-Hardening/
+    ├── EPIC-006-Hardening/
+    └── EPIC-007-StrategyLifecycle/
 ```
 
 ## How to Use
@@ -95,6 +101,14 @@ SynapticTrading_Product/
 - Acceptance criteria
 - Code examples
 
+### Strategy Level (continuous)
+📁 [Strategy Catalogue](./Strategies/README.md)
+
+**Contains**:
+- Lifecycle status board (Idea → Research → Live → Retired)
+- Strategy dossiers with research, handoff, deployment, and review links
+- Templates for creating new strategy entries
+
 ### Task Level (0.5-2 hours)
 Embedded in story files
 
@@ -136,10 +150,10 @@ Embedded in story files
 - **Task**: 2-8 hours
 
 ### Scope Breakdown
-- **6 Epics** = 18 weeks total
-- **30 Features** = ~96 days of work
-- **90 Stories** = ~180 person-days
-- **~360 Tasks** = ~1440 person-hours
+- **7 Epics** = 18 weeks + ongoing lifecycle
+- **35 Features** = ~120 days of work
+- **107 Stories** = ~214 person-days
+- **~420 Tasks** = ~1680 person-hours
 
 ### Team Velocity
 - 2 Senior Engineers (full-time)

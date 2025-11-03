@@ -76,6 +76,7 @@ Each epic folder contains:
 | [EPIC-004 Live Trading](./EPICS/EPIC-004-LiveTrading/README.md) | Weeks 11–14 | 📋 Planned | 7 | 21 | P0 |
 | [EPIC-005 Adapters](./EPICS/EPIC-005-Adapters/README.md) | Weeks 15–16 | 📋 Planned | 3 | 9 | P1 |
 | [EPIC-006 Hardening](./EPICS/EPIC-006-Hardening/README.md) | Weeks 17–18 | 📋 Planned | 5 | 15 | P0 |
+| [EPIC-007 Strategy Lifecycle](./EPICS/EPIC-007-StrategyLifecycle/README.md) | Continuous | 📋 Planned | 5 | 17 | P0 |
 
 ## Using this workspace
 1. Start with [Quick Start](./QUICK_START.md) for the workflow primer.
@@ -89,6 +90,7 @@ Each epic folder contains:
 - Methodology, templates, and research live under `UPMS/Methodology`.
 - Design artefacts: `SynapticTrading_Product/Design/` (add as they migrate).
 - Issues: `SynapticTrading_Product/Issues/` (to be populated from legacy tracker).
+- Strategies: [Strategy Catalogue](./Strategies/README.md) (research through retirement).
 
 Keep metadata (front-matter) updated and capture changes in the `change_log` arrays to maintain traceability across gates and sprints.
 
@@ -99,6 +101,7 @@ Keep metadata (front-matter) updated and capture changes in the `change_log` arr
 - [📖 Quick Start Guide](./QUICK_START.md) - How to use this system
 - [📊 Implementation Hierarchy](./IMPLEMENTATION_HIERARCHY.md) - Complete breakdown
 - [🎯 Current Epic](./EPIC-001-Foundation/) - Foundation & Core Architecture
+- [🗂️ Strategy Catalogue](./Strategies/README.md) - Lifecycle tracker
 - [🔍 Example Feature](./EPIC-001-Foundation/FEATURE-001-PortInterfaces/) - Port Interfaces
 - [✏️ Example Story](./EPIC-001-Foundation/FEATURE-001-PortInterfaces/STORY-001-MarketDataPort/) - MarketDataPort
 
@@ -119,16 +122,18 @@ Keep metadata (front-matter) updated and capture changes in the `change_log` arr
 4. **[EPIC-004: Live Trading & Safety](./EPIC-004-LiveTrading/)** (Weeks 11-14)
    - Production deployment with safety controls
    - 7 features, 21 stories, 4 weeks
-   - 🎯 **LAUNCH MILESTONE**
 
 5. **[EPIC-005: Framework Adapters](./EPIC-005-Adapters/)** (Weeks 15-16)
-   - Nautilus, Backtrader, cross-engine validation
+   - Multi-engine adapter support
    - 3 features, 9 stories, 2 weeks
 
 6. **[EPIC-006: Production Hardening](./EPIC-006-Hardening/)** (Weeks 17-18)
-   - Documentation, performance, security, rollout
+   - Performance, security, operational readiness
    - 5 features, 15 stories, 2 weeks
-   - 🚀 **FULL ROLLOUT**
+
+7. **[EPIC-007: Strategy Lifecycle](./EPIC-007-StrategyLifecycle/)** (Continuous)
+   - Research → prioritisation → implementation → deployment → optimisation
+   - 5 features, 17 stories, ongoing cadence
 
 ## Milestones
 
