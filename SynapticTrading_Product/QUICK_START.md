@@ -141,6 +141,12 @@ Embedded in story files
 - Acceptance criteria
 - Dependencies
 
+
+## Reference Libraries
+
+- [Design Library](./Design/README.md) — system architecture and experience flows
+- [PRD Library](./PRD/README.md) — product requirement documents
+- [Research Archive](./Research/README.md) — supporting studies and validation plans
 ## Estimation Summary
 
 ### Time Breakdown

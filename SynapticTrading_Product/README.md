@@ -88,7 +88,9 @@ Each epic folder contains:
 
 ## Related resources
 - Methodology, templates, and research live under `UPMS/Methodology`.
-- Design artefacts: `SynapticTrading_Product/Design/` (add as they migrate).
+- Design artefacts: [Design Library](./Design/README.md)
+- Product PRDs: [PRD Library](./PRD/README.md)
+- Research notes: [Research Archive](./Research/README.md)
 - Issues: `SynapticTrading_Product/Issues/` (to be populated from legacy tracker).
 - Strategies: [Strategy Catalogue](./Strategies/README.md) (research through retirement).
 

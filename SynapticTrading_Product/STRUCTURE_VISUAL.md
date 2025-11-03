@@ -14,8 +14,36 @@ SynapticTrading_Product/
 │   ├── README.md                             # Catalogue & status table
 │   ├── Templates/
 │   │   └── Strategy_Template.md
-│   └── STRAT-000-MomentumUSEquities/
-│       └── README.md                         # Example strategy record
+│   ├── STRAT-000-MomentumUSEquities/
+│   │   └── README.md                         # Example strategy record
+│   └── STRAT-001-OptionsWeeklyMonthlyHedge/
+│       ├── README.md                         # Lifecycle tracker for options hedge
+│       └── PRD.md                            # Imported PRD
+│
+├── Design/                                   # System design references
+│   ├── README.md                             # Design index
+│   └── 01_FrameworkAgnostic/
+│       ├── OVERVIEW.md
+│       ├── CORE_ARCHITECTURE.md
+│       ├── BACKTEST_ENGINE.md
+│       ├── PAPER_TRADING.md
+│       ├── LIVE_TRADING.md
+│       └── STRATEGY_LIFECYCLE.md
+│
+├── PRD/                                      # Product requirements archive
+│   ├── README.md                             # PRD index
+│   └── 01_FrameworkAgnosticPlatform/
+│       ├── EXECUTIVE_SUMMARY.md
+│       └── PRD.md
+│
+├── Research/                                 # Research studies and validation
+│   ├── README.md                             # Research index
+│   └── 02_FrameworkAgnosticArchitecture/
+│       ├── ARCHITECTURE_BRIEF.md
+│       ├── FRAMEWORK_COMPARISON.md
+│       ├── DEPENDENCY_RULES.md
+│       ├── RISK_TRADEOFF_LOG.md
+│       └── VALIDATION_PLAN.md
 │
 ├── EPIC-001-Foundation/                         # ━━━ WEEKS 1-4 ━━━
 │   ├── README.md                                # Epic overview, 5 features, 15 stories
