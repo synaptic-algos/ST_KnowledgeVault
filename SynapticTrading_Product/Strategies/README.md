@@ -13,6 +13,7 @@ This workspace captures every trading strategy and its lifecycle status. Use it 
 
 | Strategy ID | Name | Owner | Lifecycle Status | Last Review | Links |
 |-------------|------|-------|------------------|-------------|-------|
+| STRAT-001 | Options Weekly Monthly Hedge | strategy_ops_team | Research | 2025-11-03 | [Folder](./STRAT-001-OptionsWeeklyMonthlyHedge) |
 | *(example)* | Momentum_US_Equities | alice@example.com | Idea | 2025-11-03 | [Folder](./STRAT-000-MomentumUSEquities) |
 
 Add a row for each strategy and keep the table sorted by status, then ID.
