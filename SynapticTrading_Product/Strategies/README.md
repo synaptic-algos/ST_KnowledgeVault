@@ -1,44 +1,24 @@
 # Strategy Catalogue & Lifecycle Tracker
 
-This workspace captures every trading strategy and its lifecycle status. Use it alongside the [Strategy Lifecycle epic](../EPICS/EPIC-007-StrategyLifecycle/README.md) to keep research, prioritisation, implementation, and operations in sync.
+This directory captures every trading strategy, its lifecycle state, and links to implementation artefacts. Use the asset-class templates in `Templates/` when proposing new strategies.
 
 ## How to Use
+1. Fill the appropriate template (equities/options/futures/custom) in `Templates/`.
+2. Create a strategy folder `STRAT-XXX-Name` with README and PRD.
+3. Update the table below with status, owner, and version.
+4. Link to EPIC-007 lifecycle notes and EPIC-008 implementation tasks.
 
-1. **Create a strategy folder** using the template below.
-2. **Update lifecycle status** as the strategy progresses (Idea → Research → Prioritised → In Dev → Paper → Live → Retired).
-3. **Link artefacts** for research notes, handoff dossier, deployment runbooks, and post-deployment reviews.
-4. **Reference dependencies** on platform epics/features and ticket IDs.
+## Strategy Index
+| Strategy ID | Name | Asset Class | Owner | Lifecycle | Version | Last Review | Links |
+|-------------|------|-------------|-------|-----------|---------|-------------|-------|
+| STRAT-001 | Options Weekly Monthly Hedge | options | strategy_ops_team | Research | 0.1.0 | 2025-11-04 | [Folder](./STRAT-001-OptionsWeeklyMonthlyHedge) |
 
-## Catalogue
+## Templates
+- [Equities Template](./Templates/Equities_Strategy_Template.md)
+- [Options Template](./Templates/Options_Strategy_Template.md)
+- [Futures Template](./Templates/Futures_Strategy_Template.md)
+- [Custom Template](./Templates/Custom_Strategy_Template.md)
 
-| Strategy ID | Name | Owner | Lifecycle Status | Last Review | Links |
-|-------------|------|-------|------------------|-------------|-------|
-| STRAT-001 | Options Weekly Monthly Hedge | strategy_ops_team | Research | 2025-11-03 | [Folder](./STRAT-001-OptionsWeeklyMonthlyHedge) |
-| *(example)* | Momentum_US_Equities | alice@example.com | Idea | 2025-11-03 | [Folder](./STRAT-000-MomentumUSEquities) |
-
-Add a row for each strategy and keep the table sorted by status, then ID.
-
-## Folder Structure
-
-```
-Strategies/
-├── README.md                      # This file
-├── Templates/
-│   └── Strategy_Template.md       # Strategy note template
-└── STRAT-XYZ-Name/                # One subfolder per strategy
-    └── README.md                  # Strategy-specific dossier
-```
-
-## Lifecycle States
-
-| State | Description | Exit Criteria |
-|-------|-------------|---------------|
-| Idea | Intake form submitted, awaiting validation | Intake checklist complete, compliance green light |
-| Research | Active analysis and data work | Research template filled, validation gate approved |
-| Prioritised | Approved by governance council | Scheduled handoff with engineering |
-| In Dev | Under implementation/testing | Engineering definition-of-ready met |
-| Paper | Running in paper trading with monitoring | Paper trial outcomes meet KPI targets |
-| Live | Deployed to production | KPI monitoring active, review cadence scheduled |
-| Retired | Strategy sunset or paused | Retirement protocol executed |
-
-Update the [Strategy Lifecycle dashboard](../EPICS/EPIC-007-StrategyLifecycle/FEATURE-002-PrioritisationGovernance/STORY-003-LifecycleDashboard/README.md) whenever a strategy changes state.
+## Notes
+- Keep business logic in templates; implementation tasks move to EPIC-008 features.
+- Update version and changelog when releases are tagged.
