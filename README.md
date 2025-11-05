@@ -79,3 +79,12 @@ Note: Workspace layouts are NOT synced (they're in `.gitignore`) so each user ca
 - Created: 2025-11-01
 - Obsidian Version: Compatible with latest release
 - Git: Enabled for collaboration
+
+## Directory Structure
+
+- `UPMS/` – Universal Product Methodology System. Holds reusable process playbooks, gate checklists, intake forms, sprint rituals, and governance notes that apply across products. No product-specific content should live here.
+- `SynapticTrading_Product/` – Product knowledge base for the platform. Contains epics, PRDs, design references, research, strategy catalogue, sprint notes, and execution artefacts for the trading platform.
+- `attachments/` – Shared images or assets referenced across notes.
+- `templates/` – Obsidian templates for both methodology and product documentation.
+
+Keep process documentation in `UPMS/` so any project can reuse it. Keep product-specific materials inside `SynapticTrading_Product/` to avoid mixing methodology with deliverables.
