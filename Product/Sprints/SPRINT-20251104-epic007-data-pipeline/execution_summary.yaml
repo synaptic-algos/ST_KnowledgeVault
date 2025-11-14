@@ -1,0 +1,34 @@
+sprint_id: SPRINT-20251104-epic007-data-pipeline
+status: completed
+ended_at: 2025-11-04T14:00:00Z
+completed_items:
+  - type: story
+    id: STORY-006-01
+    linked_feature: FEATURE-006-DataPipeline
+    status: completed
+    actual_hours: 2
+    description: NSE import + Greeks pipeline shipped
+kpi_updates:
+  data_pipeline_ready_pct: 100
+  catalog_quality_pct: 100
+epic_updates:
+  - id: EPIC-007
+    path: EPICS/EPIC-007-StrategyLifecycle/README.md
+    status: in_progress
+    progress_pct: 17
+    requirement_coverage: 17
+    change_log_entry: "2025-11-04 – SPRINT-20251104-epic007-data-pipeline – Data pipeline delivered with Greeks + Nautilus catalogs."
+    features:
+      - id: FEATURE-006-DataPipeline
+        path: EPICS/EPIC-007-StrategyLifecycle/FEATURE-006-DataPipeline/README.md
+        status: completed
+        progress_pct: 100
+        change_log_entry: "2025-11-04 – Sprint 0 – Data pipeline completed end-to-end."
+        stories:
+          - id: STORY-006-01
+            path: EPICS/EPIC-007-StrategyLifecycle/FEATURE-006-DataPipeline/STORY-001-NSEDataImport/README.md
+            status: completed
+            progress_pct: 100
+            fields:
+              completed_at: 2025-11-04T14:00:00Z
+              updated_at: 2025-11-04T14:00:00Z

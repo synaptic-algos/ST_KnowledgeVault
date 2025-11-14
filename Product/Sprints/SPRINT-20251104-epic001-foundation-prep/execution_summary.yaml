@@ -1,0 +1,76 @@
+sprint_id: SPRINT-20251104-epic001-foundation-prep
+status: completed
+ended_at: 2025-11-06T23:00:00Z
+completed_items:
+  - type: task
+    id: TASK-S0-001
+    linked_feature: FEATURE-001-PortInterfaces
+    status: done
+    description: Development blueprint drafted
+  - type: task
+    id: TASK-S0-002
+    linked_feature: FEATURE-001-PortInterfaces
+    status: done
+    description: Operational folders created
+  - type: task
+    id: TASK-S0-003
+    status: done
+    description: Sprint-0 README scaffolded
+  - type: task
+    id: TASK-S0-004
+    status: done
+    description: Repository structure initialized
+  - type: task
+    id: TASK-S0-005
+    status: done
+    description: pyproject + tooling configured
+  - type: task
+    id: TASK-S0-006
+    status: done
+    description: pytest settings established
+  - type: task
+    id: TASK-S0-007
+    status: done
+    description: import-linter baseline added
+  - type: task
+    id: TASK-S0-008
+    status: done
+    description: pre-commit hooks configured
+  - type: task
+    id: TASK-S0-009
+    status: pending
+    description: FEATURE-001 traceability population
+  - type: task
+    id: TASK-S0-010
+    status: pending
+    description: FEATURE-002 traceability population
+  - type: task
+    id: TASK-S0-011
+    status: pending
+    description: DESIGN-PORT-001 draft
+  - type: task
+    id: TASK-S0-012
+    status: pending
+    description: Sprint-1 README draft
+kpi_updates:
+  repository_setup_pct: 100
+  tools_configured_pct: 100
+  traceability_ready_pct: 60
+epic_updates:
+  - id: EPIC-001
+    path: EPICS/EPIC-001-Foundation/README.md
+    status: in_progress
+    progress_pct: 15
+    requirement_coverage: 25
+    change_log_entry: "2025-11-06 – SPRINT-20251104-epic001-foundation-prep – Repo, tooling, and traceability scaffolding complete; EPIC-001 moved to in-progress."
+    features:
+      - id: FEATURE-001-PortInterfaces
+        path: EPICS/EPIC-001-Foundation/FEATURE-001-PortInterfaces/README.md
+        status: in_progress
+        progress_pct: 15
+        change_log_entry: "2025-11-06 – Sprint 0 prep – Port interface traceability + repo scaffolding complete."
+      - id: FEATURE-002-DomainModel
+        path: EPICS/EPIC-001-Foundation/FEATURE-002-DomainModel/README.md
+        status: in_progress
+        progress_pct: 10
+        change_log_entry: "2025-11-06 – Sprint 0 prep – Domain model traceability seeded and tooling ready."

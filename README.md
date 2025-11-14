@@ -1,10 +1,163 @@
-# Synaptic Trading Knowledge Vault
+# SynapticTrading Vault
 
-A collaborative Obsidian vault for Synaptic Trading development and knowledge management.
+A collaborative Obsidian vault for Synaptic Trading platform development and knowledge management.
 
 ## Overview
 
-This vault is designed for team collaboration using Git version control and GitHub for synchronization.
+This vault contains all documentation, planning, and knowledge artifacts for the **Synaptic Trading Platform** - a framework-agnostic algorithmic trading system.
+
+**Vault Type**: Product Vault
+**Code Repository**: `/Users/nitindhawan/Downloads/CodeRepository/SynapticTrading/`
+**Methodology**: Follows [UPMS](/Users/nitindhawan/KnowledgeVaults/UPMS_Vault/) standards
+
+---
+
+## ⚠️ MANDATORY: VaultGuide Compliance
+
+**All team members MUST read and comply with the VaultGuide before contributing to this vault.**
+
+### Required Reading
+- **[VaultGuide/README.md](./VaultGuide/README.md)** - How this vault works (MANDATORY)
+- **[VaultGuide/SPRINT_TRACEABILITY_GUIDE.md](./VaultGuide/SPRINT_TRACEABILITY_GUIDE.md)** - Sprint completion process (MANDATORY)
+- **[VaultGuide/VAULT_ARCHITECTURE.md](./VaultGuide/VAULT_ARCHITECTURE.md)** - Vault structure and integration
+
+### Mandatory Processes
+
+#### 1. Sprint Traceability (MANDATORY)
+**After every sprint**, you MUST follow the Sprint Traceability Process to update Story → Feature → EPIC status.
+
+**See**: [VaultGuide/SPRINT_TRACEABILITY_GUIDE.md](./VaultGuide/SPRINT_TRACEABILITY_GUIDE.md)
+
+**Quality Gate**: Sprints cannot be marked "Complete" without following this process.
+
+**Why This Matters**: Sprint completion must flow back to update planned work (EPICs/Features/Stories). Without this, planning is disconnected from reality and progress tracking breaks down.
+
+#### 2. Symlink Usage
+Engineers access vault content through symlinks in the code repository. Never duplicate content.
+
+**See**: [VaultGuide/README.md](./VaultGuide/README.md#symlink-integration-strategy)
+
+#### 3. UPMS Templates
+Use UPMS templates for all product artifacts (EPICs, Features, Stories, Sprints, Design Docs).
+
+**See**: `/Users/nitindhawan/KnowledgeVaults/UPMS_Vault/Templates/`
+
+### Non-Compliance Consequences
+- ❌ Sprint retrospectives rejected at review
+- ❌ Pull requests blocked until traceability complete
+- ❌ Progress metrics become inaccurate
+- ❌ Stakeholder visibility compromised
+- ❌ Gate approvals delayed
+
+**Before Your First Contribution**: Read the VaultGuide completely. It takes 15 minutes and saves hours of rework.
+
+---
+
+## Vault Structure
+
+This vault follows the standard product vault pattern:
+
+```
+SynapticTrading_Vault/
+├── KnowledgeVault/       # Meta-documentation about THIS vault
+└── Product/              # Trading platform execution artifacts
+```
+
+### KnowledgeVault/ - Vault System Design
+
+**Purpose**: Documents how THIS vault operates and integrates with the code repository
+
+**Contents**:
+- README.md - Comprehensive vault usage guide
+- Design/ - Vault architecture and symlink documentation
+- EPICS/ - Vault-specific automation initiatives (EPIC-001 Synchronisation)
+
+**Key Topics**:
+- How this vault integrates with code repository via symlinks
+- Symlink setup instructions
+- Usage guidelines for engineers and PMs
+- Vault maintenance and best practices
+
+See: [KnowledgeVault/README.md](./KnowledgeVault/README.md)
+
+### Product/ - Trading Platform Artifacts
+
+**Purpose**: All execution artifacts for the Synaptic Trading Platform
+
+**Contents**:
+```
+Product/
+├── README.md                          # Product overview
+├── QUICK_START.md                     # Getting started guide
+├── IMPLEMENTATION_HIERARCHY.md        # Complete work breakdown
+├── EPICS/                             # 7 platform epics
+│   ├── EPIC-001-Foundation/
+│   ├── EPIC-002-Backtesting/
+│   ├── EPIC-003-PaperTrading/
+│   ├── EPIC-004-LiveTrading/
+│   ├── EPIC-005-Adapters/
+│   ├── EPIC-006-Compliance/
+│   ├── EPIC-007-StrategyLifecycle/
+│   └── EPIC-008-StrategyEnablement/
+├── PRD/                               # Product requirements
+├── Strategies/                        # Strategy catalog and templates
+├── Design/                            # Design documents
+├── Research/                          # Research findings
+├── Sprints/                           # Sprint execution records
+└── TechnicalDocumentation/           # Technical specs
+```
+
+**Scope**:
+- 7 Epics
+- 35 Features
+- 107 Stories
+- ~420 Tasks
+
+See: [Product/README.md](./Product/README.md)
+
+## Methodology
+
+This vault follows the **UPMS (Universal Product Management Meta-System)** methodology:
+
+**UPMS Location**: `/Users/nitindhawan/KnowledgeVaults/UPMS_Vault/`
+
+**Key UPMS Concepts**:
+- 6-phase lifecycle: Inception → Discovery → Definition → Delivery → Validation → Operate & Learn
+- Gate-driven approvals (G0-G5)
+- Variable-length sprints
+- Epic → Feature → Story → Task hierarchy
+
+**Templates**: Reference UPMS templates and adapt for trading platform needs
+
+## Integration with Code Repository
+
+### Symlinks
+
+Engineers access vault content through symlinks in the code repository:
+
+**Symlink Location**: `/Users/nitindhawan/Downloads/CodeRepository/SynapticTrading/documentation/`
+
+**Symlinks Point To**: This vault's Product/ directory
+
+### Setup
+
+See [KnowledgeVault/README.md](./KnowledgeVault/README.md) for detailed symlink setup instructions, or run:
+
+```bash
+/Users/nitindhawan/KnowledgeVaults/SynapticTrading_Vault/VaultGuide/setup_vault_symlinks.sh
+```
+
+### Access Pattern
+
+```
+Engineer in code repo
+    ↓
+Reads documentation/vault_epics/EPIC-001/
+    ↓
+Symlink resolves to vault Product/EPICS/EPIC-001/
+    ↓
+Single source of truth maintained
+```
 
 ## Setup Instructions
 
@@ -12,15 +165,21 @@ This vault is designed for team collaboration using Git version control and GitH
 
 1. **Clone this repository**:
    ```bash
-   git clone <repository-url>
+   cd /Users/nitindhawan/KnowledgeVaults/
+   git clone <repository-url> SynapticTrading_Vault
    ```
 
 2. **Open in Obsidian**:
    - Open Obsidian
    - Click "Open folder as vault"
-   - Select the cloned `Synaptic_Trading_KnowledgeVault` folder
+   - Select the `SynapticTrading_Vault` folder
 
-3. **Start collaborating**:
+3. **Set up symlinks** (if you work in code repository):
+   ```bash
+   /Users/nitindhawan/KnowledgeVaults/SynapticTrading_Vault/VaultGuide/setup_vault_symlinks.sh
+   ```
+
+4. **Start collaborating**:
    - Create and edit notes as needed
    - Commit your changes regularly
    - Pull before you start working to get latest updates
@@ -47,23 +206,34 @@ If you encounter conflicts:
 4. Remove conflict markers
 5. Commit the resolved changes
 
-## Vault Structure
+## Quick Navigation
 
-```
-Synaptic_Trading_KnowledgeVault/
-├── .obsidian/          # Obsidian configuration (synced)
-├── attachments/        # Images and file attachments
-├── templates/          # Note templates
-└── README.md          # This file
-```
+### For Engineers
+- **Current sprint work**: [Product/EPICS/](./Product/EPICS/)
+- **Strategy templates**: [Product/Strategies/Templates/](./Product/Strategies/Templates/)
+- **Technical docs**: [Product/TechnicalDocumentation/](./Product/TechnicalDocumentation/)
+- **UPMS templates**: `/Users/nitindhawan/KnowledgeVaults/UPMS_Vault/Templates/`
+
+### For Product Managers
+- **Roadmap**: [Product/README.md](./Product/README.md)
+- **Work breakdown**: [Product/IMPLEMENTATION_HIERARCHY.md](./Product/IMPLEMENTATION_HIERARCHY.md)
+- **Quick start**: [Product/QUICK_START.md](./Product/QUICK_START.md)
+- **Sprint planning**: [Product/Sprints/](./Product/Sprints/)
+
+### For Stakeholders
+- **Product overview**: [Product/README.md](./Product/README.md)
+- **Strategy catalog**: [Product/Strategies/README.md](./Product/Strategies/README.md)
+- **Research findings**: [Product/Research/](./Product/Research/)
 
 ## Best Practices
 
-1. **Commit Often**: Make small, focused commits with clear messages
-2. **Pull Regularly**: Always pull before starting new work
-3. **Resolve Conflicts Promptly**: Address merge conflicts as soon as they occur
-4. **Use Meaningful Names**: Name notes clearly and consistently
-5. **Link Notes**: Use Obsidian's `[[wiki-links]]` to connect related notes
+1. **Single Source of Truth**: Vault is authoritative, code repo accesses via symlinks
+2. **Commit Often**: Make small, focused commits with clear messages
+3. **Pull Regularly**: Always pull before starting new work
+4. **Resolve Conflicts Promptly**: Address merge conflicts as soon as they occur
+5. **Use Meaningful Names**: Name notes clearly and consistently
+6. **Link Notes**: Use Obsidian's `[[wiki-links]]` to connect related notes
+7. **Follow UPMS**: Reference UPMS templates and adapt for platform needs
 
 ## Configuration
 
@@ -74,17 +244,27 @@ The `.obsidian` folder contains shared settings including:
 
 Note: Workspace layouts are NOT synced (they're in `.gitignore`) so each user can have their own window arrangement.
 
+## Product Information
+
+- **Product**: Synaptic Trading Platform
+- **Type**: Framework-Agnostic Algorithmic Trading System
+- **Status**: Active Development
+- **Team**: 2-3 engineers, 1 PM
+- **Methodology**: UPMS
+
+## Related Resources
+
+- **UPMS Vault**: `/Users/nitindhawan/KnowledgeVaults/UPMS_Vault/` - Universal methodology
+- **Code Repository**: `/Users/nitindhawan/Downloads/CodeRepository/SynapticTrading/`
+- **Product Tracker**: `/Users/nitindhawan/KnowledgeVaults/ProductDevelopmentSupport_Vault/` - Monitors this product
+
 ## Version
 
-- Created: 2025-11-01
-- Obsidian Version: Compatible with latest release
-- Git: Enabled for collaboration
+- **Created**: 2025-11-01
+- **Restructured**: 2025-11-12 (moved to standard vault pattern)
+- **Obsidian Version**: Compatible with latest release
+- **Git**: Enabled for collaboration
 
-## Directory Structure
+---
 
-- `UPMS/` – Universal Product Methodology System. Holds reusable process playbooks, gate checklists, intake forms, sprint rituals, and governance notes that apply across products. No product-specific content should live here.
-- `SynapticTrading_Product/` – Product knowledge base for the platform. Contains epics, PRDs, design references, research, strategy catalogue, sprint notes, and execution artefacts for the trading platform.
-- `attachments/` – Shared images or assets referenced across notes.
-- `templates/` – Obsidian templates for both methodology and product documentation.
-
-Keep process documentation in `UPMS/` so any project can reuse it. Keep product-specific materials inside `SynapticTrading_Product/` to avoid mixing methodology with deliverables.
+**This vault follows UPMS standards. For methodology questions, see the UPMS Vault.**
