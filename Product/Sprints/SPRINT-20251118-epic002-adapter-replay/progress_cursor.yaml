@@ -1,0 +1,213 @@
+# Sprint Progress Cursor - SPRINT-20251118-epic002-adapter-replay
+# This file tracks the time-ordered progression of work within the sprint.
+# Each cursor entry represents a checkpoint in time with touched artifacts and test status.
+
+sprint_id: SPRINT-20251118-epic002-adapter-replay
+sprint_title: "Sprint 3 - Backtest Adapter & Event Replay"
+sprint_goal: "Get historical data flowing through strategy via adapter and event replay"
+status: in-progress
+start_date: 2025-11-18
+target_end_date: 2025-12-01
+actual_end_date: null
+current_cursor: CURSOR-005
+
+related_epics:
+  - EPIC-002-Backtesting
+
+related_features:
+  - FEATURE-001-BacktestAdapter
+  - FEATURE-002-EventReplay
+
+# Progress Cursor Checkpoints
+# Format: Each checkpoint represents a moment in time with what changed
+cursors:
+  - cursor_id: CURSOR-001
+    timestamp: 2025-11-18T21:00:00Z
+    description: "Sprint 3 planning complete - ready to start"
+    touched_epics:
+      - id: EPIC-002
+        status: planned
+        progress_pct: 0
+    touched_features:
+      - id: FEATURE-001-BacktestAdapter
+        status: planned
+        progress_pct: 0
+      - id: FEATURE-002-EventReplay
+        status: planned
+        progress_pct: 0
+    touched_stories: []
+    test_status:
+      total_tests: 0
+      passing_tests: 0
+      failing_tests: 0
+      coverage_pct: 0
+    notes: "Sprint planning session completed. Detailed sprint plan documented."
+
+  - cursor_id: CURSOR-002
+    timestamp: 2025-11-19T00:00:00Z
+    description: "BacktestClockPort and BacktestMarketDataPort implemented with TDD"
+    touched_epics:
+      - id: EPIC-002
+        status: in-progress
+        progress_pct: 29
+    touched_features:
+      - id: FEATURE-001-BacktestAdapter
+        status: in-progress
+        progress_pct: 67  # 2 of 3 stories complete (STORY-002, STORY-003)
+      - id: FEATURE-002-EventReplay
+        status: planned
+        progress_pct: 0
+    touched_stories:
+      - id: STORY-002-BacktestMarketDataPort
+        status: completed
+        progress_pct: 100
+        commits: ["23a33b9"]
+      - id: STORY-003-BacktestClockPort
+        status: completed
+        progress_pct: 100
+        commits: ["23a33b9"]
+    test_status:
+      total_tests: 57
+      passing_tests: 57
+      failing_tests: 0
+      skipped_tests: 3
+      coverage_pct: 85  # Combined coverage for backtest ports
+    artifacts_created:
+      - "src/adapters/frameworks/backtest/ports/clock_port.py"
+      - "src/adapters/frameworks/backtest/ports/market_data_port.py"
+      - "tests/backtesting/adapters/test_backtest_clock_port.py"
+      - "tests/backtesting/adapters/test_backtest_market_data_port.py"
+    notes: "Implemented BacktestClockPort (30 tests, 95% coverage) and BacktestMarketDataPort (27 tests, 74% coverage) using strict TDD. All contract tests passing. Module structure created. Ready for STORY-001 (BacktestAdapter)."
+
+  - cursor_id: CURSOR-003
+    timestamp: 2025-11-19T02:00:00Z
+    description: "BacktestAdapter skeleton complete (STORY-001)"
+    touched_epics:
+      - id: EPIC-002
+        status: in-progress
+        progress_pct: 43  # 3 of 7 features started, 1 feature complete
+    touched_features:
+      - id: FEATURE-001-BacktestAdapter
+        status: completed
+        progress_pct: 100  # All 3 stories complete (STORY-001, STORY-002, STORY-003)
+      - id: FEATURE-002-EventReplay
+        status: planned
+        progress_pct: 0
+    touched_stories:
+      - id: STORY-001-BacktestAdapter
+        status: completed
+        progress_pct: 100
+        commits: ["5e1f7fe"]
+    test_status:
+      total_tests: 74  # 57 (ports) + 17 (adapter)
+      passing_tests: 74
+      failing_tests: 0
+      skipped_tests: 3
+      coverage_pct: 70  # BacktestAdapter module coverage
+    artifacts_created:
+      - "src/adapters/frameworks/backtest/backtest_adapter.py"
+      - "tests/backtesting/adapters/test_backtest_adapter.py"
+    notes: "Completed STORY-001 (BacktestAdapter base class) using TDD. 17/17 tests passing. BacktestConfig with validation, port factory methods, strategy wiring, and run() skeleton implemented. FEATURE-001 now 100% complete (all 3 stories done). Ready for FEATURE-002 (EventReplay)."
+
+  - cursor_id: CURSOR-004
+    timestamp: 2025-11-19T03:30:00Z
+    description: "EventReplayer core functional (STORY-004)"
+    touched_epics:
+      - id: EPIC-002
+        status: in-progress
+        progress_pct: 69  # 9 of 13 story points complete
+    touched_features:
+      - id: FEATURE-001-BacktestAdapter
+        status: completed
+        progress_pct: 100
+      - id: FEATURE-002-EventReplay
+        status: in-progress
+        progress_pct: 33  # 1 of 3 stories complete (STORY-004)
+    touched_stories:
+      - id: STORY-004-EventReplayer
+        status: completed
+        progress_pct: 100
+        commits: ["8f4e3a2"]
+    test_status:
+      total_tests: 86  # 74 (previous) + 12 (EventReplayer)
+      passing_tests: 86
+      failing_tests: 0
+      skipped_tests: 3
+      coverage_pct: 94  # EventReplayer module coverage
+    artifacts_created:
+      - "src/adapters/frameworks/backtest/event_replayer.py"
+      - "tests/backtesting/event_replay/test_event_replayer.py"
+    notes: "Implemented EventReplayer with chronological event ordering, clock synchronization, and day-by-day loading. 12/12 tests passing, 98% coverage. Critical merge-sort algorithm for multi-instrument events validated. Iterator protocol implemented for clean integration."
+
+  - cursor_id: CURSOR-005
+    timestamp: 2025-11-19T04:30:00Z
+    description: "HistoricalDataProvider interface and MockDataProvider implemented (STORY-005)"
+    touched_epics:
+      - id: EPIC-002
+        status: in-progress
+        progress_pct: 85  # 11 of 13 story points complete
+    touched_features:
+      - id: FEATURE-001-BacktestAdapter
+        status: completed
+        progress_pct: 100
+      - id: FEATURE-002-EventReplay
+        status: in-progress
+        progress_pct: 67  # 2 of 3 stories complete (STORY-004, STORY-005)
+    touched_stories:
+      - id: STORY-005-HistoricalDataProviderInterface
+        status: completed
+        progress_pct: 100
+        commits: ["5ef0cad"]
+    test_status:
+      total_tests: 105  # 86 (previous) + 19 (HistoricalDataProvider)
+      passing_tests: 105
+      failing_tests: 0
+      skipped_tests: 3
+      coverage_pct: 85  # MockDataProvider coverage
+    artifacts_created:
+      - "src/adapters/frameworks/backtest/data_providers/base.py"
+      - "src/adapters/frameworks/backtest/data_providers/mock_provider.py"
+      - "tests/backtesting/event_replay/test_data_provider_interface.py"
+    notes: "Defined HistoricalDataProvider ABC with get_ticks(), get_bars(), and instruments property. Implemented MockDataProvider test double with UTC validation and chronological sorting. 19/19 tests passing, base.py 100% coverage, mock_provider.py 85% coverage. Integration tested with EventReplayer for multi-instrument support. Ready for STORY-006 (ParquetDataProvider)."
+
+# Planned cursors will be added as work progresses:
+# - CURSOR-003: BacktestAdapter skeleton complete
+# - CURSOR-004: BacktestMarketDataPort passing contract tests
+# - CURSOR-005: BacktestClockPort implemented
+# - CURSOR-006: EventReplayer core functional
+# - CURSOR-007: HistoricalDataProvider interface defined
+# - CURSOR-008: ParquetDataProvider integrated with EPIC-007 data
+# - CURSOR-009: Sprint 3 demo - historical data replaying through strategy
+
+# Test Milestones (Sprint 3)
+test_milestones:
+  - milestone: "Contract tests passing for BacktestMarketDataPort"
+    target_cursor: CURSOR-004
+    expected_date: 2025-11-20
+  - milestone: "Contract tests passing for BacktestClockPort"
+    target_cursor: CURSOR-005
+    expected_date: 2025-11-22
+  - milestone: "EventReplayer unit tests passing"
+    target_cursor: CURSOR-006
+    expected_date: 2025-11-25
+  - milestone: "ParquetDataProvider integration tests passing"
+    target_cursor: CURSOR-008
+    expected_date: 2025-11-28
+  - milestone: "End-to-end replay test passing"
+    target_cursor: CURSOR-009
+    expected_date: 2025-12-01
+
+# KPI Targets (Sprint 3)
+kpi_targets:
+  backtest_adapter_implementation_pct: 100
+  event_replay_implementation_pct: 100
+  contract_tests_passing_pct: 100
+  unit_test_coverage_pct: 85
+
+# Sprint Velocity Tracking
+velocity:
+  planned_story_points: 13  # 3 stories FEATURE-001 + 3 stories FEATURE-002
+  completed_story_points: 11  # STORY-001 (2pts) + STORY-002 (2pts) + STORY-003 (2pts) + STORY-004 (3pts) + STORY-005 (2pts)
+  stories_planned: 6
+  stories_completed: 5  # STORY-001, STORY-002, STORY-003, STORY-004, STORY-005
+  velocity_pct: 85  # (11/13) * 100

@@ -1,0 +1,116 @@
+sprint_id: SPRINT-20251118-epic002-adapter-replay
+status: planned
+started_at: 2025-11-18T21:00:00Z
+ended_at: null
+target_end_date: 2025-12-01
+
+# Work items to be completed
+planned_items:
+  - type: story
+    id: STORY-001-BacktestAdapter
+    linked_feature: FEATURE-001-BacktestAdapter
+    linked_epic: EPIC-002
+    status: pending
+    estimated_hours: 8
+    description: "Implement BacktestAdapter base class with port initialization"
+
+  - type: story
+    id: STORY-002-BacktestMarketDataPort
+    linked_feature: FEATURE-001-BacktestAdapter
+    linked_epic: EPIC-002
+    status: pending
+    estimated_hours: 8
+    description: "Implement BacktestMarketDataPort (must pass contract tests)"
+
+  - type: story
+    id: STORY-003-BacktestClockPort
+    linked_feature: FEATURE-001-BacktestAdapter
+    linked_epic: EPIC-002
+    status: pending
+    estimated_hours: 8
+    description: "Implement BacktestClockPort with deterministic time"
+
+  - type: story
+    id: STORY-004-EventReplayerCore
+    linked_feature: FEATURE-002-EventReplay
+    linked_epic: EPIC-002
+    status: pending
+    estimated_hours: 12
+    description: "Implement EventReplayer core with chronological ordering"
+
+  - type: story
+    id: STORY-005-HistoricalDataProvider
+    linked_feature: FEATURE-002-EventReplay
+    linked_epic: EPIC-002
+    status: pending
+    estimated_hours: 8
+    description: "Define HistoricalDataProvider interface"
+
+  - type: story
+    id: STORY-006-ParquetDataProvider
+    linked_feature: FEATURE-002-EventReplay
+    linked_epic: EPIC-002
+    status: pending
+    estimated_hours: 12
+    description: "Implement ParquetDataProvider (integrate with EPIC-007 data)"
+
+# Will be populated as work completes
+completed_items: []
+
+# KPI tracking
+kpi_updates:
+  backtest_adapter_implementation_pct: 0
+  event_replay_implementation_pct: 0
+  contract_tests_passing_pct: 0
+  unit_test_coverage_pct: 0
+
+# Epic and Feature status updates
+epic_updates:
+  - id: EPIC-002
+    path: EPICS/EPIC-002-Backtesting/README.md
+    status: in_progress
+    progress_pct: 0
+    requirement_coverage: 0
+    change_log_entry: null
+    features:
+      - id: FEATURE-001-BacktestAdapter
+        path: EPICS/EPIC-002-Backtesting/Features/FEATURE-001-BacktestAdapter/README.md
+        status: in_progress
+        progress_pct: 0
+        change_log_entry: null
+        stories:
+          - id: STORY-001-BacktestAdapter
+            status: pending
+            progress_pct: 0
+          - id: STORY-002-BacktestMarketDataPort
+            status: pending
+            progress_pct: 0
+          - id: STORY-003-BacktestClockPort
+            status: pending
+            progress_pct: 0
+
+      - id: FEATURE-002-EventReplay
+        path: EPICS/EPIC-002-Backtesting/Features/FEATURE-002-EventReplay/README.md
+        status: in_progress
+        progress_pct: 0
+        change_log_entry: null
+        stories:
+          - id: STORY-004-EventReplayerCore
+            status: pending
+            progress_pct: 0
+          - id: STORY-005-HistoricalDataProvider
+            status: pending
+            progress_pct: 0
+          - id: STORY-006-ParquetDataProvider
+            status: pending
+            progress_pct: 0
+
+# Test results (to be populated during sprint)
+test_results:
+  last_run: null
+  total_tests: 0
+  passing_tests: 0
+  failing_tests: 0
+  skipped_tests: 0
+  coverage_pct: 0
+  duration_seconds: 0
