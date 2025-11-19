@@ -670,3 +670,130 @@ v1.1.0 (Paper Trading) - Target: 2026-03-31
 **Last Updated**: 2025-11-12
 **Next Review**: 2025-12-12 (monthly update)
 **Owner**: Product Operations Team
+
+---
+
+## Releases (API Format)
+
+The following sections provide detailed release information in a format optimized for API parsing and dashboard display.
+
+### Release v0.1.0 - Alpha (2025-11-04)
+
+**Goal**: Data infrastructure proof-of-concept
+
+**Included EPICs**:
+- EPIC-007: Data Pipeline & Market Data Integration
+
+**Key Capabilities**:
+- Historical options data ingestion
+- Data pipeline infrastructure
+- Initial market data integration
+
+**Success Criteria**:
+- Data pipeline operational
+- Historical data accessible
+- Foundation ready for backtesting development
+
+**Target Users**: Internal development team
+
+---
+
+### Release v1.0.0 - MVP (2026-01-31)
+
+**Goal**: First backtesting capability with fully automated sprint-to-roadmap sync
+
+**Included EPICs**:
+- EPIC-001: Platform Foundation & Core Architecture
+- EPIC-002: Backtesting Engine
+
+**Key Capabilities**:
+- Port-based architecture with domain layer
+- Nautilus Trader integration for backtesting
+- Historical options data with Greeks
+- Strategy creation framework
+- Automated sprint-to-roadmap synchronization
+
+**Success Criteria**:
+- 95% test coverage on core modules
+- Sub-second backtest execution for simple strategies
+- Clean separation of concerns (ports/adapters)
+- Automated roadmap updates from sprint execution
+
+**Target Users**: Internal dev team, early strategy developers
+
+---
+
+### Release v1.1.0 - Paper Trading (2026-03-31)
+
+**Goal**: Paper trading operational with live market connectivity
+
+**Included EPICs**:
+- EPIC-005: Broker/Exchange Adapters
+- EPIC-003: Paper Trading Engine
+
+**Key Capabilities**:
+- Live market data feeds
+- Paper trading execution engine
+- Real-time position tracking
+- Risk management framework
+- Multi-broker adapter support
+
+**Success Criteria**:
+- Zero-latency paper fills (<10ms)
+- Accurate P&L tracking matching real broker calculations
+- Support for at least 2 brokers (IBKR, paper)
+- Real-time Greeks updates
+
+**Target Users**: Strategy developers, QA team
+
+---
+
+### Release v2.0.0 - Production (2026-06-30)
+
+**Goal**: Live trading ready with production hardening
+
+**Included EPICs**:
+- EPIC-004: Live Trading Engine
+- EPIC-006: Production Hardening & Monitoring
+- EPIC-009: Partner Access & Multi-Tenancy
+
+**Key Capabilities**:
+- Live order execution with real capital
+- Advanced risk controls and circuit breakers
+- Real-time monitoring and alerting
+- Audit trail and compliance logging
+- Multi-tenant architecture for partner access
+
+**Success Criteria**:
+- 99.9% uptime for trading hours
+- All risk controls tested and verified
+- SOC2 compliance ready
+- Partner onboarding workflow operational
+
+**Target Users**: Live traders, fund managers, partners
+
+---
+
+### Release v2.1.0 - Operations (2026-09-30)
+
+**Goal**: Strategy operations maturity with lifecycle management
+
+**Included EPICs**:
+- EPIC-007: Strategy Lifecycle Management
+- EPIC-008: Strategy Enablement & Developer Tools
+
+**Key Capabilities**:
+- Strategy versioning and deployment
+- A/B testing framework
+- Strategy marketplace
+- Developer SDK and documentation
+- Performance analytics dashboard
+
+**Success Criteria**:
+- Support 10+ concurrent live strategies
+- Strategy deployment in under 5 minutes
+- Comprehensive developer documentation
+- Community contributions enabled
+
+**Target Users**: Strategy developers, platform operators, community
+

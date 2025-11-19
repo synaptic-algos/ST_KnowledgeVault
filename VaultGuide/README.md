@@ -148,7 +148,7 @@ vault_strategies -> /Users/nitindhawan/SynapseTrading_Knowledge/...
 - Before adding a new research note, inspect the highest sequence number and increment it to avoid collisions across vaults.
 
 ### Sprint Close Checklist (MANDATORY)
-1. **Document** – Complete the sprint README/SUMMARY and write `execution_summary.yaml` (see template in UPMS research note 004).
+1. **Document** – Complete the sprint README/SUMMARY, update `execution_summary.yaml`, and note which manual sections (user/admin) changed. If no manual update is needed, state “No manual impact this sprint”.
 2. **Sync** – Run either:
    ```bash
    make sprint-close SPRINT=<SPRINT_ID>

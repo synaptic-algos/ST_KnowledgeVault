@@ -20,15 +20,42 @@ created_at: 2025-11-03 00:00:00+00:00
 updated_at: '2025-11-13T06:08:36Z'
 last_review: '2025-11-13'
 change_log:
-- "2025-02-15 - data_engineering_team - Consolidated Nautilus catalog documentation into DESIGN-010 and sprint artifacts."
-- "2025-11-04 - SPRINT-20251104-epic007-data-pipeline - Data pipeline delivered with Greeks + Nautilus catalogs."
-- "2025-11-12 - Updated progress to 17% (1/6 Features complete)"
-- "2025-11-04 - Sprint 0 completed (FEATURE-006-DataPipeline)"
-- "2025-11-03 - Scaffolded strategy lifecycle epic structure"
-progress_pct: 17
+- 2025-02-15 - data_engineering_team - Consolidated Nautilus catalog documentation
+  into DESIGN-010 and sprint artifacts.
+- 2025-11-04 - SPRINT-20251104-epic007-data-pipeline - Data pipeline delivered with
+  Greeks + Nautilus catalogs.
+- 2025-11-12 - Updated progress to 17% (1/6 Features complete)
+- 2025-11-04 - Sprint 0 completed (FEATURE-006-DataPipeline)
+- 2025-11-03 - Scaffolded strategy lifecycle epic structure
+progress_pct: 16.67
 requirement_coverage: 17
 linked_sprints:
 - SPRINT-20251104-epic007-data-pipeline
+last_test_run:
+  date: '2025-11-04T18:00:00Z'
+  suite: Unit Tests - Greeks Calculator
+  location: tests/data_pipeline/greeks/test_black_scholes_model.py
+  result: pass
+  pass_count: 31
+  fail_count: 0
+  total_count: 31
+  duration_seconds: 0.8
+test_run_history:
+- date: '2025-11-04T18:00:00Z'
+  suite: Unit Tests - Greeks Calculator
+  result: pass
+  pass_count: 31
+  fail_count: 0
+  sprint_id: SPRINT-20251104-epic007-data-pipeline
+  notes: Data pipeline Greeks calculator validation - all delta/gamma/theta/vega/rho
+    tests passing
+- date: '2025-11-04T16:30:00Z'
+  suite: Integration Tests - Data Pipeline
+  result: pass
+  pass_count: 3
+  fail_count: 0
+  sprint_id: SPRINT-20251104-epic007-data-pipeline
+  notes: Parser validation, batch verification, catalog integration
 ---
 
 # EPIC-007: Strategy Lifecycle

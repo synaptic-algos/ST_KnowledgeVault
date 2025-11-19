@@ -123,6 +123,10 @@ This product follows **UPMS (Universal Product Management Meta-System)**:
 - **[Design Documents](./Design/)** - Technical design and architecture specs
 - **[Technical Documentation](./TechnicalDocumentation/)** - Setup guides, implementation details
 
+### Manuals
+- **User Manual**: `/documentation/user_manual/` in the repo – update after every user-facing sprint (append notes in `release_notes.md`).
+- **Administrator Manual**: `/documentation/administrator_manual/` – update when automation/ops steps change.
+
 ### Compliance
 - **VaultGuide**: Mandatory process compliance
   - [Sprint Traceability Guide](../VaultGuide/SPRINT_TRACEABILITY_GUIDE.md) - MANDATORY after every sprint

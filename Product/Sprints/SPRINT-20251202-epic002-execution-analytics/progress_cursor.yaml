@@ -1,0 +1,118 @@
+# Sprint Progress Cursor - SPRINT-20251202-epic002-execution-analytics
+# This file tracks the time-ordered progression of work within the sprint.
+# Each cursor entry represents a checkpoint in time with touched artifacts and test status.
+
+sprint_id: SPRINT-20251202-epic002-execution-analytics
+sprint_title: "Sprint 4 - Execution Simulator & Performance Analytics"
+sprint_goal: "Complete backtesting engine with realistic execution and comprehensive analytics"
+status: planned
+start_date: 2025-12-02
+target_end_date: 2025-12-15
+actual_end_date: null
+
+related_epics:
+  - EPIC-002-Backtesting
+
+related_features:
+  - FEATURE-003-ExecutionSimulator
+  - FEATURE-004-Portfolio
+  - FEATURE-005-Analytics
+  - FEATURE-006-Validation
+
+# Progress Cursor Checkpoints
+# Format: Each checkpoint represents a moment in time with what changed
+cursors:
+  - cursor_id: CURSOR-001
+    timestamp: 2025-12-02T09:00:00Z
+    description: "Sprint 4 planning complete - ready to start execution simulator"
+    touched_epics:
+      - id: EPIC-002
+        status: in_progress
+        progress_pct: 33  # After Sprint 3
+    touched_features:
+      - id: FEATURE-003-ExecutionSimulator
+        status: planned
+        progress_pct: 0
+      - id: FEATURE-004-Portfolio
+        status: planned
+        progress_pct: 0
+      - id: FEATURE-005-Analytics
+        status: planned
+        progress_pct: 0
+      - id: FEATURE-006-Validation
+        status: planned
+        progress_pct: 0
+    touched_stories: []
+    test_status:
+      total_tests: 0
+      passing_tests: 0
+      failing_tests: 0
+      coverage_pct: 0
+    notes: "Sprint 4 planning complete. Sprint 3 delivered working event replay."
+
+# Planned cursors will be added as work progresses:
+# - CURSOR-002: ExecutionSimulator core implemented
+# - CURSOR-003: Order fill logic complete (market/limit/stop)
+# - CURSOR-004: Slippage models implemented
+# - CURSOR-005: Commission models implemented
+# - CURSOR-006: BacktestPortfolio tracking positions
+# - CURSOR-007: P&L calculations accurate
+# - CURSOR-008: Equity curve generation working
+# - CURSOR-009: PerformanceCalculator generating 20+ metrics
+# - CURSOR-010: Trade analysis complete
+# - CURSOR-011: BacktestResults export working
+# - CURSOR-012: Comprehensive test suite complete (90%+ coverage)
+# - CURSOR-013: First strategy backtest complete (simple_buy_and_hold)
+# - CURSOR-014: Cross-validation complete (P&L <0.01% divergence)
+# - CURSOR-015: Sprint 4 demo - complete backtest with analytics
+
+# Test Milestones (Sprint 4)
+test_milestones:
+  - milestone: "ExecutionSimulator unit tests passing"
+    target_cursor: CURSOR-002
+    expected_date: 2025-12-03
+  - milestone: "Fill logic tests passing (all order types)"
+    target_cursor: CURSOR-003
+    expected_date: 2025-12-04
+  - milestone: "Slippage/commission tests passing"
+    target_cursor: CURSOR-005
+    expected_date: 2025-12-05
+  - milestone: "Portfolio accounting tests passing"
+    target_cursor: CURSOR-007
+    expected_date: 2025-12-07
+  - milestone: "Performance metrics tests passing"
+    target_cursor: CURSOR-009
+    expected_date: 2025-12-10
+  - milestone: "90%+ test coverage achieved"
+    target_cursor: CURSOR-012
+    expected_date: 2025-12-12
+  - milestone: "End-to-end backtest passing"
+    target_cursor: CURSOR-013
+    expected_date: 2025-12-13
+  - milestone: "Cross-validation successful (<0.01% divergence)"
+    target_cursor: CURSOR-014
+    expected_date: 2025-12-14
+
+# KPI Targets (Sprint 4)
+kpi_targets:
+  execution_simulator_implementation_pct: 100
+  portfolio_accounting_implementation_pct: 100
+  performance_analytics_implementation_pct: 100
+  validation_testing_implementation_pct: 100
+  unit_test_coverage_pct: 90
+  end_to_end_backtest_success: true
+  pnl_accuracy_pct: 99.99  # <0.01% divergence
+
+# Sprint Velocity Tracking
+velocity:
+  planned_story_points: 21  # 4+3+3+2 stories across 4 features
+  completed_story_points: 0
+  stories_planned: 12
+  stories_completed: 0
+
+# Performance Targets (Sprint 4 Exit Criteria)
+performance_targets:
+  backtest_1_year_daily_seconds: 120  # <2 minutes
+  throughput_ticks_per_second: 100000  # >100K ticks/sec
+  memory_usage_mb: 500  # <500MB for 1 year
+  pnl_divergence_pct: 0.01  # <0.01%

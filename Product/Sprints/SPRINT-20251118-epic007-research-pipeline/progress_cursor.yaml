@@ -1,0 +1,282 @@
+metadata:
+  sprint_id: SPRINT-20251118-epic007-research-pipeline
+  owner: strategy_ops_team
+  gate_target: G2
+  cadence: daily
+  epic: EPIC-007
+  features:
+    - FEATURE-001-ResearchPipeline (COMPLETE)
+    - FEATURE-002-PrioritisationGovernance (COMPLETE)
+  stories:
+    # FEATURE-001 stories
+    - STORY-007-01-01 (COMPLETE)
+    - STORY-007-01-02 (COMPLETE)
+    - STORY-007-01-03 (COMPLETE)
+    - STORY-007-01-04 (COMPLETE)
+    # FEATURE-002 stories
+    - STORY-007-02-01 (COMPLETE)
+    - STORY-007-02-02 (COMPLETE)
+    - STORY-007-02-03 (COMPLETE)
+  created_at: 2025-11-18T00:00:00Z
+  updated_at: 2025-11-19T22:30:00Z
+  worktree: /Users/nitindhawan/Downloads/CodeRepository/theplatform-epic-007
+  branch: epic-007-data-pipeline
+  status: feature-002-complete
+
+checkpoints:
+  - cursor_id: SPRINT-START
+    timestamp: 2025-11-18T08:45:00Z
+    contributors: ["gtalknitin", "claude-code"]
+    epics_touchpoints:
+      - EPIC-007
+    features_in_scope:
+      - FEATURE-001-ResearchPipeline
+    stories:
+      - STORY-007-01-01 (0%)
+      - STORY-007-01-02 (0%)
+      - STORY-007-01-03 (0%)
+      - STORY-007-01-04 (0%)
+    tests:
+      - suite: N/A
+        status: not_started
+        last_run: null
+    documentation:
+      - user_manual/EPIC-007/ (planned)
+      - vault_epics/EPIC-007-StrategyLifecycle/Features/FEATURE-001-ResearchPipeline/TRACEABILITY.md (pending)
+    blockers: []
+    notes: |
+      Sprint started to implement FEATURE-001-ResearchPipeline: Research Intake & Discovery Workflow.
+      This is the first feature sprint following successful completion of Sprint 0 (Data Pipeline).
+
+      Previous context:
+      - EPIC-007 is 17% complete (1 of 6 features delivered)
+      - FEATURE-006-DataPipeline completed in SPRINT-20251104 (31/31 Greeks tests passing)
+      - Data pipeline infrastructure ready for strategy research workflows
+
+      Planned work:
+      - STORY-007-01-01: Design Strategy Intake Workflow (2d)
+      - STORY-007-01-02: Publish Research Template & Checklist (1.5d)
+      - STORY-007-01-03: Implement Data & Compliance Validation Gate (1.5d)
+      - STORY-007-01-04: Create Strategy Catalogue Index (1d)
+
+      Total estimated effort: 6 days
+
+      Worktree setup:
+      - Location: /Users/nitindhawan/Downloads/CodeRepository/theplatform-epic-007
+      - Branch: epic-007-data-pipeline
+      - Base commit: 3161337 [EPIC-007][DATA-PIPELINE] Add data pipeline infrastructure
+
+      Next actions:
+      - Begin STORY-007-01-01 implementation
+      - Set up test framework for research workflow validation
+      - Create traceability matrix for FEATURE-001
+
+  - cursor_id: FEATURE-001-COMPLETE
+    timestamp: 2025-11-19T14:00:00Z
+    contributors: ["gtalknitin", "claude-code"]
+    epics_touchpoints:
+      - EPIC-007
+    features_in_scope:
+      - FEATURE-001-ResearchPipeline (COMPLETE)
+    stories:
+      - STORY-007-01-01 (100%)
+      - STORY-007-01-02 (100%)
+      - STORY-007-01-03 (100%)
+      - STORY-007-01-04 (100%)
+    git_commits:
+      - a715fc0: STORY-007-01-01 (Design, tests, implementation, CLI)
+      - a5bcd69: STORY-007-01-02 (Research templates, guides, onboarding)
+      - c9a38ca, cd089f2, eb2523c, 3b8f87c, 2a1c450: STORY-007-01-03 (Validation gate)
+      - 76d80c5, ae1eae5: STORY-007-01-04 (Strategy catalog)
+    tests:
+      - suite: Research Intake Workflow
+        status: passed
+        test_count: 180+
+        last_run: 2025-11-19T14:00:00Z
+    documentation:
+      - DESIGN-007-StrategyIntakeWorkflow.md (13 sections, production-ready)
+      - DESIGN-007-StrategyCatalog.md (11 sections, comprehensive)
+      - STRATEGY_RESEARCH_TEMPLATE.md (8-section template)
+      - REPRODUCIBILITY_CHECKLIST.md (9-section checklist)
+      - RESEARCH_TEMPLATE_GUIDE.md (usage guide)
+      - RESEARCH_ONBOARDING_WALKTHROUGH.md (step-by-step tutorial)
+    blockers: []
+    deliverables:
+      design:
+        - "DESIGN-007-StrategyIntakeWorkflow.md"
+        - "DESIGN-007-StrategyCatalog.md"
+      implementation:
+        - "intake_processor.py (381 lines)"
+        - "workflow_engine.py (452 lines)"
+        - "dashboard_connector.py (143 lines)"
+        - "intake_cli.py (253 lines)"
+        - "catalog_builder.py (670 lines)"
+        - "catalog_search.py (210 lines)"
+        - "catalog_exporter.py (100 lines)"
+        - "catalog_cli.py (270 lines)"
+        - "validation_criteria.py (380 lines)"
+        - "notification_system.py (440 lines)"
+      tests:
+        - "test_intake_processor.py (90+ tests)"
+        - "test_workflow_engine.py (60+ tests)"
+        - "test_intake_workflow_e2e.py (30+ tests)"
+        - "test_catalog_builder.py (30+ tests)"
+        - "test_catalog_search.py (30+ tests)"
+        - "test_catalog_exporter.py (12+ tests)"
+      schemas:
+        - "intake_schema_v1.yaml"
+        - "catalog_schema.yaml"
+        - "compliance_validation_criteria.yaml"
+        - "data_access_validation_criteria.yaml"
+      templates:
+        - "STRATEGY_RESEARCH_TEMPLATE.md"
+        - "REPRODUCIBILITY_CHECKLIST.md"
+        - "RESEARCH_TEMPLATE_GUIDE.md"
+        - "RESEARCH_ONBOARDING_WALKTHROUGH.md"
+        - "compliance_checklist_template.md"
+        - "data_access_checklist_template.md"
+    notes: |
+      FEATURE-001-ResearchPipeline: COMPLETE (100%)
+
+      Total Stories: 4 of 4 (100%)
+      Total Tasks: 13 of 13 (100%)
+      Total Duration: 6 days (estimated) | 4 days (actual)
+
+      Capability Delivered:
+      - Strategy intake submission and validation
+      - 6-state workflow engine with auto-transitions
+      - Compliance and data access validation gates (34 checks)
+      - Automated notifications for rejections and approvals
+      - Research templates and quality checklists
+      - Searchable strategy catalog with 30+ fields
+      - CSV/JSON export functionality
+      - Lifecycle dashboard integration
+
+      Quality Metrics:
+      - Test Coverage: 180+ test cases (unit + integration)
+      - Code Quality: Type hints, docstrings, error handling
+      - Documentation: 2,000+ lines of design docs
+      - CLI Tools: 2 command-line interfaces with Click
+
+  - cursor_id: FEATURE-002-COMPLETE
+    timestamp: 2025-11-19T22:30:00Z
+    contributors: ["gtalknitin", "claude-code"]
+    epics_touchpoints:
+      - EPIC-007
+    features_in_scope:
+      - FEATURE-001-ResearchPipeline (COMPLETE)
+      - FEATURE-002-PrioritisationGovernance (COMPLETE)
+    stories:
+      - STORY-007-02-01 (100%)
+      - STORY-007-02-02 (100%)
+      - STORY-007-02-03 (100%)
+    git_commits:
+      - 1211595: STORY-007-02-01 (Scoring model, dry-run, governance)
+      - 1211595: STORY-007-02-02 (Council charter, templates, decision logging) [code]
+      - 290ce5c: STORY-007-02-02 (User/admin manuals) [vault]
+      - 1127c86: STORY-007-02-03 (Dashboard with KPIs, API, RBAC, alerting)
+    tests:
+      - suite: Dashboard Structure Validation
+        status: passed
+        test_count: syntax_check
+        last_run: 2025-11-19T22:30:00Z
+    documentation:
+      - DESIGN-007-02-StrategyScoringCriteria.md (6 dimensions, stakeholder requirements)
+      - STRATEGY_SCORING_MODEL_v1.md (8,500 words, complete rubric)
+      - scoring_dry_run_results.md (10,000 words, 2 validated examples)
+      - SCORING_GOVERNANCE_AND_FEEDBACK_LOOP.md (8,000 words, governance framework)
+      - PRIORITISATION_COUNCIL_CHARTER.md (60 pages, complete governance)
+      - COUNCIL_OPERATIONS_GUIDE.md (450 lines, operational procedures)
+      - DESIGN-007-03-LifecycleDashboard.md (10 KPIs, 7 sections, alerting)
+      - Dashboard README.md (8.5KB user guide)
+      - AUTH_CONFIGURATION.md (10KB security setup)
+      - ALERTS_GUIDE.md (14KB alerting guide)
+      - User manual: strategy_governance.md
+      - Admin manual: council_operations.md
+    blockers: []
+    deliverables:
+      design:
+        - "DESIGN-007-02-StrategyScoringCriteria.md"
+        - "DESIGN-007-03-LifecycleDashboard.md"
+      scoring_model:
+        - "STRATEGY_SCORING_MODEL_v1.md (26,500+ words total)"
+        - "scoring_dry_run_results.md"
+        - "SCORING_GOVERNANCE_AND_FEEDBACK_LOOP.md"
+      council_operations:
+        - "PRIORITISATION_COUNCIL_CHARTER.md (60 pages)"
+        - "COUNCIL_MEETING_AGENDA_TEMPLATE.md"
+        - "SPECIAL_REVIEW_MEETING_AGENDA_TEMPLATE.md"
+        - "COUNCIL_MEETING_MINUTES_TEMPLATE.md"
+        - "COUNCIL_EMAIL_TEMPLATES.md (11 templates)"
+        - "decision_log_schema.yaml (350+ lines)"
+        - "decision_logger.py (700 lines)"
+        - "decision_log_cli.py (300 lines)"
+        - "COUNCIL_OPERATIONS_GUIDE.md (450 lines)"
+      lifecycle_dashboard:
+        - "data_collector.py (482 lines)"
+        - "dashboard_api.py (300+ lines, 15 endpoints)"
+        - "auth.py (300+ lines, RBAC)"
+        - "alerts.py (600+ lines, email alerting)"
+        - "dashboard.html (655 lines, responsive UI)"
+        - "run_dashboard.py"
+        - "README.md (8.5KB)"
+        - "AUTH_CONFIGURATION.md (10KB)"
+        - "ALERTS_GUIDE.md (14KB)"
+        - "alert_config.yaml.example"
+      manuals:
+        - "user_manual/strategy_governance.md"
+        - "administrator_manual/council_operations.md"
+    notes: |
+      FEATURE-002-PrioritisationGovernance: COMPLETE (100%)
+
+      Total Stories: 3 of 3 (100%)
+      Total Tasks: 11 of 11 (100%)
+      Total Duration: 8 hours (estimated)
+
+      Capability Delivered:
+      - 6-dimension weighted scoring model (Alpha 25%, Confidence 20%, Risk 20%, Capital 15%, Liquidity 10%, Diversification 10%)
+      - Two-stage evaluation: Binary compliance gates → Weighted scoring (0-10 scale)
+      - Decision thresholds: ≥7.0 (auto-approve), 6.0-6.9 (council), 5.0-5.9 (special), <5.0 (reject)
+      - 4-member prioritisation council (PM, Risk, Compliance, Rotating Researcher)
+      - Bi-weekly council meetings with quorum requirements
+      - Decision logging with Git version control and audit trail
+      - Real-time lifecycle dashboard with SLA monitoring
+      - Automated email alerting for SLA breaches, capacity, meetings
+      - Role-based access control (5 roles: Researcher, Council, PM, Executive, Admin)
+      - Comprehensive governance framework with appeals process
+
+      Quality Metrics:
+      - Documentation: 50,000+ words across design docs, models, guides
+      - Code Quality: Type hints, docstrings, comprehensive error handling
+      - Security: HTTP Basic Auth, RBAC, configurable permissions
+      - Alerting: 5 alert types, SMTP integration, scheduling support
+      - API: OpenAPI/Swagger documentation, 15+ endpoints
+      - Testing Ready: Dashboard startup script, example configurations
+
+      Next: Sprint review, determine next feature (FEATURE-003?) or sprint closeout
+
+epic_progress:
+  epic_id: EPIC-007
+  features_planned: 6
+  features_complete: 2
+  features_in_progress: 0
+  progress_pct: 33
+  status: in_progress
+
+  completed_features:
+    - FEATURE-001-ResearchPipeline (100%)
+    - FEATURE-002-PrioritisationGovernance (100%)
+
+  remaining_features:
+    - FEATURE-003 (TBD - determine if in current sprint)
+    - FEATURE-004 (TBD)
+    - FEATURE-005 (TBD)
+    - FEATURE-006 (TBD)
+
+next_actions:
+  - Review EPIC-007 plan to determine next feature
+  - Sprint review meeting (if scheduled)
+  - Integration testing of FEATURE-001 + FEATURE-002
+  - Create test strategy data for end-to-end validation
+  - Sprint retrospective (capture learnings)
+  - Determine sprint closeout or continue with FEATURE-003
