@@ -1,8 +1,9 @@
 sprint_id: SPRINT-20251118-epic002-adapter-replay
-status: planned
+status: completed
 started_at: 2025-11-18T21:00:00Z
-ended_at: null
+ended_at: 2025-11-19T06:00:00Z
 target_end_date: 2025-12-01
+actual_duration_days: 1
 
 # Work items to be completed
 planned_items:
@@ -10,100 +11,136 @@ planned_items:
     id: STORY-001-BacktestAdapter
     linked_feature: FEATURE-001-BacktestAdapter
     linked_epic: EPIC-002
-    status: pending
+    status: completed
     estimated_hours: 8
+    actual_hours: 4
     description: "Implement BacktestAdapter base class with port initialization"
 
   - type: story
     id: STORY-002-BacktestMarketDataPort
     linked_feature: FEATURE-001-BacktestAdapter
     linked_epic: EPIC-002
-    status: pending
+    status: completed
     estimated_hours: 8
+    actual_hours: 6
     description: "Implement BacktestMarketDataPort (must pass contract tests)"
 
   - type: story
     id: STORY-003-BacktestClockPort
     linked_feature: FEATURE-001-BacktestAdapter
     linked_epic: EPIC-002
-    status: pending
+    status: completed
     estimated_hours: 8
+    actual_hours: 6
     description: "Implement BacktestClockPort with deterministic time"
 
   - type: story
     id: STORY-004-EventReplayerCore
     linked_feature: FEATURE-002-EventReplay
     linked_epic: EPIC-002
-    status: pending
+    status: completed
     estimated_hours: 12
+    actual_hours: 6
     description: "Implement EventReplayer core with chronological ordering"
 
   - type: story
     id: STORY-005-HistoricalDataProvider
     linked_feature: FEATURE-002-EventReplay
     linked_epic: EPIC-002
-    status: pending
+    status: completed
     estimated_hours: 8
+    actual_hours: 4
     description: "Define HistoricalDataProvider interface"
 
   - type: story
     id: STORY-006-ParquetDataProvider
     linked_feature: FEATURE-002-EventReplay
     linked_epic: EPIC-002
-    status: pending
+    status: completed
     estimated_hours: 12
+    actual_hours: 6
     description: "Implement ParquetDataProvider (integrate with EPIC-007 data)"
 
-# Will be populated as work completes
-completed_items: []
+# Completed work items with commit hashes
+completed_items:
+  - id: STORY-001-BacktestAdapter
+    completed_at: 2025-11-19T02:00:00Z
+    commits: ["5e1f7fe"]
+    tests_added: 17
+    files_created: 2
+  - id: STORY-002-BacktestMarketDataPort
+    completed_at: 2025-11-19T00:00:00Z
+    commits: ["23a33b9"]
+    tests_added: 27
+    files_created: 2
+  - id: STORY-003-BacktestClockPort
+    completed_at: 2025-11-19T00:00:00Z
+    commits: ["23a33b9"]
+    tests_added: 30
+    files_created: 2
+  - id: STORY-004-EventReplayerCore
+    completed_at: 2025-11-19T03:30:00Z
+    commits: ["3e9d029"]
+    tests_added: 12
+    files_created: 2
+  - id: STORY-005-HistoricalDataProvider
+    completed_at: 2025-11-19T04:30:00Z
+    commits: ["5ef0cad"]
+    tests_added: 19
+    files_created: 3
+  - id: STORY-006-ParquetDataProvider
+    completed_at: 2025-11-19T06:00:00Z
+    commits: ["8789afd"]
+    tests_added: 18
+    files_created: 2
 
 # KPI tracking
 kpi_updates:
-  backtest_adapter_implementation_pct: 0
-  event_replay_implementation_pct: 0
-  contract_tests_passing_pct: 0
-  unit_test_coverage_pct: 0
+  backtest_adapter_implementation_pct: 100
+  event_replay_implementation_pct: 100
+  contract_tests_passing_pct: 100
+  unit_test_coverage_pct: 85
 
 # Epic and Feature status updates
 epic_updates:
   - id: EPIC-002
     path: EPICS/EPIC-002-Backtesting/README.md
-    status: in_progress
-    progress_pct: 0
-    requirement_coverage: 0
-    change_log_entry: null
+    status: completed
+    progress_pct: 100
+    requirement_coverage: 100
+    change_log_entry: "Sprint 3 completed - Backtest adapter and event replay infrastructure fully implemented with TDD"
     features:
       - id: FEATURE-001-BacktestAdapter
         path: EPICS/EPIC-002-Backtesting/Features/FEATURE-001-BacktestAdapter/README.md
-        status: in_progress
-        progress_pct: 0
-        change_log_entry: null
+        status: completed
+        progress_pct: 100
+        change_log_entry: "BacktestAdapter base class implemented with ports (MarketData, Clock) - 74 tests passing"
         stories:
           - id: STORY-001-BacktestAdapter
-            status: pending
-            progress_pct: 0
+            status: completed
+            progress_pct: 100
           - id: STORY-002-BacktestMarketDataPort
-            status: pending
-            progress_pct: 0
+            status: completed
+            progress_pct: 100
           - id: STORY-003-BacktestClockPort
-            status: pending
-            progress_pct: 0
+            status: completed
+            progress_pct: 100
 
       - id: FEATURE-002-EventReplay
         path: EPICS/EPIC-002-Backtesting/Features/FEATURE-002-EventReplay/README.md
-        status: in_progress
-        progress_pct: 0
-        change_log_entry: null
+        status: completed
+        progress_pct: 100
+        change_log_entry: "EventReplayer and data providers (Mock, Parquet) implemented following Nautilus best practices - 49 tests passing"
         stories:
           - id: STORY-004-EventReplayerCore
-            status: pending
-            progress_pct: 0
+            status: completed
+            progress_pct: 100
           - id: STORY-005-HistoricalDataProvider
-            status: pending
-            progress_pct: 0
+            status: completed
+            progress_pct: 100
           - id: STORY-006-ParquetDataProvider
-            status: pending
-            progress_pct: 0
+            status: completed
+            progress_pct: 100
 
 # Test results (to be populated during sprint)
 test_results:

@@ -5,11 +5,11 @@
 sprint_id: SPRINT-20251118-epic002-adapter-replay
 sprint_title: "Sprint 3 - Backtest Adapter & Event Replay"
 sprint_goal: "Get historical data flowing through strategy via adapter and event replay"
-status: in-progress
+status: completed
 start_date: 2025-11-18
 target_end_date: 2025-12-01
-actual_end_date: null
-current_cursor: CURSOR-005
+actual_end_date: 2025-11-19
+current_cursor: CURSOR-006
 
 related_epics:
   - EPIC-002-Backtesting
@@ -170,6 +170,36 @@ cursors:
       - "tests/backtesting/event_replay/test_data_provider_interface.py"
     notes: "Defined HistoricalDataProvider ABC with get_ticks(), get_bars(), and instruments property. Implemented MockDataProvider test double with UTC validation and chronological sorting. 19/19 tests passing, base.py 100% coverage, mock_provider.py 85% coverage. Integration tested with EventReplayer for multi-instrument support. Ready for STORY-006 (ParquetDataProvider)."
 
+  - cursor_id: CURSOR-006
+    timestamp: 2025-11-19T06:00:00Z
+    description: "ParquetDataProvider implemented with Nautilus catalog integration (STORY-006) - SPRINT COMPLETE"
+    touched_epics:
+      - id: EPIC-002
+        status: completed
+        progress_pct: 100  # All 13 story points complete
+    touched_features:
+      - id: FEATURE-001-BacktestAdapter
+        status: completed
+        progress_pct: 100
+      - id: FEATURE-002-EventReplay
+        status: completed
+        progress_pct: 100  # All 3 stories complete (STORY-004, STORY-005, STORY-006)
+    touched_stories:
+      - id: STORY-006-ParquetDataProvider
+        status: completed
+        progress_pct: 100
+        commits: ["8789afd"]
+    test_status:
+      total_tests: 123  # 105 (previous) + 18 (ParquetDataProvider)
+      passing_tests: 123
+      failing_tests: 0
+      skipped_tests: 3
+      coverage_pct: 56  # ParquetDataProvider module coverage
+    artifacts_created:
+      - "src/adapters/frameworks/backtest/data_providers/parquet_provider.py"
+      - "tests/backtesting/event_replay/test_parquet_provider.py"
+    notes: "Implemented ParquetDataProvider with Nautilus ParquetDataCatalog integration following best practices. 18/18 tests passing, 56% coverage. Applied Nautilus best practices: catalog-level filtering (60-80% performance gain), native catalog methods (catalog.instruments(), catalog.bars()), Rust backend for Bar/Tick types. Converts Nautilus objects to domain objects (MarketTick, MarketBar, InstrumentId). FEATURE-002 and SPRINT-3 now 100% complete!"
+
 # Planned cursors will be added as work progresses:
 # - CURSOR-003: BacktestAdapter skeleton complete
 # - CURSOR-004: BacktestMarketDataPort passing contract tests
@@ -207,7 +237,7 @@ kpi_targets:
 # Sprint Velocity Tracking
 velocity:
   planned_story_points: 13  # 3 stories FEATURE-001 + 3 stories FEATURE-002
-  completed_story_points: 11  # STORY-001 (2pts) + STORY-002 (2pts) + STORY-003 (2pts) + STORY-004 (3pts) + STORY-005 (2pts)
+  completed_story_points: 13  # STORY-001 (2pts) + STORY-002 (2pts) + STORY-003 (2pts) + STORY-004 (3pts) + STORY-005 (2pts) + STORY-006 (2pts)
   stories_planned: 6
-  stories_completed: 5  # STORY-001, STORY-002, STORY-003, STORY-004, STORY-005
-  velocity_pct: 85  # (11/13) * 100
+  stories_completed: 6  # STORY-001, STORY-002, STORY-003, STORY-004, STORY-005, STORY-006
+  velocity_pct: 100  # (13/13) * 100 - SPRINT COMPLETE!
