@@ -5,7 +5,7 @@ status: in_progress
 artifact_type: epic_overview
 created_at: '2025-11-20T04:09:26.834620+00:00'
 updated_at: '2025-11-20T09:30:00+00:00'
-progress_pct: 33.33
+progress_pct: 66.67
 manual_update: false
 seq: 2
 owner: product_ops_team
