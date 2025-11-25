@@ -1,3 +1,18 @@
+---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.555594Z'
+id: AUTO-README
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.555597Z'
+---
 # SynapticTrading Knowledge Vault System Design
 
 **Meta-Documentation Layer**: This directory contains documentation about how the knowledge vault system itself is designed, operates, and integrates with the code repository.

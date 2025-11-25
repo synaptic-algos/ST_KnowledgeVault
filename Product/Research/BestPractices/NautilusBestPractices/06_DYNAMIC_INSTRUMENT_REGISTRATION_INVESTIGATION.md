@@ -1,26 +1,17 @@
-# Dynamic Instrument Registration for Options Trading in Nautilus
-
-**Created**: 2025-10-20 08:00:00
-**Last Updated**: 2025-10-20 08:00:00
-**Research Status**: Deep investigation completed
-**Purpose**: Investigate feasibility of dynamic instrument registration in Nautilus backtesting for options strategies
-**Motivation**: Eliminate instrument registration bottleneck by registering only instruments actually traded
-
 ---
-
-## Table of Contents
-
-1. [Executive Summary](#executive-summary)
-2. [The Ideal Solution (Dynamic Registration)](#the-ideal-solution-dynamic-registration)
-3. [Technical Investigation](#technical-investigation)
-4. [Architectural Barriers](#architectural-barriers)
-5. [Why Dynamic Registration Doesn't Work](#why-dynamic-registration-doesnt-work)
-6. [Potential Workarounds](#potential-workarounds)
-7. [Detailed Analysis of Each Workaround](#detailed-analysis-of-each-workaround)
-8. [Recommendations](#recommendations)
-9. [Future Research](#future-research)
-10. [References](#references)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.866186Z'
+id: AUTO-06_DYNAMIC_INSTRUMENT_REGISTRATION_INVESTIGATION
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for 06_DYNAMIC_INSTRUMENT_REGISTRATION_INVESTIGATION
+updated_at: '2025-11-25T16:23:21.866193Z'
 ---
 
 ## Executive Summary

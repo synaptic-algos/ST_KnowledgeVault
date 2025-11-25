@@ -1,17 +1,17 @@
-# Performance Issue: [Short Title]
-
-**Date**: YYYY-MM-DD HH:MM:SS
-**Severity**: HIGH | MEDIUM | LOW
-**Status**: Identified | In Progress | Resolved
-**Component**: [Strategy Execution | Data Processing | Backtest Engine | API Calls]
-**Related Story**: [Link to Story if applicable]
-
 ---
-
-## Summary
-
-[Brief description of the performance issue]
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.561575Z'
+id: AUTO-performance_template
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for performance_template
+updated_at: '2025-11-25T16:23:21.561579Z'
 ---
 
 ## Performance Metrics

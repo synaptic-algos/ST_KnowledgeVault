@@ -1,36 +1,27 @@
 ---
-id: FEAT-VALIDATION-001
-seq: 1
-title: Work Item Validation Framework
-owner: ai_agent_governance_team
-status: planned
 artifact_type: feature_overview
-related_epic:
-- EPIC-COMPLIANCE-001
-related_feature:
-- FEAT-VALIDATION-001
-related_story:
-- STORY-VALIDATION-001-01
-- STORY-VALIDATION-001-02
-- STORY-VALIDATION-001-03
-created_at: 2025-11-25 00:00:00+00:00
-updated_at: '2025-11-25T12:00:00Z'
-last_review: '2025-11-25'
-change_log:
-- "2025-11-25 – AI Agent Governance Team – Initial creation of work item validation feature – n/a"
-progress_pct: 0.0
-requirement_coverage: 100
-manual_update: true
-linked_sprints: []
 business_value: critical
-compliance_impact: true
-regulatory_requirements:
-- WORK_ITEM_TRACEABILITY
-- UPMS_V2_COMPLIANCE
-- AI_AGENT_GOVERNANCE
-risk_level: low
-estimated_story_points: 8
+change_log: null
 completed_story_points: 0
+compliance_impact: true
+created_at: '2025-11-25T16:23:21.770383Z'
+estimated_story_points: 8
+id: FEAT-VALIDATION-001
+last_review: '2025-11-25'
+linked_sprints: []
+manual_update: true
+owner: ai_agent_governance_team
+progress_pct: 0.0
+regulatory_requirements: null
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: 100
+risk_level: low
+seq: 1
+status: planned
+title: Work Item Validation Framework
+updated_at: '2025-11-25T16:23:21.770387Z'
 ---
 
 # FEAT-VALIDATION-001: Work Item Validation Framework

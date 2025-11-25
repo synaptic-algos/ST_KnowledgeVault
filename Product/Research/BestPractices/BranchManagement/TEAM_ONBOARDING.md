@@ -1,87 +1,18 @@
-# Team Onboarding Quick Start
-
-## 🚀 New Developer Setup (15 minutes)
-
-### Step 1: Clone & Setup (5 min)
-
-```bash
-# Clone repository
-git clone <repository-url> nikhilwm-opt-v2
-cd nikhilwm-opt-v2
-
-# Create virtual environment
-python3 -m venv venv
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Step 2: Configure Environment (5 min)
-
-```bash
-# Copy template
-cp .env.example .env
-
-# Edit with your settings
-nano .env
-```
-
-**Critical settings to update:**
-
-```bash
-DEVELOPER_NAME=your_name          # Your identifier
-
-# Your assigned ports (ask team lead)
-BACKEND_PORT=8001                 # Unique per developer
-FRONTEND_PORT=3001                # Unique per developer
-
-# Shared database (provided by team)
-DB_HOST=dev-postgres.company.local
-DB_PORT=5432
-DB_NAME=synpatictrading_dev
-DB_USER=dev_user
-DB_PASSWORD=<ask-team-lead>
-```
-
-### Step 3: Setup Cache Data (5 min)
-
-**Option A: Download (Recommended)**
-```bash
-mkdir -p data/.cache
-scp dev-server:/shared/cache/nautilus_v10_* data/.cache/
-```
-
-**Option B: Generate (30 min)**
-```bash
-python infrastructure/data/create_nautilus_meta_index_optimized.py \
-    --catalog-id v10_real_enhanced_clean \
-    --output-dir data/.cache
-```
-
-### Step 4: Verify Setup
-
-```bash
-# Test configuration
-python -c "from v2_config import Config; print('✅ Config OK')"
-
-# Run quick backtest
-python run_backtest.py
-```
-
 ---
-
-## 📋 Your Assigned Resources
-
-Contact your team lead to get:
-
-- [ ] **Git repository access** (GitHub/GitLab credentials)
-- [ ] **Database credentials** (PostgreSQL access)
-- [ ] **Port assignments** (Backend/Frontend ports)
-- [ ] **Test server access** (SSH key and hostname)
-- [ ] **Cache files location** (Download link or path)
-- [ ] **Team communication** (Slack/Teams channel invite)
-
+Contact your team lead to get: null
+artifact_type: story
+created_at: '2025-11-25T16:23:21.874315Z'
+id: AUTO-TEAM_ONBOARDING
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for TEAM_ONBOARDING
+updated_at: '2025-11-25T16:23:21.874319Z'
 ---
 
 ## 🌳 Git Workflow (Daily)

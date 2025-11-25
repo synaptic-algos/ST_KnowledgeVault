@@ -1,16 +1,17 @@
-# Git Workflow Quick Reference
-
-**One-page cheat sheet for daily git operations**
-
 ---
-
-## Before Every Commit ✅
-
-```bash
-# ALWAYS verify location and branch
-pwd && git branch --show-current
-```
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.885573Z'
+id: AUTO-QUICK_REFERENCE
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for QUICK_REFERENCE
+updated_at: '2025-11-25T16:23:21.885577Z'
 ---
 
 ## Feature Branch Workflow

@@ -1,79 +1,17 @@
-# Branch-Based Parallel Development Workflow
-
-## Executive Summary
-
-This guide explains how to set up and manage branch-based parallel development for the nikhilwm-opt-v2 project, enabling multiple developers to work simultaneously without conflicts.
-
-## Table of Contents
-
-1. [Understanding the Repository Structure](#understanding-the-repository-structure)
-2. [Current State](#current-state)
-3. [Setting Up Your Branch](#setting-up-your-branch)
-4. [Pushing Your Branch to GitHub](#pushing-your-branch-to-github)
-5. [Creating Feature Branches](#creating-feature-branches)
-6. [Parallel Development Workflows](#parallel-development-workflows)
-7. [Branch Management](#branch-management)
-8. [Testing and Integration](#testing-and-integration)
-9. [Best Practices](#best-practices)
-
 ---
-
-## Understanding the Repository Structure
-
-### Main Repository
-**URL:** `https://github.com/gtalknitin/synpatictrading`
-
-The main repository has two types of code organization:
-
-#### Type 1: Subdirectory-Based (Existing)
-```
-synpatictrading/                  (main repository)
-├── src/
-│   └── pilot/
-│       └── nikhilwm-opt-v2/     ← V2 code lives here in main branch
-│           ├── application/
-│           ├── domain/
-│           ├── infrastructure/
-│           ├── src/
-│           ├── run_backtest.py
-│           └── v2_config.py
-└── (other projects...)
-```
-
-**Commits on main branch:**
-- `68cc1a4` docs: Add Docker deployment and nginx reverse proxy learnings
-- `76851de` fix: Critical trade logic bugs - D0 prevention, orphan hedges
-- Recent work by the team
-
-#### Type 2: Root-Level Branch (Standalone)
-```
-pilot-synaptictrading-nitin       ← Your standalone branch
-├── application/                   ← V2 code at root level
-├── domain/
-├── infrastructure/
-├── src/
-├── run_backtest.py
-├── v2_config.py
-└── documentation/
-```
-
-**Commits on your branch:**
-- `197132b` feat: Add manual test server deployment scripts
-- `7161338` chore: Add overnight risk mitigation validation results
-- Your recent standalone development
-
-### Key Difference
-
-**Main Branch (`main`):**
-- Full trading platform with multiple projects
-- V2 code in `src/pilot/nikhilwm-opt-v2/`
-- Shared by entire team
-
-**Standalone Branch (`pilot-synaptictrading-nitin`):**
-- V2 code at root level
-- Self-contained development
-- Your independent work stream
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.877956Z'
+id: AUTO-BRANCH_WORKFLOW_GUIDE
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for BRANCH_WORKFLOW_GUIDE
+updated_at: '2025-11-25T16:23:21.877960Z'
 ---
 
 ## Current State

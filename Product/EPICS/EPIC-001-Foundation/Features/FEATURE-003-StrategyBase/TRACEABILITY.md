@@ -1,23 +1,20 @@
 ---
-id: trace-feature-003-strategybase
-seq: 3
-title: "FEATURE-003 Strategy Base Traceability"
-owner: product_ops_team
-status: draft
 artifact_type: feature_traceability
-related_epic:
-  - EPIC-001
-related_feature:
-  - FEATURE-003-StrategyBase
-related_story:
-  - STORY-001-03-01
-  - STORY-001-03-02
-  - STORY-001-03-03
-created_at: 2025-11-03T00:00:00Z
-updated_at: 2025-11-03T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.741863Z'
+id: trace-feature-003-strategybase
 last_review: 2025-11-03
-change_log:
-  - 2025-11-03 – product_ops_team – Seeded strategy base traceability entries – REQ-EPIC001-004
+manual_update: true
+owner: product_ops_team
+progress_pct: 0
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: TBD
+seq: 3
+status: draft
+title: FEATURE-003 Strategy Base Traceability
+updated_at: '2025-11-25T16:23:21.741867Z'
 version: 0.1.0
 ---
 

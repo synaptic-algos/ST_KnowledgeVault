@@ -1,12 +1,19 @@
 ---
-id: PARALLEL_DEVELOPMENT_PLAN
-title: Parallel Development Plan - Unified Strategy Support vs EPIC-005
 artifact_type: development_plan
-version: 1.0.0
-created_at: '2025-11-21T02:00:00+00:00'
-updated_at: '2025-11-21T02:00:00+00:00'
 author: engineering_manager
+created_at: '2025-11-25T16:23:21.624667Z'
+id: PARALLEL_DEVELOPMENT_PLAN
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: ready_for_approval
+title: Parallel Development Plan - Unified Strategy Support vs EPIC-005
+updated_at: '2025-11-25T16:23:21.624674Z'
+version: 1.0.0
 ---
 
 # Parallel Development Plan: Unified Strategy Support vs EPIC-005

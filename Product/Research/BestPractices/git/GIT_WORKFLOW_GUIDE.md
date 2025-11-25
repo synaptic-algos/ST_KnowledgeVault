@@ -1,22 +1,17 @@
-# Git Workflow Guide: Feature Branches, Worktrees & Pull Requests
-
-**Last Updated**: 2025-11-19
-**Status**: Living Document
-**Audience**: Development Team
-
 ---
-
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Feature Branch Workflow](#feature-branch-workflow)
-3. [Git Worktrees](#git-worktrees)
-4. [Pull Request Process](#pull-request-process)
-5. [Best Practices](#best-practices)
-6. [Common Pitfalls](#common-pitfalls)
-7. [Troubleshooting](#troubleshooting)
-8. [Quick Reference](#quick-reference)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.884488Z'
+id: AUTO-GIT_WORKFLOW_GUIDE
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for GIT_WORKFLOW_GUIDE
+updated_at: '2025-11-25T16:23:21.884492Z'
 ---
 
 ## Overview

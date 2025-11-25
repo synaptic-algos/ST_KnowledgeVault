@@ -1,27 +1,22 @@
 ---
-id: FEATURE-007-DataPipeline
-seq: 6
-title: Historical Data Pipeline & Greeks Calculation
-owner: data_engineering_team
-status: completed
 artifact_type: feature_overview
-related_epic:
-- EPIC-007
-related_story:
-- STORY-006-01
-created_at: 2025-11-04 00:00:00+00:00
-updated_at: '2025-11-13T06:08:36Z'
+change_log: null
 completed_at: 2025-11-04 12:00:00+00:00
+created_at: '2025-11-25T16:23:21.685638Z'
+id: FEATURE-007-DataPipeline
 last_review: '2025-11-13'
-change_log:
-- "2025-11-04 \u2013 Sprint 0 \u2013 Data pipeline completed end-to-end."
-- "2025-11-12 \u2013 Updated status to completed, progress to 100%"
-- "2025-11-04 \u2013 Feature completed in Sprint 0 (STORY-006-01)"
-- "2025-11-04 \u2013 Created data pipeline feature for STRAT-001 backtest infrastructure"
+linked_sprints: null
+manual_update: true
+owner: data_engineering_team
 progress_pct: 100
+related_epic: null
+related_feature: TBD
+related_story: null
 requirement_coverage: 100
-linked_sprints:
-- SPRINT-20251104-epic007-data-pipeline
+seq: 6
+status: completed
+title: Historical Data Pipeline & Greeks Calculation
+updated_at: '2025-11-25T16:23:21.685642Z'
 ---
 
 # FEATURE-006: Historical Data Pipeline & Greeks Calculation

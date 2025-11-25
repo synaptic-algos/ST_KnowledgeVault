@@ -1,9 +1,21 @@
 ---
-template_id: custom-strategy-template
-version: 1.0.0
-last_review: 2025-11-04
+artifact_type: story
 asset_class: custom
+created_at: '2025-11-25T16:23:21.833914Z'
+id: AUTO-Custom_Strategy_Template
+last_review: 2025-11-04
+manual_update: true
 owner: strategy_ops_team
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+template_id: custom-strategy-template
+title: Auto-generated title for Custom_Strategy_Template
+updated_at: '2025-11-25T16:23:21.833917Z'
+version: 1.0.0
 ---
 
 # Custom Strategy Template

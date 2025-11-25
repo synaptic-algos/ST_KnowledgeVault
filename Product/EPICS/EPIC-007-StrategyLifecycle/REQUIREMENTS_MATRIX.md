@@ -1,24 +1,19 @@
 ---
-id: req-matrix-epic-007
-seq: 7
-title: "EPIC-007 Strategy Lifecycle Requirements"
-owner: strategy_ops_team
-status: draft
 artifact_type: requirements_matrix
-related_epic:
-  - EPIC-007
-related_feature:
-  - FEATURE-007-ResearchPipeline
-  - FEATURE-007-PrioritisationGovernance
-  - FEATURE-007-ImplementationBridge
-  - FEATURE-007-DeploymentRunbooks
-  - FEATURE-007-ContinuousOptimization
-related_story: []
-created_at: 2025-11-03T00:00:00Z
-updated_at: 2025-11-03T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.661248Z'
+id: req-matrix-epic-007
 last_review: 2025-11-03
-change_log:
-  - 2025-11-03 – strategy_ops_team – Added initial lifecycle requirements mapping – REQ-EPIC007-001
+manual_update: true
+owner: strategy_ops_team
+related_epic: null
+related_feature: null
+related_story: []
+requirement_coverage: TBD
+seq: 7
+status: draft
+title: EPIC-007 Strategy Lifecycle Requirements
+updated_at: '2025-11-25T16:23:21.661252Z'
 version: 0.1.0
 ---
 

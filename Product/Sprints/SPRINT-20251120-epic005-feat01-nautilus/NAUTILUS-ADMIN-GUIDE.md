@@ -1,25 +1,17 @@
-# Nautilus Trader Integration - Admin Guide
-
-**Version**: 1.0
-**Last Updated**: 2025-11-20
-**Sprint**: SPRINT-20251120-epic005-feat01-nautilus
-**Audience**: Platform Engineers, DevOps, Senior Developers
-
 ---
-
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Architecture Deep Dive](#architecture-deep-dive)
-3. [Component Reference](#component-reference)
-4. [Installation & Setup](#installation--setup)
-5. [Integration Points](#integration-points)
-6. [Testing Strategy](#testing-strategy)
-7. [Performance Tuning](#performance-tuning)
-8. [Monitoring & Debugging](#monitoring--debugging)
-9. [Troubleshooting](#troubleshooting)
-10. [Maintenance](#maintenance)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.819613Z'
+id: AUTO-NAUTILUS-ADMIN-GUIDE
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for NAUTILUS-ADMIN-GUIDE
+updated_at: '2025-11-25T16:23:21.819616Z'
 ---
 
 ## Overview

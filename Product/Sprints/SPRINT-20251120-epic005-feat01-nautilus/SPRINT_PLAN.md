@@ -1,33 +1,17 @@
-# Sprint: EPIC-005 FEAT-01 Nautilus Integration
-
-**Sprint ID**: SPRINT-20251120-epic005-feat01-nautilus
-**Sprint Duration**: 2 weeks (2025-11-20 to 2025-12-04)
-**Epic**: EPIC-005 (Framework Adapters)
-**Feature**: FEAT-005-01 (Nautilus Integration Core)
-**Sprint Goal**: Enable domain strategies to run on Nautilus Trader for backtesting
-
 ---
-
-## Sprint Overview
-
-### Objective
-Implement core integration between our domain-driven architecture and Nautilus Trader framework, enabling strategies to run on Nautilus backtesting engine while maintaining our port-based abstraction.
-
-### Approach
-- **Design-Driven**: Write design documents before implementation
-- **Test-Driven**: Write tests before code (TDD)
-- **Documentation-Driven**: User and admin manuals created alongside code
-- **Continuous Integration**: Update vault and sprint cursor throughout
-
-### Success Criteria
-- [ ] SimpleBuyAndHoldStrategy runs on Nautilus
-- [ ] Returns BacktestResults matching our interface
-- [ ] All tests passing (TDD approach)
-- [ ] Design document complete
-- [ ] User manual complete
-- [ ] Admin manual complete
-- [ ] Vault updated with progress
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.825412Z'
+id: AUTO-SPRINT_PLAN
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for SPRINT_PLAN
+updated_at: '2025-11-25T16:23:21.825415Z'
 ---
 
 ## Sprint Backlog

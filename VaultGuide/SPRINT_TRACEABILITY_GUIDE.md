@@ -1,22 +1,17 @@
-# Sprint Traceability Guide
-**Vault-Specific Implementation of UPMS Sprint Traceability**
-
-**Document Type**: VaultGuide - Mandatory Process
-**UPMS Reference**: [[../../UPMS_Vault/Methodology/Ceremonies/Sprint_Traceability_Process.md|Sprint Traceability Process]]
-**Status**: **MANDATORY** - All sprints must follow this process
-**Created**: 2025-11-12
-**Last Updated**: 2025-11-12
-
 ---
-
-## ⚠️ MANDATORY COMPLIANCE
-
-**This guide is MANDATORY for all work in this vault.**
-
-Every sprint executed in this vault MUST follow the Sprint Traceability Process. Failure to update EPIC/Feature/Story status after sprint completion breaks the planning system and violates vault governance.
-
-**Quality Gate**: Sprint retrospectives cannot be marked "Complete" until all traceability updates are verified.
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.556205Z'
+id: AUTO-SPRINT_TRACEABILITY_GUIDE
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for SPRINT_TRACEABILITY_GUIDE
+updated_at: '2025-11-25T16:23:21.556208Z'
 ---
 
 ## Purpose

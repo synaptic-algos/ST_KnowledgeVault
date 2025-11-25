@@ -1,31 +1,17 @@
-# Data Pipeline Architecture: NSE Options → Database → Nautilus Catalogs → S3
-
-**Version**: 1.0.0
-**Created**: 2025-11-04
-**Status**: Architecture Proposal
-**Dependencies**: EPIC-007, STRAT-001
-
 ---
-
-## Overview
-
-This document defines the data infrastructure required to import NSE historical options data, calculate Greeks, store in a database, and generate Nautilus-compatible catalogs for backtesting.
-
-**Data Flow**:
-```
-NSE Historical Data (CSV/Parquet)
-    ↓
-[Data Importer] → Calculate Greeks (Black-Scholes)
-    ↓
-[Database] (PostgreSQL/TimescaleDB)
-    ↓
-[Nautilus Catalog Generator]
-    ↓
-[Parquet Files] → AWS S3 Buckets
-    ↓
-[Nautilus Backtest Engine]
-```
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.607526Z'
+id: AUTO-DATA-PIPELINE-ARCHITECTURE
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for DATA-PIPELINE-ARCHITECTURE
+updated_at: '2025-11-25T16:23:21.607538Z'
 ---
 
 ## 1. Data Sources

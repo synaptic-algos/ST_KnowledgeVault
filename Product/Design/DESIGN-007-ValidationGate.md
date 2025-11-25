@@ -1,30 +1,17 @@
-# Validation Gate Design - Data & Compliance Review
-
-**Version**: 1.0.0
-**Last Updated**: 2025-11-19
-**Status**: Draft → Under Review → **Approved**
-**Related Story**: STORY-007-01-03
-**Related Epic**: EPIC-007 - Strategy Lifecycle
-**Related Feature**: FEATURE-001 - Research Pipeline
-
 ---
-
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Problem Statement](#problem-statement)
-3. [Solution Architecture](#solution-architecture)
-4. [Validation Criteria](#validation-criteria)
-5. [Checklist Schemas](#checklist-schemas)
-6. [Notification System](#notification-system)
-7. [Storage & Retention Policy](#storage--retention-policy)
-8. [Integration Points](#integration-points)
-9. [Testing Strategy](#testing-strategy)
-10. [Security Considerations](#security-considerations)
-11. [Compliance Requirements](#compliance-requirements)
-12. [Implementation Plan](#implementation-plan)
-13. [Appendix](#appendix)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.596070Z'
+id: AUTO-DESIGN-007-ValidationGate
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for DESIGN-007-ValidationGate
+updated_at: '2025-11-25T16:23:21.596074Z'
 ---
 
 ## Overview

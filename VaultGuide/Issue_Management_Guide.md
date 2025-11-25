@@ -1,11 +1,24 @@
 ---
+artifact_type: story
+category: workflow
+created_at: '2025-11-25T16:23:21.553668Z'
 guide_id: VAULT-GUIDE-003
-title: "Issue Management Guide"
-version: "1.0"
-status: "active"
-created_at: "2025-11-16"
-category: "workflow"
-tags: ["issues", "bugs", "workflow"]
+id: AUTO-Issue_Management_Guide
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: active
+tags:
+- issues
+- bugs
+- workflow
+title: Issue Management Guide
+updated_at: '2025-11-25T16:23:21.553672Z'
+version: '1.0'
 ---
 
 # Issue Management Guide - SynapticTrading Vault

@@ -1,20 +1,18 @@
-# Data Pipeline Architecture - Ports and Adapters Pattern
-
-**Status**: 🟢 Approved Architecture
-**Date**: 2025-11-05
-**Related**: [[EPIC-007 Nautilus Greeks Integration]], [[STRAT-001 Catalog Generation]]
-**Next**: [[DATA-001 Pluggable Data Sources PRD]]
-
 ---
-
-## Executive Summary
-
-This document defines the **Ports & Adapters** architecture for our data pipeline, enabling:
-- ✅ Import from multiple data sources (NSE CSV, Interactive Brokers, Zerodha, etc.)
-- ✅ Single source of truth in PostgreSQL/TimescaleDB
-- ✅ Export to multiple backtest formats (Nautilus Parquet, Backtrader CSV)
-- ✅ S3 storage for production backtesting
-
+This document defines the **Ports & Adapters** architecture for our data pipeline, enabling: null
+artifact_type: story
+created_at: '2025-11-25T16:23:21.601807Z'
+id: AUTO-Data Pipeline Architecture - Ports and Adapters
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for Data Pipeline Architecture - Ports and Adapters
+updated_at: '2025-11-25T16:23:21.601811Z'
 ---
 
 ## Architecture Overview

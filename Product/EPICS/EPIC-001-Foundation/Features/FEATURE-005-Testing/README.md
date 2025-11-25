@@ -1,24 +1,21 @@
 ---
-id: FEATURE-005-Testing
-seq: 5
-title: "Testing Infrastructure"
-owner: product_ops_team
-status: planned
 artifact_type: feature_overview
-related_epic:
-  - EPIC-001
-related_feature:
-  - FEATURE-005-Testing
-related_story:
-  - STORY-001-05-01
-created_at: 2025-11-03T00:00:00Z
-updated_at: 2025-11-03T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.740744Z'
+id: FEATURE-005-Testing
 last_review: 2025-11-03
-change_log:
-  - 2025-11-03 – product_ops_team – Scaffolded testing infrastructure feature docs – n/a
-progress_pct: 0
-requirement_coverage: 0
 linked_sprints: []
+manual_update: true
+owner: product_ops_team
+progress_pct: 0
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: 0
+seq: 5
+status: planned
+title: Testing Infrastructure
+updated_at: '2025-11-25T16:23:21.740747Z'
 ---
 
 # FEATURE-005: Testing Infrastructure

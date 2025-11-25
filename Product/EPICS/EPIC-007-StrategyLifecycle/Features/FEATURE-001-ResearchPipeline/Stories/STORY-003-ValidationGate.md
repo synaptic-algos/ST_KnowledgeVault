@@ -1,7 +1,18 @@
 ---
-progress_pct: 100.0
-status: completed
+artifact_type: story
+created_at: '2025-11-25T16:23:21.725756Z'
+id: AUTO-STORY-003-ValidationGate
 manual_update: true
+owner: Auto-assigned
+progress_pct: 100.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: completed
+title: Auto-generated title for STORY-003-ValidationGate
+updated_at: '2025-11-25T16:23:21.725760Z'
 ---
 
 # STORY-007-01-03: Implement Data & Compliance Validation Gate

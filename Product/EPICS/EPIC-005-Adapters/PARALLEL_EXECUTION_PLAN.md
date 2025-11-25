@@ -1,21 +1,16 @@
-# EPIC-005: Parallel Execution Plan
-
-**Created**: 2025-11-20
-**Status**: 🟢 Active
-**Approach**: Multi-track parallel development
-
 ---
-
-## Overview
-
-EPIC-005 (Framework Adapters) will be developed using **3 parallel tracks** to maximize speed and efficiency.
-
-**Timeline**:
-- **Sequential**: 4 weeks (Nautilus → Backtrader → Integration → Validation)
-- **Parallel**: 2.5 weeks (Nautilus + Backtrader together → Integration → Validation)
-
-**Reduction**: **37.5% faster** with parallel approach
-
+artifact_type: epic
+created_at: '2025-11-25T16:23:21.637106Z'
+id: AUTO-PARALLEL_EXECUTION_PLAN
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+title: Auto-generated title for PARALLEL_EXECUTION_PLAN
+updated_at: '2025-11-25T16:23:21.637109Z'
 ---
 
 ## Worktree Structure

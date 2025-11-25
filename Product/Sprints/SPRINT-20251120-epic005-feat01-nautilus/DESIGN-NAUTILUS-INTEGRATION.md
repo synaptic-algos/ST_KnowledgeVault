@@ -1,24 +1,23 @@
-# Design Document: Nautilus Trader Integration
-
-**Document Version**: 1.0
-**Created**: 2025-11-20
-**Sprint**: SPRINT-20251120-epic005-feat01-nautilus
-**Status**: 🟡 Draft → Review → Approved
-
 ---
-
-## Executive Summary
-
-This document defines the architecture and design for integrating Nautilus Trader framework with our domain-driven trading platform. The integration enables strategies written using our port-based architecture to run on Nautilus Trader's backtesting engine without modification.
-
-###Key Design Goals
-
 1. **Preserve Port Abstraction**: Domain strategies remain framework-agnostic
 2. **Zero Strategy Changes**: Existing strategies run on Nautilus without modification
-3. **Consistent Interface**: NautilusBacktestAdapter returns same BacktestResults as custom engine
+3. **Consistent Interface**: NautilusBacktestAdapter returns same BacktestResults
+  as custom engine
 4. **Performance**: Nautilus performance should match or exceed custom engine
 5. **Maintainability**: Clean separation between domain and Nautilus-specific code
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.826813Z'
+id: AUTO-DESIGN-NAUTILUS-INTEGRATION
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for DESIGN-NAUTILUS-INTEGRATION
+updated_at: '2025-11-25T16:23:21.826821Z'
 ---
 
 ## Architecture Overview

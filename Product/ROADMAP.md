@@ -1,21 +1,17 @@
-# Synaptic Trading Platform - Development Roadmap
-
-**Product**: Synaptic Trading Platform
-**Roadmap Version**: v1.1 (Version planning strategy added)
-**Product Version**: v0.1.0 (Alpha - Data pipeline complete)
-**Created**: 2025-11-12
-**Last Updated**: 2025-11-12
-**Owner**: Product Operations Team
-**Status**: 🟢 Active
-
 ---
-
-## Purpose
-
-This roadmap provides a high-level view of EPIC sequencing, dependencies, priorities, and timeline for the Synaptic Trading Platform. It serves as the primary planning and communication tool for the product development lifecycle.
-
-**Key Principle**: This roadmap shows **intent**, not **commitments**. It will evolve as we learn and adapt.
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.549587Z'
+id: AUTO-ROADMAP
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for ROADMAP
+updated_at: '2025-11-25T16:23:21.549591Z'
 ---
 
 ## Roadmap Overview

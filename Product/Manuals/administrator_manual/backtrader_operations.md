@@ -1,17 +1,17 @@
-# Backtrader Operations - Administrator Guide
-
-**Product**: SynapticTrading Platform
-**Feature**: Backtrader Integration
-**Audience**: System Administrators, DevOps Engineers
-**Last Updated**: 2025-11-20
-**Status**: Active
-
 ---
-
-## Overview
-
-This guide provides operational procedures for managing the Backtrader backtesting engine integration within the SynapticTrading platform. Administrators should use this guide for deployment, monitoring, troubleshooting, and maintenance of the Backtrader adapter.
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.796636Z'
+id: AUTO-backtrader_operations
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for backtrader_operations
+updated_at: '2025-11-25T16:23:21.796639Z'
 ---
 
 ## System Architecture

@@ -1,18 +1,17 @@
-# Nautilus Trader Best Practices - Documentation Index
-
-**Created**: 2025-10-13 07:00:00
-**Last Updated**: 2025-10-20 07:36:00
-**Purpose**: Comprehensive guide for integrating NautilusTrader framework with options spread strategy
-**Status**: Documentation Complete
-
 ---
-
-## Overview
-
-This documentation provides comprehensive guidance on integrating the NautilusTrader framework with our options trading strategy to enable consistent code across backtesting, paper trading, and live trading environments.
-
-**Key Principle**: Write code once, test in backtest, validate in paper, deploy to live.
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.807827Z'
+id: AUTO-README
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.807830Z'
 ---
 
 ## Documentation Files

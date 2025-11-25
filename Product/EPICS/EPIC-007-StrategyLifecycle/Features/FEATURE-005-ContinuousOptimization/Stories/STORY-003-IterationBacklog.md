@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.720330Z'
+id: AUTO-STORY-003-IterationBacklog
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-003-IterationBacklog
+updated_at: '2025-11-25T16:23:21.720333Z'
 ---
 
 # STORY-007-05-03: Create Strategy Iteration Backlog Process

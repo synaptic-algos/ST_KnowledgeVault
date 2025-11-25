@@ -1,23 +1,17 @@
-# Nautilus Options Backtesting Best Practices
-
-**Created**: 2025-10-20 07:18:28
-**Last Updated**: 2025-10-20 07:45:00
-**Research Status**: Comprehensive web research completed
-**Sources**: Nautilus documentation, GitHub repository, community discussions
-
 ---
-
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Instrument Registration Bottleneck](#instrument-registration-bottleneck)
-3. [Research Findings](#research-findings)
-4. [BacktestNode Streaming Approach](#backtestnode-streaming-approach)
-5. [Best Practices](#best-practices)
-6. [Recommended Approach](#recommended-approach)
-7. [Known Limitations](#known-limitations)
-8. [Future Improvements](#future-improvements)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.809161Z'
+id: AUTO-05_OPTIONS_BACKTESTING_BEST_PRACTICES
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for 05_OPTIONS_BACKTESTING_BEST_PRACTICES
+updated_at: '2025-11-25T16:23:21.809165Z'
 ---
 
 ## Overview

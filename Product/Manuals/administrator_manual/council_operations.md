@@ -1,14 +1,17 @@
-# Prioritisation Council Operations
-
-**Last Updated**: SPRINT-20251118-epic007 (2025-11-19)
-**Audience**: Council Secretary, Portfolio Manager, Operations Administrators
-
 ---
-
-## Overview
-
-This page documents operational procedures for administering the Prioritisation Council, including meeting management, decision logging, notification workflows, and system maintenance.
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.798533Z'
+id: AUTO-council_operations
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for council_operations
+updated_at: '2025-11-25T16:23:21.798537Z'
 ---
 
 ## Roles & Responsibilities

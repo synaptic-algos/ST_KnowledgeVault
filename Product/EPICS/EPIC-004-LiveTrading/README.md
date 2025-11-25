@@ -1,22 +1,21 @@
 ---
-id: EPIC-004-LiveTrading
-title: Live Trading & Safety
-status: planned
 artifact_type: epic_overview
-created_at: '2025-11-20T04:09:26.836956+00:00'
-updated_at: '2025-11-20T04:09:26.836956+00:00'
-progress_pct: 0
+change_log: null
+created_at: '2025-11-25T16:23:21.648355Z'
+id: EPIC-004-LiveTrading
+last_review: '2025-11-20'
+linked_sprints: []
 manual_update: false
-seq: 4
 owner: product_ops_team
+progress_pct: 0
 related_epic: []
 related_feature: []
 related_story: []
-last_review: '2025-11-20'
-change_log:
-- "2025-11-20 \u2013 system \u2013 Migrated to frontmatter \u2013 PROC-2025-001"
 requirement_coverage: 0
-linked_sprints: []
+seq: 4
+status: planned
+title: Live Trading & Safety
+updated_at: '2025-11-25T16:23:21.648360Z'
 ---
 
 # EPIC-004: Live Trading & Safety

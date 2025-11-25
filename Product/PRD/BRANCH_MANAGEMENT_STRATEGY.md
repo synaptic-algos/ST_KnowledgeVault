@@ -1,12 +1,19 @@
 ---
-id: BRANCH_MANAGEMENT_STRATEGY
-title: Branch Management Strategy - Parallel Development
 artifact_type: development_strategy
-version: 1.0.0
-created_at: '2025-11-21T02:30:00+00:00'
-updated_at: '2025-11-21T02:30:00+00:00'
 author: engineering_manager
+created_at: '2025-11-25T16:23:21.620286Z'
+id: BRANCH_MANAGEMENT_STRATEGY
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: ready_for_implementation
+title: Branch Management Strategy - Parallel Development
+updated_at: '2025-11-25T16:23:21.620290Z'
+version: 1.0.0
 ---
 
 # Branch Management Strategy - Parallel Development

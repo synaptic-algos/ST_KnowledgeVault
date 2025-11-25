@@ -1,3 +1,18 @@
+---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.554735Z'
+id: AUTO-VAULT_ARCHITECTURE
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for VAULT_ARCHITECTURE
+updated_at: '2025-11-25T16:23:21.554738Z'
+---
 # Knowledge Vault System Architecture
 
 **Document Type**: System Design

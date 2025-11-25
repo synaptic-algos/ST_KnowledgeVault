@@ -1,21 +1,21 @@
-# Backtesting User Guide
-
-**Product**: SynapticTrading Platform
-**Feature**: Multi-Engine Backtesting
-**Last Updated**: 2025-11-20
-**Status**: Active
-
 ---
-
-## Overview
-
-SynapticTrading provides powerful backtesting capabilities to validate trading strategies before deploying them with real capital. Our platform supports **two backtesting engines**:
-
-1. **Custom Engine** - Proprietary backtesting engine with advanced features
-2. **Backtrader Engine** - Integration with the popular Backtrader framework
-
-Both engines provide the **same interface** and return **identical results structure**, allowing you to validate strategies across multiple engines for increased confidence.
-
+? SynapticTrading provides powerful backtesting capabilities to validate trading strategies
+  before deploying them with real capital. Our platform supports **two backtesting
+  engines**
+: null
+artifact_type: story
+created_at: '2025-11-25T16:23:21.791699Z'
+id: AUTO-backtesting
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for backtesting
+updated_at: '2025-11-25T16:23:21.791703Z'
 ---
 
 ## Quick Start

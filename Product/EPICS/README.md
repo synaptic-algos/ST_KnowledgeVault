@@ -1,28 +1,19 @@
 ---
-id: synaptic-trading-epic-index
-seq: 1
-title: "Synaptic Trading Epics"
-owner: product_ops_team
-status: active
 artifact_type: epic_index
-related_epic:
-  - EPIC-001
-  - EPIC-002
-  - EPIC-003
-  - EPIC-004
-  - EPIC-005
-  - EPIC-006
-  - EPIC-007
-  - EPIC-008
-  - EPIC-009
+change_log: null
+created_at: '2025-11-25T16:23:21.632436Z'
+id: synaptic-trading-epic-index
+last_review: 2025-11-03
+manual_update: true
+owner: product_ops_team
+related_epic: null
 related_feature: []
 related_story: []
-created_at: 2025-11-03T00:00:00Z
-updated_at: 2025-11-03T00:00:00Z
-last_review: 2025-11-03
-change_log:
-  - 2025-11-03 – product_ops_team – Created epic index after vault migration – n/a
-  - 2025-11-03 – strategy_ops_team – Added EPIC-007 strategy lifecycle entry – n/a
+requirement_coverage: TBD
+seq: 1
+status: active
+title: Synaptic Trading Epics
+updated_at: '2025-11-25T16:23:21.632440Z'
 ---
 
 # Synaptic Trading Epics

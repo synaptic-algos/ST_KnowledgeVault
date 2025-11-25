@@ -1,14 +1,20 @@
 ---
-id: FEATURE-007-MultiStrategyComposition
-title: Multi-Strategy Composition & Coordination
 artifact_type: feature_specification
-status: planned
-created_at: '2025-11-21T00:00:00+00:00'
-updated_at: '2025-11-24T00:00:00+00:00'
+created_at: '2025-11-25T16:23:21.746320Z'
+id: FEATURE-007-MultiStrategyComposition
+manual_update: true
 owner: strategy_ops_team
-related_epic: [EPIC-001-Foundation]
-related_feature: [FEATURE-006-MultiStrategyOrchestration]
 progress_pct: 0
+related_epic:
+- EPIC-001-Foundation
+related_feature:
+- FEATURE-006-MultiStrategyOrchestration
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: planned
+title: Multi-Strategy Composition & Coordination
+updated_at: '2025-11-25T16:23:21.746324Z'
 ---
 
 # FEATURE-007: Multi-Strategy Composition & Coordination

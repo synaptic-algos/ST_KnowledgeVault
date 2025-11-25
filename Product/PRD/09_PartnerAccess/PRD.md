@@ -1,14 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.785426Z'
 id: PRD-009
-title: "Partner Access & Credential Security PRD"
-status: draft
+manual_update: true
 owner: product_ops_team
-created_at: 2025-02-15
-updated_at: 2025-02-15
-sources:
-  - documentation/localresearch/multi_user_partner_auth_inventory.md
-  - /Users/nitindhawan/Downloads/CodeRepository/SynpaticTradingV2/docs/00_setup_guides/google_oauth_setup.md
-  - /Users/nitindhawan/Downloads/CodeRepository/SynpaticTradingV2/docs/features/prioritized/FEAT-2025-0100-AUTH-Google_OAuth_Integration.md
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+sources: null
+status: draft
+title: Partner Access & Credential Security PRD
+updated_at: '2025-11-25T16:23:21.785429Z'
 ---
 
 # 1. Overview

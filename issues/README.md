@@ -1,3 +1,18 @@
+---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.558400Z'
+id: AUTO-README
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.558403Z'
+---
 # Issues Management - SynapticTrading
 
 **UPMS Reference**: [Issue Management Pattern](/Users/nitindhawan/KnowledgeVaults/UPMS_Vault/Methodology/Issue_Management_Pattern.md)

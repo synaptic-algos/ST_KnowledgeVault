@@ -1,31 +1,17 @@
-# Test Specifications: Nautilus Integration
-
-**Sprint**: SPRINT-20251120-epic005-feat01-nautilus
-**Feature**: FEAT-005-01 (Nautilus Integration Core)
-**Created**: 2025-11-20
-**Approach**: Test-Driven Development (TDD)
-
 ---
-
-## Overview
-
-This document defines **test specifications before implementation** following TDD principles. All tests must be written BEFORE the corresponding implementation code.
-
-### TDD Process
-
-For each component:
-1. **RED**: Write failing test (specification)
-2. **GREEN**: Write minimal code to pass test
-3. **REFACTOR**: Improve code quality
-4. **REPEAT**: Next test
-
-### Test Coverage Goals
-
-- **Unit Tests**: 90%+ coverage
-- **Integration Tests**: All critical paths
-- **Acceptance Tests**: All user stories
-- **Edge Cases**: All boundary conditions
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.822927Z'
+id: AUTO-TEST_SPECIFICATIONS
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for TEST_SPECIFICATIONS
+updated_at: '2025-11-25T16:23:21.822930Z'
 ---
 
 ## 1. NautilusStrategyWrapper Tests

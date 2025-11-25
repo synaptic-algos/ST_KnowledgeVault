@@ -1,24 +1,22 @@
 ---
-id: FEATURE-006-Validation
-parent_epic: EPIC-002
-title: Validation & Testing
-owner: eng_team
-status: completed
 artifact_type: feature_overview
-created_at: '2025-11-20T09:30:00+00:00'
-updated_at: '2025-11-20T19:15:00+00:00'
-progress_pct: 100
+change_log: null
+created_at: '2025-11-25T16:23:21.733532Z'
+id: FEATURE-006-Validation
+last_review: '2025-11-20'
+linked_sprints: []
 manual_update: true
-seq: 6
+owner: eng_team
+parent_epic: EPIC-002
+progress_pct: 100
 related_epic: []
 related_feature: []
 related_story: []
-last_review: '2025-11-20'
-change_log:
-  - '2025-11-20 – eng_team – Completed validation and documentation updates – FEATURE-006'
-  - '2025-11-20 – system – Feature placeholder created – EPIC-002'
 requirement_coverage: 100
-linked_sprints: []
+seq: 6
+status: completed
+title: Validation & Testing
+updated_at: '2025-11-25T16:23:21.733536Z'
 ---
 
 # FEATURE-006: Validation & Testing

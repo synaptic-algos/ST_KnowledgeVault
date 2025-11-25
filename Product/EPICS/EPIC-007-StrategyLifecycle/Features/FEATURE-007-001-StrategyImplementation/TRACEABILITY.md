@@ -1,24 +1,20 @@
 ---
-id: trace-feature-008-strategyimplementation
-seq: 8
-title: "FEATURE-001 Strategy Implementation Traceability"
-owner: strategy_engineering_team
-status: draft
 artifact_type: feature_traceability
-related_epic:
-  - EPIC-008
-related_feature:
-  - FEATURE-008-StrategyImplementation
-related_story:
-  - STORY-008-01-01
-  - STORY-008-01-02
-  - STORY-008-01-03
-  - STORY-008-01-04
-created_at: 2025-11-04T00:00:00Z
-updated_at: 2025-11-04T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.687058Z'
+id: trace-feature-008-strategyimplementation
 last_review: 2025-11-04
-change_log:
-  - 2025-11-04 – strategy_engineering_team – Seeded traceability entries – REQ-EPIC008-001
+manual_update: true
+owner: strategy_engineering_team
+progress_pct: 0
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: TBD
+seq: 8
+status: draft
+title: FEATURE-001 Strategy Implementation Traceability
+updated_at: '2025-11-25T16:23:21.687062Z'
 version: 0.1.0
 ---
 

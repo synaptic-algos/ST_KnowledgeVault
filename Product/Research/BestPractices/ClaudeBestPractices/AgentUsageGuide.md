@@ -1,23 +1,17 @@
-# Claude Code Best Practices
-
-## Overview
-
-This document captures best practices for working with Claude Code, Anthropic's official CLI for software development. These practices improve development velocity, code quality, and context efficiency.
-
-**Last Updated**: 2025-11-19
-
 ---
-
-## Table of Contents
-
-1. [Available Agents](#available-agents)
-2. [Agent Usage Patterns](#agent-usage-patterns)
-3. [Context Management](#context-management)
-4. [Task Planning](#task-planning)
-5. [Communication Patterns](#communication-patterns)
-6. [Tool Selection](#tool-selection)
-7. [Git Workflow](#git-workflow)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.879805Z'
+id: AUTO-AgentUsageGuide
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for AgentUsageGuide
+updated_at: '2025-11-25T16:23:21.879809Z'
 ---
 
 ## Available Agents

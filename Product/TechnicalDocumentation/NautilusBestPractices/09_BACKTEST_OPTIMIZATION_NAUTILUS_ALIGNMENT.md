@@ -1,25 +1,17 @@
-# Backtest Optimization Roadmap: Nautilus Architecture Alignment Analysis
-
-**Created**: 2024-10-20 14:00:00
-**Last Updated**: 2024-10-20 14:00:00
-**Purpose**: Deep investigation of proposed backtest optimizations for Nautilus architecture compliance
-**Audience**: Sprint planning, architecture decisions, performance optimization work
-**Related Docs**:
-- [04_BACKTESTING_BEST_PRACTICES.md](04_BACKTESTING_BEST_PRACTICES.md)
-- [07_INSTRUMENT_PRE_COMPUTATION_PATTERN.md](07_INSTRUMENT_PRE_COMPUTATION_PATTERN.md)
-- [SESSION_STATUS_20251020_21MONTH_BACKTEST_TIMING_ANALYSIS.md](../../SESSION_STATUS_20251020_21MONTH_BACKTEST_TIMING_ANALYSIS.md)
-
 ---
-
-## Executive Summary
-
-This document analyzes **7 proposed optimizations** from the 21-month backtest timing analysis against **Nautilus Trader architecture principles** to determine:
-1. Which optimizations are Nautilus-compliant (✅)
-2. Which require Nautilus-specific implementation patterns (⚠️)
-3. Which fundamentally conflict with Nautilus architecture (❌)
-
-**Key Finding**: **5 out of 7 optimizations are fully Nautilus-aligned** with proper implementation. The 2 that conflict (vectorized execution, parallel backtesting) should be implemented as **separate tooling** for parameter optimization, not as replacements for Nautilus backtesting.
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.806971Z'
+id: AUTO-09_BACKTEST_OPTIMIZATION_NAUTILUS_ALIGNMENT
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for 09_BACKTEST_OPTIMIZATION_NAUTILUS_ALIGNMENT
+updated_at: '2025-11-25T16:23:21.806974Z'
 ---
 
 ## Nautilus Architecture Principles (Review)

@@ -1,26 +1,17 @@
-# Sprint Completion Summary
-
-**Sprint ID**: SPRINT-20251120-epic005-feat01-nautilus
-**Epic**: EPIC-005 (Framework Adapters)
-**Feature**: FEAT-005-01 (Nautilus Trader Integration)
-**Start Date**: 2025-11-20
-**Completion Date**: 2025-11-20
-**Status**: ✅ **COMPLETE**
-
 ---
-
-## Executive Summary
-
-Successfully implemented complete Nautilus Trader integration enabling domain strategies to run on Nautilus backtesting engine without code modifications. All components implemented using Test-Driven Development (TDD) with 62/62 tests passing (100%).
-
-### Key Achievements
-
-✅ **100% Test Coverage** - All components fully tested
-✅ **Zero Breaking Changes** - Domain strategies remain framework-agnostic
-✅ **Production Ready** - Complete with user and admin documentation
-✅ **TDD Methodology** - Strict RED → GREEN → REFACTOR cycles
-✅ **Clean Architecture** - Port-adapter pattern maintained
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.822025Z'
+id: AUTO-SPRINT-COMPLETION-SUMMARY
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for SPRINT-COMPLETION-SUMMARY
+updated_at: '2025-11-25T16:23:21.822029Z'
 ---
 
 ## Components Delivered

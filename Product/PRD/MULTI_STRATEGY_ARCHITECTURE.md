@@ -1,12 +1,19 @@
 ---
-id: MULTI_STRATEGY_ARCHITECTURE
-title: Unified Strategy Trading Platform Architecture
 artifact_type: architectural_design
-version: 2.0.0
-created_at: '2025-11-20T23:00:00+00:00'
-updated_at: '2025-11-21T00:45:00+00:00'
 author: system_architect
+created_at: '2025-11-25T16:23:21.615209Z'
+id: MULTI_STRATEGY_ARCHITECTURE
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: draft
+title: Unified Strategy Trading Platform Architecture
+updated_at: '2025-11-25T16:23:21.615212Z'
+version: 2.0.0
 ---
 
 # Unified Strategy Trading Platform Architecture

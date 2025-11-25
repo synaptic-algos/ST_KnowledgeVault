@@ -1,27 +1,21 @@
 ---
-id: FEATURE-005-ContinuousOptimization
-seq: 5
-title: "Post-Trade Analytics & Iteration"
-owner: strategy_ops_team
-status: planned
 artifact_type: feature_overview
-related_epic:
-  - EPIC-007
-related_feature:
-  - FEATURE-005-ContinuousOptimization
-related_story:
-  - STORY-001-KPIFramework
-  - STORY-002-PostDeploymentReview
-  - STORY-003-IterationBacklog
-  - STORY-004-RetirementProtocol
-created_at: 2025-11-03T00:00:00Z
-updated_at: 2025-11-03T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.669010Z'
+id: FEATURE-005-ContinuousOptimization
 last_review: 2025-11-03
-change_log:
-  - 2025-11-03 – strategy_ops_team – Scaffolded feature documentation – n/a
-progress_pct: 0
-requirement_coverage: 0
 linked_sprints: []
+manual_update: true
+owner: strategy_ops_team
+progress_pct: 0
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: 0
+seq: 5
+status: planned
+title: Post-Trade Analytics & Iteration
+updated_at: '2025-11-25T16:23:21.669014Z'
 ---
 
 # FEATURE-005: Post-Trade Analytics & Iteration

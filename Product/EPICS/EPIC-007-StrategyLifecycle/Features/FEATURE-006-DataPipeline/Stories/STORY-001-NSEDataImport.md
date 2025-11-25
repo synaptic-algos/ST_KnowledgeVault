@@ -1,27 +1,26 @@
 ---
-id: STORY-006-01
-title: NSE Data Import & Black-Scholes Greeks Calculation Pipeline
-feature_id: FEATURE-006
-epic_id: EPIC-007
-status: completed
-manual_update: true
-priority: P0
-owner: data_engineering_team
-estimated_effort: 10d
-progress_pct: 100
 artifact_type: story
-created_at: '2025-11-04T00:00:00Z'
-updated_at: '2025-11-13T06:09:45Z'
 completed_at: '2025-11-04T14:00:00Z'
-manual_update: true
-related_design:
-- DESIGN-DataPipeline-NSEImport
-- DESIGN-DataPipeline-Greeks
-- DESIGN-009-GreeksNautilusIntegrationPlan
-- DESIGN-010-NautilusCatalogApproach
-linked_sprints:
-- SPRINT-20251104-epic007-data-pipeline
+created_at: '2025-11-25T16:23:21.704533Z'
+epic_id: EPIC-007
+estimated_effort: 10d
+feature_id: FEATURE-006
+id: STORY-006-01
 last_review: '2025-11-13'
+linked_sprints: null
+manual_update: true
+owner: data_engineering_team
+priority: P0
+progress_pct: 100
+related_design: null
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: completed
+title: NSE Data Import & Black-Scholes Greeks Calculation Pipeline
+updated_at: '2025-11-25T16:23:21.704541Z'
 ---
 
 # STORY-006-01: NSE Data Import & Black-Scholes Greeks Calculation Pipeline

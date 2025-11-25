@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.723022Z'
+id: AUTO-STORY-001-KPIFramework
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-001-KPIFramework
+updated_at: '2025-11-25T16:23:21.723025Z'
 ---
 
 # STORY-007-05-01: Define Post-Deployment KPI Framework

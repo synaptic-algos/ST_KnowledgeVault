@@ -1,30 +1,23 @@
 ---
-id: FEATURE-003-CapitalAllocation
-seq: 3
-title: "Capital Allocation Management"
-owner: portfolio_management_team
-status: completed
 artifact_type: feature_overview
-related_epic:
-  - EPIC-007
-related_feature:
-  - FEATURE-003-CapitalAllocation
-related_story:
-  - STORY-007-03-01
-  - STORY-007-03-02
-  - STORY-007-03-03
-created_at: 2025-11-20T00:00:00Z
-updated_at: 2025-11-21T05:00:00Z
-completed_at: 2025-11-20T23:00:00Z
+change_log: null
+completed_at: 2025-11-20 23:00:00+00:00
+created_at: '2025-11-25T16:23:21.670385Z'
+id: FEATURE-003-CapitalAllocation
 last_review: 2025-11-21
-change_log:
-  - 2025-11-20 – portfolio_management_team – Created capital allocation feature – n/a
-  - 2025-11-20 – sprint_team – Completed all 3 stories with full implementation – 100%
-  - 2025-11-21 – nitindhawan – Fixed vault structure to properly reflect completed work – sync
-progress_pct: 100
-requirement_coverage: 100
-linked_sprints: [SPRINT-20251118-epic007-research-pipeline]
+linked_sprints:
+- SPRINT-20251118-epic007-research-pipeline
 manual_update: true
+owner: portfolio_management_team
+progress_pct: 100
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: 100
+seq: 3
+status: completed
+title: Capital Allocation Management
+updated_at: '2025-11-25T16:23:21.670390Z'
 ---
 
 # FEATURE-003: Capital Allocation Management

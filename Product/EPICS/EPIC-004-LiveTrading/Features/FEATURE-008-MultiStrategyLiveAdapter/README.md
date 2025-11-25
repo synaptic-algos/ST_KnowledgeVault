@@ -1,14 +1,20 @@
 ---
-id: FEATURE-008-UnifiedLiveAdapter
-title: Unified Strategy Support for Live Trading
 artifact_type: feature_specification
-status: proposed
-created_at: '2025-11-20T23:35:00+00:00'
-updated_at: '2025-11-21T00:35:00+00:00'
+created_at: '2025-11-25T16:23:21.765594Z'
+id: FEATURE-008-UnifiedLiveAdapter
+manual_update: true
 owner: trading_team
-related_epic: [EPIC-004-LiveTrading]
-related_feature: [EPIC-001-FEATURE-006-MultiStrategyOrchestration]
 progress_pct: 0
+related_epic:
+- EPIC-004-LiveTrading
+related_feature:
+- EPIC-001-FEATURE-006-MultiStrategyOrchestration
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: proposed
+title: Unified Strategy Support for Live Trading
+updated_at: '2025-11-25T16:23:21.765597Z'
 ---
 
 # FEATURE-008: Unified Strategy Support for Live Trading

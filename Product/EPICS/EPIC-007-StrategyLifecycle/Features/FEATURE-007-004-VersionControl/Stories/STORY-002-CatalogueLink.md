@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.706320Z'
+id: AUTO-STORY-002-CatalogueLink
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-002-CatalogueLink
+updated_at: '2025-11-25T16:23:21.706323Z'
 ---
 
 # STORY-008-04-02: Link Versions to Strategy Catalogue

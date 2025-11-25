@@ -1,3 +1,17 @@
+---
+artifact_type: epic
+created_at: '2025-11-25T16:23:21.640479Z'
+id: AUTO-TEST_PLAN
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+title: Auto-generated title for TEST_PLAN
+updated_at: '2025-11-25T16:23:21.640482Z'
+---
 id: TESTPLAN-EPIC-006
 epic_id: EPIC-006
 status: draft

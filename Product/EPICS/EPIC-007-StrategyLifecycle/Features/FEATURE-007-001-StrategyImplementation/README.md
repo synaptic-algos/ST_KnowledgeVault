@@ -1,27 +1,21 @@
 ---
-id: FEATURE-007-001-StrategyImplementation
-seq: 1
-title: "Strategy Implementation Pipeline"
-owner: strategy_engineering_team
-status: planned
 artifact_type: feature_overview
-related_epic:
-  - EPIC-007
-related_feature:
-  - FEATURE-007-001-StrategyImplementation
-related_story:
-  - STORY-008-01-01
-  - STORY-008-01-02
-  - STORY-008-01-03
-  - STORY-008-01-04
-created_at: 2025-11-04T00:00:00Z
-updated_at: 2025-11-04T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.688205Z'
+id: FEATURE-007-001-StrategyImplementation
 last_review: 2025-11-04
-change_log:
-  - 2025-11-04 – strategy_engineering_team – Created strategy implementation feature scaffold – n/a
-progress_pct: 0
-requirement_coverage: 0
 linked_sprints: []
+manual_update: true
+owner: strategy_engineering_team
+progress_pct: 0
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: 0
+seq: 1
+status: planned
+title: Strategy Implementation Pipeline
+updated_at: '2025-11-25T16:23:21.688209Z'
 ---
 
 # FEATURE-007-001: Strategy Implementation Pipeline

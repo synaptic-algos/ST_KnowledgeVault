@@ -1,32 +1,23 @@
 ---
-id: FEATURE-007-002-PerformanceAnalytics
-seq: 2
-title: Strategy Performance Analytics
-owner: strategy_ops_team
-status: completed
-artifact_type: feature_overview
-related_epic:
-- EPIC-007
-related_feature:
-- FEATURE-007-002-PerformanceAnalytics
-related_story:
-- STORY-008-02-01
-- STORY-008-02-02
-- STORY-008-02-03
-created_at: 2025-11-04 00:00:00+00:00
-updated_at: 2025-11-21 04:00:00+00:00
-completed_at: 2025-11-21 03:00:00+00:00
-last_review: 2025-11-21
-change_log:
-- "2025-11-04 \u2013 strategy_ops_team \u2013 Created performance analytics feature\
-  \ \u2013 n/a"
-- "2025-11-21 \u2013 nitindhawan \u2013 Completed implementation (relocated from EPIC-007/FEATURE-004)\
-  \ \u2013 100%"
-progress_pct: 0.0
-requirement_coverage: 100
-linked_sprints:
-- SPRINT-0
 actual_effort_days: 8
+artifact_type: feature_overview
+change_log: null
+completed_at: 2025-11-21 03:00:00+00:00
+created_at: '2025-11-25T16:23:21.678917Z'
+id: FEATURE-007-002-PerformanceAnalytics
+last_review: 2025-11-21
+linked_sprints: null
+manual_update: true
+owner: strategy_ops_team
+progress_pct: 0.0
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: 100
+seq: 2
+status: completed
+title: Strategy Performance Analytics
+updated_at: '2025-11-25T16:23:21.678920Z'
 ---
 
 # FEATURE-002: Strategy Performance Analytics

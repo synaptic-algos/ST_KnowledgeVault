@@ -1,13 +1,21 @@
 ---
-id: STRAT-000-MomentumUSEquities
-seq: 0
-title: "Momentum US Equities"
-status: idea
+artifact_type: story
 author: alice@example.com
+change_log: null
+created_at: '2025-11-25T16:23:21.832737Z'
+id: STRAT-000-MomentumUSEquities
 last_review: 2025-11-03
-change_log:
-  - 2025-11-03 – alice@example.com – Seeded strategy record – intake draft
 lifecycle_state: idea
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 0
+status: idea
+title: Momentum US Equities
+updated_at: '2025-11-25T16:23:21.832741Z'
 ---
 
 # Momentum US Equities

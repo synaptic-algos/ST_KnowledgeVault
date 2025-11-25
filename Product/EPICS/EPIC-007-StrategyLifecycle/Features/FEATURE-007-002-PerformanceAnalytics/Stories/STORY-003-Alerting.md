@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.710963Z'
+id: AUTO-STORY-003-Alerting
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-003-Alerting
+updated_at: '2025-11-25T16:23:21.710967Z'
 ---
 
 # STORY-008-02-03: Configure Performance Alerts

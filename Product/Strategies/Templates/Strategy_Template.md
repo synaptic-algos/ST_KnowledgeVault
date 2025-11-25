@@ -1,13 +1,21 @@
 ---
-id: STRATEGY-TEMPLATE
-seq: 0
-title: "Strategy Lifecycle Template"
-status: draft
+artifact_type: story
 author: <owner>
+change_log: null
+created_at: '2025-11-25T16:23:21.838038Z'
+id: STRATEGY-TEMPLATE
 last_review: <yyyy-mm-dd>
-change_log:
-  - <date> – <name> – Created strategy note – n/a
-lifecycle_state: idea  # idea | research | prioritised | in_dev | paper | live | retired
+lifecycle_state: idea
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 0
+status: draft
+title: Strategy Lifecycle Template
+updated_at: '2025-11-25T16:23:21.838041Z'
 ---
 
 # <Strategy Name>

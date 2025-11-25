@@ -1,19 +1,16 @@
-# STORY-001: Doc Router and Symlink Automation
-
-**Story ID**: STORY-001-DocRouter
-**Epic**: [[../../README.md|EPIC-001: Vault Synchronisation Automation]]
-**Status**: 📋 Planned
-**Owner**: DevOps Team
-**Estimated Effort**: 5 days
-**Created**: 2025-11-05
-**Updated**: 2025-11-12
-
 ---
-
-## Goal
-
-Ship a repeatable workflow that identifies newly generated documentation in the code repository, routes it into the knowledge vault with proper metadata, and keeps the code repository linked to vault content through validated symlinks.
-
+artifact_type: epic
+created_at: '2025-11-25T16:23:21.567174Z'
+id: AUTO-README
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.567178Z'
 ---
 
 ## User Story

@@ -1,25 +1,17 @@
-# Nautilus Best Practices: Instrument Registration Optimization
-
-**Created**: 2025-10-16 10:39:51
-**Last Updated**: 2025-10-16 10:40:37
-**Purpose**: Optimize instrument registration for options backtesting performance
-**Applies To**: Options spread strategy with large instrument universes
-
 ---
-
-## Overview
-
-This document explores best practices for optimizing instrument registration in Nautilus Trader, addressing the performance bottleneck of parsing thousands of instruments on every backtest run.
-
-**Current Problem**: Every backtest run requires:
-1. Loading catalog (33,408 instrument directories)
-2. Filtering by date range (6,264 relevant instruments)
-3. Parsing each instrument ID (17 seconds)
-4. Creating OptionContract objects
-5. Registering with BacktestEngine
-
-**Goal**: Optimize to sub-second registration time while maintaining flexibility for different backtest date ranges.
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.854294Z'
+id: AUTO-03_INSTRUMENT_REGISTRATION_OPTIMIZATION
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for 03_INSTRUMENT_REGISTRATION_OPTIMIZATION
+updated_at: '2025-11-25T16:23:21.854297Z'
 ---
 
 ## Current Approach (Baseline)

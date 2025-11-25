@@ -1,18 +1,19 @@
 ---
-id: template-req-matrix-v1
-seq: 1
-title: "<Epic Requirements Matrix Template>"
-owner: product_ops_team
-status: active
 artifact_type: template
+change_log: null
+created_at: '2025-11-25T16:23:21.627191Z'
+id: template-req-matrix-v1
+last_review: 2025-11-03
+manual_update: true
+owner: product_ops_team
 related_epic: []
 related_feature: []
 related_story: []
-created_at: 2025-11-03T00:00:00Z
-updated_at: 2025-11-03T00:00:00Z
-last_review: 2025-11-03
-change_log:
-  - 2025-11-03 – product_ops_team – Initial template creation – n/a
+requirement_coverage: TBD
+seq: 1
+status: active
+title: <Epic Requirements Matrix Template>
+updated_at: '2025-11-25T16:23:21.627194Z'
 version: 1.0.0
 ---
 

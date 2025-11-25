@@ -1,19 +1,19 @@
 ---
-id: DESIGN-010-NautilusCatalogApproach
-seq: 10
-title: "Nautilus Catalog Integrity & Greeks Sidecar Pattern"
-status: draft
 artifact_type: design_note
-created_at: 2025-02-15T00:00:00Z
-updated_at: 2025-02-15T00:00:00Z
-tags:
-  - nautilus
-  - catalog
-  - data-pipeline
-  - greeks
-sources:
-  - CORRECT-NAUTILUS-CATALOG-APPROACH.md
-  - NAUTILUS-GREEKS-IMPLEMENTATION-SUMMARY.md
+created_at: '2025-11-25T16:23:21.609425Z'
+id: DESIGN-010-NautilusCatalogApproach
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 10
+sources: null
+status: draft
+tags: null
+title: Nautilus Catalog Integrity & Greeks Sidecar Pattern
+updated_at: '2025-11-25T16:23:21.609434Z'
 ---
 
 # Design Intent

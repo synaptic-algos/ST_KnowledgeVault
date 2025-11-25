@@ -1,22 +1,17 @@
-# Multi-Developer Workflow Guide
-
-## Overview
-
-This guide provides a complete workflow for multiple developers working on the nikhilwm-opt-v2 standalone subproject, including setup, branching strategy, pull requests, testing, and deployment coordination.
-
 ---
-
-## Table of Contents
-
-1. [Initial Setup for Developers](#initial-setup-for-developers)
-2. [Git Workflow & Branching Strategy](#git-workflow--branching-strategy)
-3. [Pull Request Process](#pull-request-process)
-4. [Local Development Environment](#local-development-environment)
-5. [Test Server Deployments](#test-server-deployments)
-6. [Integration Testing](#integration-testing)
-7. [Final Testing & Release](#final-testing--release)
-8. [Troubleshooting](#troubleshooting)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.876088Z'
+id: AUTO-MULTI_DEVELOPER_WORKFLOW
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for MULTI_DEVELOPER_WORKFLOW
+updated_at: '2025-11-25T16:23:21.876092Z'
 ---
 
 ## Initial Setup for Developers

@@ -1,37 +1,17 @@
-# Git Worktrees for Parallel Claude Code Sessions
-
-## Table of Contents
-1. [Overview](#overview)
-2. [Why Use Git Worktrees?](#why-use-git-worktrees)
-3. [Quick Start](#quick-start)
-4. [Core Concepts](#core-concepts)
-5. [Setup for This Project](#setup-for-this-project)
-6. [Multi-Computer Workflow](#multi-computer-workflow)
-7. [Common Workflows](#common-workflows)
-8. [Best Practices](#best-practices)
-9. [Troubleshooting](#troubleshooting)
-10. [Advanced Usage](#advanced-usage)
-
 ---
-
-## Overview
-
-Git worktrees allow you to have **multiple working directories** (checkouts) from a single repository, each on different branches. This is perfect for running multiple Claude Code sessions in parallel, each working on different issues/features without conflicts.
-
-**Your Use Case:**
-- Multiple issues being solved simultaneously
-- Multiple Claude Code sessions running in parallel
-- Two computers accessing the same project via Git
-- Need isolated environments to avoid conflicts
-
-**Key Benefits:**
-- ✅ Work on multiple branches simultaneously
-- ✅ No need to stash/commit incomplete work when switching tasks
-- ✅ Each Claude session has its own isolated directory
-- ✅ Share Git objects (efficient disk usage)
-- ✅ Easy synchronization across computers
-- ✅ No context switching overhead
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.878706Z'
+id: AUTO-GIT_WORKTREES_FOR_PARALLEL_CLAUDE_SESSIONS
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for GIT_WORKTREES_FOR_PARALLEL_CLAUDE_SESSIONS
+updated_at: '2025-11-25T16:23:21.878709Z'
 ---
 
 ## Why Use Git Worktrees?

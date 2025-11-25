@@ -1,21 +1,20 @@
 ---
-id: traceability-feature-006
-seq: 6
-title: "FEATURE-006 Data Pipeline Traceability Matrix"
-owner: data_engineering_team
-status: completed
 artifact_type: traceability
-related_epic:
-  - EPIC-007
-related_feature:
-  - FEATURE-006
-related_story:
-  - STORY-006-01
-created_at: 2025-11-18T00:00:00Z
-updated_at: 2025-11-18T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.684360Z'
+id: traceability-feature-006
 last_review: 2025-11-18
-change_log:
-  - 2025-11-18 – data_engineering_team – Created traceability matrix for FEATURE-006 – post-sprint documentation
+manual_update: true
+owner: data_engineering_team
+progress_pct: 0
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: TBD
+seq: 6
+status: completed
+title: FEATURE-006 Data Pipeline Traceability Matrix
+updated_at: '2025-11-25T16:23:21.684363Z'
 version: 1.0.0
 ---
 

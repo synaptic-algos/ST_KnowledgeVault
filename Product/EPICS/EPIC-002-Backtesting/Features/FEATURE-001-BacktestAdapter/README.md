@@ -1,23 +1,22 @@
 ---
-id: FEATURE-001-BacktestAdapter
-parent_epic: EPIC-002
-title: BacktestAdapter Implementation
-owner: eng_team
-status: completed
 artifact_type: feature_overview
-created_at: '2025-11-18T00:00:00+00:00'
-updated_at: '2025-11-20T09:30:00+00:00'
-progress_pct: 100
+change_log: null
+created_at: '2025-11-25T16:23:21.727860Z'
+id: FEATURE-001-BacktestAdapter
+last_review: '2025-11-20'
+linked_sprints: []
 manual_update: true
-seq: 1
+owner: eng_team
+parent_epic: EPIC-002
+progress_pct: 100
 related_epic: []
 related_feature: []
 related_story: []
-last_review: '2025-11-20'
-change_log:
-  - '2025-11-20 – eng_team – FEATURE-001 completed and merged to main via PR #3 – EPIC-002'
 requirement_coverage: 100
-linked_sprints: []
+seq: 1
+status: completed
+title: BacktestAdapter Implementation
+updated_at: '2025-11-25T16:23:21.727864Z'
 ---
 
 # FEATURE-001: BacktestAdapter Implementation

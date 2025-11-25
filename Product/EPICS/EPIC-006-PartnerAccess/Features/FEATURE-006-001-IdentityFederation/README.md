@@ -1,19 +1,21 @@
 ---
+artifact_type: feature
+created_at: '2025-11-25T16:23:21.774530Z'
 id: FEATURE-006-001-IdentityFederation
-parent_epic: EPIC-006
+manual_update: true
 owner: identity_platform_team
-status: planned
+parent_epic: EPIC-006
 priority: critical
 progress_pct: 0
-created_at: 2025-02-15
-updated_at: 2025-02-15
-references:
-  - documentation/localresearch/multi_user_partner_auth_inventory.md
-  - documentation/vault_prd/09_PartnerAccess/PRD.md
-  - documentation/vault_design/09_PartnerAccess/IDENTITY_AND_CREDENTIAL_DESIGN.md
-  - SynpaticTradingV2/docs/00_setup_guides/google_oauth_setup.md
-  - SynpaticTradingV2/docs/features/prioritized/FEAT-2025-0100-AUTH-Google_OAuth_Integration.md
-  - SynpaticTradingV2/docs/testing/PLAYWRIGHT_JWT_TESTING_GUIDE.md
+references: null
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: planned
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.774535Z'
 ---
 
 # Feature: Identity Federation & Session Resilience

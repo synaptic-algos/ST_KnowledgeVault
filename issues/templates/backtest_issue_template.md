@@ -1,18 +1,17 @@
-# Backtest Issue: [Short Title]
-
-**Date**: YYYY-MM-DD HH:MM:SS
-**Severity**: CRITICAL | HIGH | MEDIUM | LOW
-**Status**: Identified | In Progress | Resolved
-**Component**: Backtest Engine | Data Quality | Fill Model | P&L Calculation
-**Strategy**: [Strategy name]
-**Related Story**: [Link to Story if applicable]
-
 ---
-
-## Summary
-
-[Brief description of the backtest issue]
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.560696Z'
+id: AUTO-backtest_issue_template
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for backtest_issue_template
+updated_at: '2025-11-25T16:23:21.560699Z'
 ---
 
 ## Backtest Configuration

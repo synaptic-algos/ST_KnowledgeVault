@@ -1,19 +1,16 @@
-# EPIC-001: Vault Synchronisation Automation
-
-**Epic Type**: VaultGuide Meta-Epic
-**Status**: 📋 Planned
-**Owner**: Product Operations Team
-**Created**: 2025-11-05
-**Updated**: 2025-11-12
-
 ---
-
-## Purpose
-
-Create a reliable bridge between the code repository and the knowledge vault so that documentation produced during development automatically lands in the vault with consistent metadata, traceability, and immediate visibility to engineers via symlinks.
-
-**Context**: This is a **meta-epic** about the vault system itself, not about the trading platform product. It belongs in VaultGuide because it documents automation for managing the vault infrastructure.
-
+artifact_type: epic
+created_at: '2025-11-25T16:23:21.566081Z'
+id: AUTO-README
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.566085Z'
 ---
 
 ## Problem Statement

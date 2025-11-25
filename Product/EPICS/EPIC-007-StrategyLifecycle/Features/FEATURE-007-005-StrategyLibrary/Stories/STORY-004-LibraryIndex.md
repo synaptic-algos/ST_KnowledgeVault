@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.696467Z'
+id: AUTO-STORY-004-LibraryIndex
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-004-LibraryIndex
+updated_at: '2025-11-25T16:23:21.696470Z'
 ---
 
 # STORY-008-05-04: Build Strategy Library Index & Search

@@ -1,14 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.847491Z'
 id: DESIGN-009
-title: "Partner Identity & Credential Vault Design"
-status: draft
+manual_update: true
 owner: security_architecture_team
-created_at: 2025-02-15
-updated_at: 2025-02-15
-sources:
-  - documentation/localresearch/multi_user_partner_auth_inventory.md
-  - /Users/nitindhawan/Downloads/CodeRepository/SynpaticTradingV2/docs/00_setup_guides/google_oauth_setup.md
-  - /Users/nitindhawan/Downloads/CodeRepository/SynpaticTradingV2/docs/features/in_progress/FEAT-2025-0043-INT_Broker_Connections_Management.md
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+sources: null
+status: draft
+title: Partner Identity & Credential Vault Design
+updated_at: '2025-11-25T16:23:21.847498Z'
 ---
 
 # 1. Design Summary

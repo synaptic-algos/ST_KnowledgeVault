@@ -1,12 +1,21 @@
 ---
-id: STRAT-001-OptionsWeeklyMonthlyHedge
-version: 0.1.0
-owner: strategy_ops_team
+artifact_type: story
 asset_class: options
-status: research
+change_log: null
+created_at: '2025-11-25T16:23:21.840021Z'
+id: STRAT-001-OptionsWeeklyMonthlyHedge
 last_review: 2025-11-04
-change_log:
-  - 2025-11-04 – strategy_ops_team – Imported strategy PRD and metadata
+manual_update: true
+owner: strategy_ops_team
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: research
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.840024Z'
+version: 0.1.0
 ---
 
 # Options Weekly Monthly Hedge

@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.710056Z'
+id: AUTO-STORY-002-KPIFramework
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-002-KPIFramework
+updated_at: '2025-11-25T16:23:21.710060Z'
 ---
 
 # STORY-008-02-02: Define KPI Library & Data Connectors

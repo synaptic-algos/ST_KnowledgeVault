@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.703123Z'
+id: AUTO-STORY-004-SmokeTests
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-004-SmokeTests
+updated_at: '2025-11-25T16:23:21.703130Z'
 ---
 
 # STORY-008-01-04: Provide Default Smoke Tests

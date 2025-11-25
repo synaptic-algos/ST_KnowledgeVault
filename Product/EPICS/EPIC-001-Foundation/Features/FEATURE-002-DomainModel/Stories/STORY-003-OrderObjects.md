@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.764319Z'
+id: AUTO-STORY-003-OrderObjects
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-003-OrderObjects
+updated_at: '2025-11-25T16:23:21.764323Z'
 ---
 
 # STORY-001-02-03: Implement Order Lifecycle Objects

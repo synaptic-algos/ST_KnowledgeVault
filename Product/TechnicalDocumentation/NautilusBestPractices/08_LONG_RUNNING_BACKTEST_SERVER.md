@@ -1,29 +1,17 @@
-# Long-Running Backtest Server with Hot-Reload Capabilities
-
-**Created**: 2025-10-20 08:30:00
-**Last Updated**: 2025-10-20 08:30:00
-**Research Status**: Comprehensive deep research completed
-**Purpose**: Production-grade long-running backtest server with incremental instrument/data loading
-**Motivation**: Eliminate repeated 5-min registration by keeping engine alive across backtest runs
-
 ---
-
-## Table of Contents
-
-1. [Executive Summary](#executive-summary)
-2. [Architecture Overview](#architecture-overview)
-3. [Key Research Findings](#key-research-findings)
-4. [Complete Implementation](#complete-implementation)
-5. [Hot-Reload Capabilities](#hot-reload-capabilities)
-6. [Production Deployment](#production-deployment)
-7. [Monitoring & Maintenance](#monitoring--maintenance)
-8. [Performance Optimization](#performance-optimization)
-9. [Security Considerations](#security-considerations)
-10. [Troubleshooting](#troubleshooting)
-11. [Comparison with Other Approaches](#comparison-with-other-approaches)
-12. [Production Checklist](#production-checklist)
-13. [References](#references)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.803011Z'
+id: AUTO-08_LONG_RUNNING_BACKTEST_SERVER
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for 08_LONG_RUNNING_BACKTEST_SERVER
+updated_at: '2025-11-25T16:23:21.803014Z'
 ---
 
 ## Executive Summary

@@ -1,20 +1,17 @@
-# PROC-2025-001: Fix Status Sync Frontmatter Gap
-
-**Issue Type**: Process Improvement
-**Created**: 2025-11-19
-**Priority**: HIGH
-**Status**: In Progress
-**Products Affected**: SynapticTrading, ProductDevelopmentSupport
-**UPMS Updated**: Yes
-
 ---
-
-## Problem
-
-EPIC-002 was completed (6 stories, 123 tests passing, sprint marked complete), but vault status still showed `**Status**: 📋 Planned` instead of reflecting actual completion.
-
-**Root Cause**: `status_sync.py` expects YAML frontmatter, but EPIC/Feature/Story files use markdown body text for status.
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.629909Z'
+id: AUTO-PROC-2025-001-Status-Sync-Frontmatter
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for PROC-2025-001-Status-Sync-Frontmatter
+updated_at: '2025-11-25T16:23:21.629912Z'
 ---
 
 ## Impact

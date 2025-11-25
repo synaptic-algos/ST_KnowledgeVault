@@ -1,14 +1,21 @@
-# Sprint 0 - Data Pipeline Implementation Summary
-
 ---
-id: SPRINT-20251104-epic007-data-pipeline
-title: "Sprint 0 - Data Pipeline Implementation"
-status: completed
-start_date: 2025-11-04
+artifact_type: story
+created_at: '2025-11-25T16:23:21.817326Z'
 end_date: 2025-11-04
 execution_summary_file: execution_summary.yaml
-related_epics:
-  - EPIC-007-StrategyLifecycle
+id: SPRINT-20251104-epic007-data-pipeline
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_epics: null
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+start_date: 2025-11-04
+status: completed
+title: Sprint 0 - Data Pipeline Implementation
+updated_at: '2025-11-25T16:23:21.817330Z'
 ---
 
 ---

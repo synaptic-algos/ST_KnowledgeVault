@@ -1,22 +1,27 @@
 ---
-id: FEATURE-QUALITY-001-LegacyEnhancement
-related_epic:
-- EPIC-QUALITY-001-CodeTraceability
-title: Legacy Code Traceability Enhancement
-status: completed
-progress_pct: 100.0
-created_at: 2024-11-25 21:20:00+00:00
-updated_at: 2024-11-25 21:20:00+00:00
-owner: engineering_team
-priority: high
-category: code_quality
-complexity: medium
-estimated_dev_days: 8
-dependencies: []
+artifact_type: feature
 blocking_issues: []
 business_value: high
+category: code_quality
+complexity: medium
 compliance_impact: true
+created_at: '2025-11-25T16:23:21.767144Z'
+dependencies: []
+estimated_dev_days: 8
+id: FEATURE-QUALITY-001-LegacyEnhancement
+manual_update: true
+owner: engineering_team
+priority: high
+progress_pct: 100.0
+related_epic: null
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
 risk_level: medium
+seq: 1
+status: completed
+title: Legacy Code Traceability Enhancement
+updated_at: '2025-11-25T16:23:21.767148Z'
 ---
 
 # FEATURE-QUALITY-001: Legacy Code Traceability Enhancement

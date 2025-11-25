@@ -1,26 +1,17 @@
-# Nautilus Integration - Readiness Report
-
-**Date**: 2025-11-20
-**Status**: ✅ **READY FOR MERGE**
-**Nautilus Version**: 1.221.0
-**Integration POC**: ✅ PASSING (7/7 tests)
-
 ---
-
-## Executive Summary
-
-The Nautilus Trader integration is **production-ready** and compatible with real Nautilus classes. All 69 tests passing (62 unit + 7 integration POC).
-
-### Current Status
-
-| Component | Status | Tests | Notes |
-|-----------|--------|-------|-------|
-| **Architecture** | ✅ Complete | - | Clean port-adapter pattern |
-| **Unit Tests** | ✅ Passing | 62/62 | Mock-based, fast execution |
-| **Integration POC** | ✅ Passing | 7/7 | Real Nautilus compatibility verified |
-| **Documentation** | ✅ Complete | - | User + Admin + Design guides |
-| **Nautilus Compatibility** | ✅ Verified | - | v1.221.0 installed and tested |
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.824797Z'
+id: AUTO-NAUTILUS-INTEGRATION-READINESS
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for NAUTILUS-INTEGRATION-READINESS
+updated_at: '2025-11-25T16:23:21.824801Z'
 ---
 
 ## Integration POC Results

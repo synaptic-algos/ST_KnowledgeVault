@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.759538Z'
+id: AUTO-STORY-001-LifecycleStateMachine
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-001-LifecycleStateMachine
+updated_at: '2025-11-25T16:23:21.759541Z'
 ---
 
 # STORY-001-03-01: Implement Strategy Lifecycle State Machine

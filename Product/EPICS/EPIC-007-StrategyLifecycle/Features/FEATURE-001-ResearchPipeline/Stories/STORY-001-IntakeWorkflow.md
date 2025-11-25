@@ -1,7 +1,18 @@
 ---
-progress_pct: 100.0
-status: completed
+artifact_type: story
+created_at: '2025-11-25T16:23:21.724861Z'
+id: AUTO-STORY-001-IntakeWorkflow
 manual_update: true
+owner: Auto-assigned
+progress_pct: 100.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: completed
+title: Auto-generated title for STORY-001-IntakeWorkflow
+updated_at: '2025-11-25T16:23:21.724865Z'
 ---
 
 # STORY-007-01-01: Design Strategy Intake Workflow

@@ -1,76 +1,18 @@
 ---
-id: EPIC-001
-seq: 1
-title: Foundation & Core Architecture
-owner: product_ops_team
-status: completed
-artifact_type: epic_overview
-related_epic:
-- EPIC-001
-related_feature:
-- FEATURE-001-PortInterfaces
-- FEATURE-002-DomainModel
-- FEATURE-003-StrategyBase
-- FEATURE-004-Orchestration
-- FEATURE-005-Testing
-- FEATURE-006-MultiStrategyOrchestration
-- FEATURE-007-MultiStrategyComposition
-related_story: []
-created_at: 2025-11-03 00:00:00+00:00
-updated_at: '2025-11-15T10:30:00Z'
-last_review: '2025-11-15'
-change_log:
-- "2025-11-15 \u2013 EPIC-001 COMPLETED \u2013 All 5 features implemented: Domain\
-  \ model (TradeIntent/OrderTicket/Fill), Strategy base class with lifecycle, Orchestration\
-  \ layer (RuntimeBootstrapper/TickDispatcher/CommandBus). 113 tests passing, example\
-  \ strategy runs end-to-end. Commit: 3437bee"
-- "2025-11-06 \u2013 SPRINT-20251104-epic001-foundation-prep \u2013 Repo, tooling,\
-  \ and traceability scaffolding complete; EPIC-001 moved to in-progress."
-- "2025-11-03 \u2013 product_ops_team \u2013 Added UPMS metadata, PRD and requirements\
-  \ references \u2013 n/a"
+artifact_type: epic
+created_at: '2025-11-25T16:23:21.653905Z'
+id: AUTO-README
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.653908Z'
 progress_pct: 0.0
-manual_update: true
-requirement_coverage: 100
-feature_completion:
-  FEATURE-001-PortInterfaces: 100
-  FEATURE-002-DomainModel: 100
-  FEATURE-003-StrategyBase: 100
-  FEATURE-004-Orchestration: 100
-  FEATURE-005-Testing: 100
-linked_sprints:
-- SPRINT-20251104-epic001-foundation-prep
-last_test_run:
-  date: '2025-11-15T10:20:00Z'
-  suite: Complete Test Suite (Contract + Unit)
-  location: tests/contract/ + tests/unit/domain/
-  result: pass
-  pass_count: 113
-  fail_count: 0
-  total_count: 113
-  duration_seconds: 1.26
-  coverage_pct: 70
-test_run_history:
-- date: '2025-11-15T10:20:00Z'
-  suite: Complete Test Suite (Contract + Unit)
-  result: pass
-  pass_count: 113
-  fail_count: 0
-  notes: 'All EPIC-001 tests passing: 55 contract tests (ports) + 58 unit tests (domain).
-    Domain: 82% coverage, Ports: 58-78%, Example strategy runs successfully'
-- date: '2025-11-06T16:00:00Z'
-  suite: Quality Gate Validation
-  result: pass
-  pass_count: 10
-  fail_count: 0
-  sprint_id: SPRINT-20251104-epic001-foundation-prep
-  notes: Pre-commit hooks (6) + Import-linter contracts (4) - Repository setup complete
-- date: '2025-11-06T14:30:00Z'
-  suite: Tool Configuration
-  result: pass
-  pass_count: 4
-  fail_count: 0
-  sprint_id: SPRINT-20251104-epic001-foundation-prep
-  notes: pytest, mypy, black, ruff configuration validated
+status: planned
 ---
 
 # EPIC-001: Foundation & Core Architecture

@@ -1,12 +1,19 @@
 ---
-id: UNIFIED_STRATEGY_IMPLEMENTATION_CHECKLIST
-title: Unified Strategy Support - Implementation Checklist
 artifact_type: technical_checklist
-version: 1.0.0
-created_at: '2025-11-21T01:15:00+00:00'
-updated_at: '2025-11-21T01:15:00+00:00'
 author: tech_lead
+created_at: '2025-11-25T16:23:21.621461Z'
+id: UNIFIED_STRATEGY_IMPLEMENTATION_CHECKLIST
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: ready
+title: Unified Strategy Support - Implementation Checklist
+updated_at: '2025-11-25T16:23:21.621465Z'
+version: 1.0.0
 ---
 
 # Unified Strategy Support - Implementation Checklist

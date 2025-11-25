@@ -1,28 +1,23 @@
 ---
-id: prd-epic-001-foundation
-seq: 1
-title: "EPIC-001 Foundation & Core Architecture PRD"
-owner: product_ops_team
-status: draft
 artifact_type: prd
-related_epic:
-  - EPIC-001
-related_feature:
-  - FEATURE-001-PortInterfaces
-  - FEATURE-002-DomainModel
-  - FEATURE-003-StrategyBase
-  - FEATURE-004-Orchestration
-  - FEATURE-005-Testing
-related_story: []
-created_at: 2025-11-03T00:00:00Z
-updated_at: 2025-11-03T00:00:00Z
-last_review: 2025-11-03
-change_log:
-  - 2025-11-03 – product_ops_team – Initial PRD draft captured from legacy epic README – REQ-EPIC001-001
-version: 0.1.0
-scope_level: epic
-lifecycle_phase: G1
+change_log: null
+created_at: '2025-11-25T16:23:21.650951Z'
+id: prd-epic-001-foundation
 last_approved_by: TBD
+last_review: 2025-11-03
+lifecycle_phase: G1
+manual_update: true
+owner: product_ops_team
+related_epic: null
+related_feature: null
+related_story: []
+requirement_coverage: TBD
+scope_level: epic
+seq: 1
+status: draft
+title: EPIC-001 Foundation & Core Architecture PRD
+updated_at: '2025-11-25T16:23:21.650954Z'
+version: 0.1.0
 ---
 
 ## How to use this document

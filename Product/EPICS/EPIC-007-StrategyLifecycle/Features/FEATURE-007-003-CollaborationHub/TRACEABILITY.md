@@ -1,23 +1,20 @@
 ---
-id: trace-feature-008-collaborationhub
-seq: 8
-title: "FEATURE-003 Collaboration Hub Traceability"
-owner: strategy_ops_team
-status: draft
 artifact_type: feature_traceability
-related_epic:
-  - EPIC-008
-related_feature:
-  - FEATURE-008-CollaborationHub
-related_story:
-  - STORY-008-03-01
-  - STORY-008-03-02
-  - STORY-008-03-03
-created_at: 2025-11-04T00:00:00Z
-updated_at: 2025-11-04T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.675728Z'
+id: trace-feature-008-collaborationhub
 last_review: 2025-11-04
-change_log:
-  - 2025-11-04 – strategy_ops_team – Seeded collaboration traceability – REQ-EPIC008-008
+manual_update: true
+owner: strategy_ops_team
+progress_pct: 0
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: TBD
+seq: 8
+status: draft
+title: FEATURE-003 Collaboration Hub Traceability
+updated_at: '2025-11-25T16:23:21.675732Z'
 version: 0.1.0
 ---
 

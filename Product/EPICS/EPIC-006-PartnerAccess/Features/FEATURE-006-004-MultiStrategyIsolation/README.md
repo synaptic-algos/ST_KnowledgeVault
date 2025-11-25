@@ -1,14 +1,20 @@
 ---
-id: FEATURE-006-004-MultiStrategyIsolation
-title: Multi-Strategy Partner Isolation
 artifact_type: feature_specification
-status: planned
-created_at: '2025-11-21T00:00:00+00:00'
-updated_at: '2025-11-21T00:00:00+00:00'
+created_at: '2025-11-25T16:23:21.776396Z'
+id: FEATURE-006-004-MultiStrategyIsolation
+manual_update: true
 owner: security_architecture_team
-related_epic: [EPIC-006-PartnerAccess]
-related_feature: [FEATURE-006-MultiStrategyOrchestration]
 progress_pct: 0
+related_epic:
+- EPIC-006-PartnerAccess
+related_feature:
+- FEATURE-006-MultiStrategyOrchestration
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: planned
+title: Multi-Strategy Partner Isolation
+updated_at: '2025-11-25T16:23:21.776399Z'
 ---
 
 # FEATURE-006-004: Multi-Strategy Partner Isolation

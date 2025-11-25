@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.715690Z'
+id: AUTO-STORY-002-TraceabilityMapping
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-002-TraceabilityMapping
+updated_at: '2025-11-25T16:23:21.715693Z'
 ---
 
 # STORY-007-03-02: Map Strategy Requirements to Platform Components

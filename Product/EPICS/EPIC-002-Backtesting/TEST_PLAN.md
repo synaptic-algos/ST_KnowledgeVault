@@ -1,16 +1,20 @@
 ---
-id: TESTPLAN-EPIC-002
+artifact_type: epic
+created_at: '2025-11-25T16:23:21.658871Z'
 epic_id: EPIC-002
-status: draft
-owner: qa_architecture_team
+id: TESTPLAN-EPIC-002
 last_review: 2025-02-15
-related_features:
-  - FEATURE-001-BacktestAdapter
-  - FEATURE-002-EventReplay
-  - FEATURE-003-ExecutionSimulator
-  - FEATURE-004-Portfolio
-  - FEATURE-005-Analytics
-  - FEATURE-006-Validation
+manual_update: true
+owner: qa_architecture_team
+related_epic: TBD
+related_feature: TBD
+related_features: null
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: draft
+title: Auto-generated title for TEST_PLAN
+updated_at: '2025-11-25T16:23:21.658879Z'
 ---
 
 # EPIC-002: Backtesting Engine – Test Plan

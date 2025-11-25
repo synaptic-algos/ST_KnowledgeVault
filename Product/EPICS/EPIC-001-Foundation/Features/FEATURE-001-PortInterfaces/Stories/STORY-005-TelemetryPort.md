@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.754997Z'
+id: AUTO-STORY-005-TelemetryPort
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-005-TelemetryPort
+updated_at: '2025-11-25T16:23:21.755001Z'
 ---
 
 # STORY-001-01-05: Define TelemetryPort Interface

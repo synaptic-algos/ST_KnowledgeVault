@@ -1,18 +1,17 @@
-# Issue: [Short Title]
-
-**Date**: YYYY-MM-DD HH:MM:SS
-**Severity**: CRITICAL | HIGH | MEDIUM | LOW
-**Status**: Identified | In Progress | Resolved
-**Component**: [Strategy Logic | Backtest Engine | Risk Management | Data Feed | Broker Integration]
-**Related Story**: [Link to Story if applicable]
-**Trading Impact**: [Does this affect live trading? Yes/No]
-
 ---
-
-## Summary
-
-[Brief 1-2 sentence description of the issue]
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.563273Z'
+id: AUTO-bug_template
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for bug_template
+updated_at: '2025-11-25T16:23:21.563277Z'
 ---
 
 ## Evidence

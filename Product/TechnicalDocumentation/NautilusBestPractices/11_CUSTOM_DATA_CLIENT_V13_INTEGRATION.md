@@ -1,42 +1,17 @@
-# Nautilus Custom Data Client Architecture: V13 Integration Research
-
-**Document Metadata**:
-- **Created**: 2025-10-21
-- **Author**: Research Team - Sprint 30 Investigation
-- **Purpose**: Deep research into Nautilus DataClient pattern for V13 consolidated catalog integration
-- **Audience**: Developers implementing custom data sources for Nautilus backtesting
-- **Related Documents**:
-  - [04_BACKTESTING_BEST_PRACTICES.md](04_BACKTESTING_BEST_PRACTICES.md)
-  - [09_BACKTEST_OPTIMIZATION_NAUTILUS_ALIGNMENT.md](09_BACKTEST_OPTIMIZATION_NAUTILUS_ALIGNMENT.md)
-  - [10_NAUTILUS_PARQUET_CATALOG_PERFORMANCE_DEEP_DIVE.md](10_NAUTILUS_PARQUET_CATALOG_PERFORMANCE_DEEP_DIVE.md)
-
 ---
-
-## Executive Summary
-
-This document investigates **two architectural approaches** for integrating V13 consolidated monthly catalog data with Nautilus Trader:
-
-1. **Custom DataClient Pattern** - Implementing a streaming data client (complex, production-grade)
-2. **Direct Data Injection** - Using `BacktestEngine.add_data()` (simple, recommended)
-
-**Key Finding**: For backtest-only scenarios like V13 consolidated catalog, **Direct Data Injection is the Nautilus-recommended pattern**. Custom DataClient is primarily for live/paper trading data sources (Zerodha, Interactive Brokers, etc.).
-
-**CRITICAL LEARNING** (2025-10-21):
-- ❌ **BacktestNode + Direct Injection DOES NOT WORK** - BacktestNode is designed for BacktestDataConfig only
-- ✅ **BacktestEngine + Direct Injection WORKS** - This is the correct Nautilus pattern
-- **Root Cause**: BacktestNode doesn't replay data added via `engine.add_data()` - it expects data from BacktestDataConfig
-
-**Performance Impact**:
-- V13 Direct Injection: 6-9x faster than V12 fragmented catalog
-- Load time: 30-60 seconds (vs 5-10 minutes for V12)
-- Memory: Constant ~300 MB (Nautilus-managed)
-
-**Implementation Status**: 🔄 **IN PROGRESS** (Sprint 30 Task 2.2)
-- Initial attempt (BacktestNode): FAILED - produced 0 trades
-- Correct approach (BacktestEngine): IN PROGRESS
-- Pattern: Direct Data Injection via V13ConsolidatedDataAdapter
-- Target: 100% Nautilus-aligned implementation
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.812778Z'
+id: AUTO-11_CUSTOM_DATA_CLIENT_V13_INTEGRATION
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for 11_CUSTOM_DATA_CLIENT_V13_INTEGRATION
+updated_at: '2025-11-25T16:23:21.812781Z'
 ---
 
 ## Table of Contents

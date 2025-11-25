@@ -1,9 +1,21 @@
 ---
-template_id: futures-strategy-template
-version: 1.0.0
-last_review: 2025-11-04
+artifact_type: story
 asset_class: futures
+created_at: '2025-11-25T16:23:21.834956Z'
+id: AUTO-Futures_Strategy_Template
+last_review: 2025-11-04
+manual_update: true
 owner: strategy_ops_team
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+template_id: futures-strategy-template
+title: Auto-generated title for Futures_Strategy_Template
+updated_at: '2025-11-25T16:23:21.834960Z'
+version: 1.0.0
 ---
 
 # Futures Strategy Template

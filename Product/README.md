@@ -1,36 +1,17 @@
-# Synaptic Trading Platform - Product
-
-This directory contains all product execution artifacts for the **Synaptic Trading Platform** - a framework-agnostic algorithmic trading system.
-
 ---
-
-## 🗺️ Development Roadmap
-
-**See**: **[ROADMAP.md](./ROADMAP.md)** - Complete development roadmap with EPIC sequencing, dependencies, timeline, and version planning
-
-### Current Status
-- **Current Version**: v0.1.0 (Alpha - Data pipeline complete)
-- **Phase**: Phase 1 - Foundation & Core (in progress)
-- **Progress**: Sprint 0 complete (Data Pipeline), EPIC-001 (Foundation) next
-- **Next Milestone**: Foundation Complete (Target: 2025-12-15)
-- **Next Release**: v1.0.0 (MVP - Backtesting capability, Target: 2026-01-31)
-
-### Version Roadmap
-- **v0.1.0 (Alpha)**: ✅ Data Pipeline (Released 2025-11-04)
-- **v1.0.0 (MVP)**: 📋 Foundation + Backtesting (Target: 2026-01-31)
-- **v1.1.0**: 📋 Paper Trading (Target: 2026-03-31)
-- **v2.0.0 (Production)**: 📋 Live Trading (Target: 2026-06-30)
-- **v2.1.0+**: 📋 Strategy Operations (Target: 2026-Q3)
-
-### Phases at a Glance
-- **Phase 0**: ✅ Infrastructure Foundation → v0.1.0 (Complete)
-- **Phase 1**: 📋 Foundation & Backtesting → v1.0.0 (Nov-Jan 2026)
-- **Phase 2**: 📋 Paper Trading → v1.1.0 (Feb-Mar 2026)
-- **Phase 3**: 📋 Live Trading → v2.0.0 (Apr-Jun 2026)
-- **Phase 4**: 🔄 Strategy Operations → v2.1.0+ (Ongoing)
-
-**Versioning**: We follow **Hybrid Milestone-Semantic Versioning** (MAJOR.MINOR.PATCH) where MAJOR versions represent capability milestones (MVP, Production, Enterprise) and MINOR versions represent feature additions within a milestone.
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.547291Z'
+id: AUTO-README
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.547294Z'
 ---
 
 ## Quick Navigation

@@ -1,34 +1,30 @@
 ---
-id: SPRINT-20251104-epic001-foundation-prep
-seq: 0
-title: "Sprint 0: EPIC-001 Foundation Preparation"
-owner: eng_team
-status: completed
-type: preparation
+artifact_type: story
+change_log: null
+created_at: '2025-11-25T16:23:21.831215Z'
 duration_days: 3
-start_date: 2025-11-04
 end_date: 2025-11-06
 execution_summary_file: execution_summary.yaml
-related_items:
-  - EPIC-001-Foundation
-  - FEATURE-001-PortInterfaces
-  - FEATURE-002-DomainModel
-objectives:
-  - Set up code repository structure
-  - Configure development tooling
-  - Prepare traceability infrastructure
-  - Create first design documents
-metrics_baseline:
-  repository_setup: 0
-  tools_configured: 0
-  traceability_ready: 0
-metrics_target:
-  repository_setup: 100
-  tools_configured: 100
-  traceability_ready: 100
-change_log:
-  - 2025-11-06 – eng_team – Sprint 0 complete; environment/tooling ready for EPIC-001
-  - 2025-11-04 – eng_team – Sprint 0 initiated for foundation prep – EPIC-001
+id: SPRINT-20251104-epic001-foundation-prep
+manual_update: true
+metrics_baseline: null
+metrics_target: null
+objectives: null
+owner: eng_team
+related_epic: TBD
+related_feature: TBD
+related_items: null
+related_story: TBD
+repository_setup: 100
+requirement_coverage: TBD
+seq: 0
+start_date: 2025-11-04
+status: completed
+title: 'Sprint 0: EPIC-001 Foundation Preparation'
+tools_configured: 100
+traceability_ready: 100
+type: preparation
+updated_at: '2025-11-25T16:23:21.831219Z'
 ---
 
 # Sprint 0: EPIC-001 Foundation Preparation

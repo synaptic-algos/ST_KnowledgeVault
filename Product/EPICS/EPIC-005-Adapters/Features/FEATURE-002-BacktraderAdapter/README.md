@@ -1,7 +1,19 @@
 ---
-status: complete
-progress_pct: 100
+artifact_type: feature
 completed_date: 2025-11-20
+created_at: '2025-11-25T16:23:21.782591Z'
+id: AUTO-README
+manual_update: true
+owner: Auto-assigned
+progress_pct: 100
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: complete
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.782594Z'
 ---
 
 # FEATURE-002: Backtrader Adapter

@@ -1,15 +1,18 @@
 ---
-id: DESIGN-009-GreeksNautilusIntegrationPlan
-seq: 9
-title: "Greeks Integration with Nautilus"
-status: draft
 artifact_type: design_plan
-created_at: 2025-02-15T00:00:00Z
-updated_at: 2025-02-15T00:00:00Z
-tags:
-  - nautilus
-  - greeks
-  - backtesting
+created_at: '2025-11-25T16:23:21.600573Z'
+id: DESIGN-009-GreeksNautilusIntegrationPlan
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 9
+status: draft
+tags: null
+title: Greeks Integration with Nautilus
+updated_at: '2025-11-25T16:23:21.600577Z'
 ---
 
 # Greeks Integration with Nautilus: Proper Implementation Plan

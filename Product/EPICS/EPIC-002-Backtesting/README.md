@@ -1,24 +1,21 @@
 ---
-id: EPIC-002-Backtesting
-title: Backtesting Engine
-status: in_progress
 artifact_type: epic_overview
-created_at: '2025-11-20T04:09:26.834620+00:00'
-updated_at: '2025-11-20T19:45:00+00:00'
-progress_pct: 85.71
+change_log: null
+created_at: '2025-11-25T16:23:21.657758Z'
+id: EPIC-002-Backtesting
+last_review: '2025-11-20'
+linked_sprints: []
 manual_update: true
-seq: 2
 owner: product_ops_team
+progress_pct: 85.71
 related_epic: []
 related_feature: []
 related_story: []
-last_review: '2025-11-20'
-change_log:
-- "2025-11-20 \u2013 eng_team \u2013 Completed Feature 6 (Validation) - EPIC-002 complete\
-  \ \u2013 FEATURE-006"
-- "2025-11-20 \u2013 system \u2013 Migrated to frontmatter \u2013 PROC-2025-001"
 requirement_coverage: 100
-linked_sprints: []
+seq: 2
+status: in_progress
+title: Backtesting Engine
+updated_at: '2025-11-25T16:23:21.657762Z'
 ---
 
 # EPIC-002: Backtesting Engine

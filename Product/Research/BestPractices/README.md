@@ -1,22 +1,17 @@
-# SynapticTrading Best Practices Library
-
-**Created**: 2025-11-19
-**Purpose**: Centralized repository of best practices from Nautilus, Backtrader, Claude Code, and UPMS methodology
-**Maintainer**: SynapticTrading Development Team
-
 ---
-
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Nautilus Best Practices](#nautilus-best-practices)
-3. [Backtrader Best Practices](#backtrader-best-practices)
-4. [Claude Code Best Practices](#claude-code-best-practices)
-5. [Branch Management](#branch-management)
-6. [UPMS Integration](#upms-integration)
-7. [Tags and Categories](#tags-and-categories)
-8. [Quick Reference](#quick-reference)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.848988Z'
+id: AUTO-README
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.848992Z'
 ---
 
 ## Overview

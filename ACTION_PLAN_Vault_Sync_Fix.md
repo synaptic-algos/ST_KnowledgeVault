@@ -1,3 +1,19 @@
+---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.540160Z'
+id: AUTO-ACTION_PLAN_Vault_Sync_Fix
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for ACTION_PLAN_Vault_Sync_Fix
+updated_at: '2025-11-25T16:23:21.540167Z'
+---
+
 # ACTION PLAN: Fix Vault-Code Sync and EPIC-007 Progress
 
 **Created**: 2025-11-21  

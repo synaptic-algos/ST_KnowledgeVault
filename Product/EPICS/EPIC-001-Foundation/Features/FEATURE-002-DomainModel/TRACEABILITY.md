@@ -1,24 +1,20 @@
 ---
-id: trace-feature-002-domainmodel
-seq: 2
-title: "FEATURE-002 Domain Model Traceability"
-owner: product_ops_team
-status: draft
 artifact_type: feature_traceability
-related_epic:
-  - EPIC-001
-related_feature:
-  - FEATURE-002-DomainModel
-related_story:
-  - STORY-001-02-01
-  - STORY-001-02-02
-  - STORY-001-02-03
-  - STORY-001-02-04
-created_at: 2025-11-03T00:00:00Z
-updated_at: 2025-11-03T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.737141Z'
+id: trace-feature-002-domainmodel
 last_review: 2025-11-03
-change_log:
-  - 2025-11-03 – product_ops_team – Seeded domain model traceability entries – REQ-EPIC001-002
+manual_update: true
+owner: product_ops_team
+progress_pct: 0
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: TBD
+seq: 2
+status: draft
+title: FEATURE-002 Domain Model Traceability
+updated_at: '2025-11-25T16:23:21.737144Z'
 version: 0.1.0
 ---
 

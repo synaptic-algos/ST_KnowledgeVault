@@ -1,37 +1,27 @@
 ---
-id: FEAT-VALIDATION-002
-seq: 2
-title: Financial Compliance Validation
-owner: compliance_team
-status: planned
 artifact_type: feature_overview
-related_epic:
-- EPIC-COMPLIANCE-001
-related_feature:
-- FEAT-VALIDATION-002
-related_story:
-- STORY-VALIDATION-002-01
-- STORY-VALIDATION-002-02
-created_at: 2025-11-25 00:00:00+00:00
-updated_at: '2025-11-25T12:00:00Z'
-last_review: '2025-11-25'
-change_log:
-- "2025-11-25 – Compliance Team – Initial creation of financial compliance validation feature – n/a"
-progress_pct: 0.0
-requirement_coverage: 100
-manual_update: true
-linked_sprints: []
 business_value: critical
-compliance_impact: true
-regulatory_requirements:
-- FINRA
-- SOX
-- FASB
-- AI_AGENT_GOVERNANCE
-- FINANCIAL_SYSTEM_COMPLIANCE
-risk_level: medium
-estimated_story_points: 5
+change_log: null
 completed_story_points: 0
+compliance_impact: true
+created_at: '2025-11-25T16:23:21.771835Z'
+estimated_story_points: 5
+id: FEAT-VALIDATION-002
+last_review: '2025-11-25'
+linked_sprints: []
+manual_update: true
+owner: compliance_team
+progress_pct: 0.0
+regulatory_requirements: null
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: 100
+risk_level: medium
+seq: 2
+status: planned
+title: Financial Compliance Validation
+updated_at: '2025-11-25T16:23:21.771839Z'
 ---
 
 # FEAT-VALIDATION-002: Financial Compliance Validation

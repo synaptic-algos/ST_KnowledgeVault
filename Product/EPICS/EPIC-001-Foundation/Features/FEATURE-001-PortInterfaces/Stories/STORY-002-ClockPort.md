@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.756789Z'
+id: AUTO-STORY-002-ClockPort
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-002-ClockPort
+updated_at: '2025-11-25T16:23:21.756793Z'
 ---
 
 # STORY-001-01-02: Define ClockPort Interface

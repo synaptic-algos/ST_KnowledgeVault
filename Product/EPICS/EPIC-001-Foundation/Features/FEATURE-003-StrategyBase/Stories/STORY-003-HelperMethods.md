@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.757726Z'
+id: AUTO-STORY-003-HelperMethods
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-003-HelperMethods
+updated_at: '2025-11-25T16:23:21.757733Z'
 ---
 
 # STORY-001-03-03: Implement Helper Methods & State Management

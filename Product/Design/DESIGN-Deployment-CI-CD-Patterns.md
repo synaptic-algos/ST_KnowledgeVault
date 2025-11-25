@@ -1,32 +1,23 @@
-# DESIGN: Deployment & CI/CD Patterns (SynapticTrading)
-
 ---
+artifact_type: implementation-pattern
+created_at: '2025-11-25T16:23:21.606460Z'
 id: DESIGN-Deployment-CI-CD-Patterns
-title: "Deployment & CI/CD Patterns"
-product: "SynapticTrading"
-artifact_type: "implementation-pattern"
-status: "draft"
-version: "0.1.0"
-created_at: 2025-11-14T10:10:00+0530
-updated_at: 2025-11-14T10:10:00+0530
-owner: "platform_engineering"
-reviewers:
-  - engineering_lead
-  - quant_lead
-  - compliance_officer
-tags:
-  - deployment
-  - docker
-  - ci-cd
-  - github-actions
-  - gatekeeping
-related_epics:
-  - EPIC-007-StrategyLifecycle
-  - EPIC-009-PartnerAccess
-references:
-  - /Users/nitindhawan/KnowledgeVaults/UPMS_Vault/Methodology/Deployment_and_CI_Patterns.md
-  - /Users/nitindhawan/KnowledgeVaults/SynapticTrading_Vault/Product/IMPLEMENTATION_HIERARCHY.md
-  - /Users/nitindhawan/Downloads/CodeRepository/SynapticTrading/README.md
+manual_update: true
+owner: platform_engineering
+product: SynapticTrading
+references: null
+related_epic: TBD
+related_epics: null
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+reviewers: null
+seq: 1
+status: draft
+tags: null
+title: Deployment & CI/CD Patterns
+updated_at: '2025-11-25T16:23:21.606463Z'
+version: 0.1.0
 ---
 
 ## Overview

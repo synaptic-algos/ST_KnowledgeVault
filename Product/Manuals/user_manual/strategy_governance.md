@@ -1,14 +1,17 @@
-# Strategy Governance & Prioritisation
-
-**Last Updated**: SPRINT-20251118-epic007 (2025-11-19)
-**Audience**: Researchers, Strategy Submitters
-
 ---
-
-## Overview
-
-The Prioritisation Council evaluates all strategy submissions to ensure high-quality strategies enter the live trading portfolio. This page explains how the evaluation process works, what to expect, and how to improve your chances of approval.
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.786899Z'
+id: AUTO-strategy_governance
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for strategy_governance
+updated_at: '2025-11-25T16:23:21.786902Z'
 ---
 
 ## Submission to Decision Process

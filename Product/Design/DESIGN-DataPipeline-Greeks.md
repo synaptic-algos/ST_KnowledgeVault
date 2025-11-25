@@ -1,20 +1,18 @@
 ---
-id: DESIGN-DataPipeline-Greeks
-title: "Black-Scholes Greeks Calculation & Storage Design"
-status: draft
 artifact_type: design
-created_at: 2025-11-04T00:00:00Z
-updated_at: 2025-11-04T00:00:00Z
-related_story:
-  - STORY-006-01
-related_feature:
-  - FEATURE-006
-tags:
-  - greeks
-  - black-scholes
-  - options-pricing
-  - timescaledb
-  - nautilus
+created_at: '2025-11-25T16:23:21.594465Z'
+id: DESIGN-DataPipeline-Greeks
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: null
+related_story: null
+requirement_coverage: TBD
+seq: 1
+status: draft
+tags: null
+title: Black-Scholes Greeks Calculation & Storage Design
+updated_at: '2025-11-25T16:23:21.594469Z'
 ---
 
 # DESIGN: Black-Scholes Greeks Calculation & Storage

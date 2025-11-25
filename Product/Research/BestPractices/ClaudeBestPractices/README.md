@@ -1,69 +1,18 @@
-# Claude Code Best Practices
-
-This directory contains best practices, tips, and workflows for using Claude Code effectively with this project.
-
-## Contents
-
-### [Git Worktrees for Parallel Claude Sessions](./GIT_WORKTREES_FOR_PARALLEL_CLAUDE_SESSIONS.md)
-
-**Comprehensive guide on using Git worktrees to run multiple Claude Code sessions in parallel.**
-
-**Perfect for:**
-- Working on multiple issues simultaneously
-- Running parallel Claude sessions without conflicts
-- Managing work across multiple computers
-- Quickly switching contexts without stashing
-
-**Key Features:**
-- ✅ Complete tutorial from beginner to advanced
-- ✅ Multi-computer workflow examples
-- ✅ Automation scripts included
-- ✅ Troubleshooting guide
-- ✅ Project-specific configurations
-
-### [Local Merge Workflow](./LOCAL_MERGE_WORKFLOW.md)
-
-**Step-by-step guide for merging branches locally without GitHub PRs.**
-
-**Learn how to:**
-- Merge feature branches into main locally
-- Handle merge conflicts effectively
-- Test changes before and after merge
-- Understand fast-forward vs three-way merges
-- Clean up after successful merges
-
-**Perfect for:**
-- Solo development
-- Quick iterations
-- Local experimentation
-- Testing multiple approaches
-
-### [Quick Reference Guide](./QUICK_REFERENCE.md)
-
-**One-page cheat sheet for common worktree operations.**
-
 ---
-
-## Quick Start
-
-```bash
-# Create worktree for new issue
-./scripts/worktree/create_worktree.sh 123 "RSI fix"
-
-# List all worktrees
-./scripts/worktree/list_worktrees.sh
-
-# Work in worktree, then merge locally
-cd ../worktrees/issue-123-rsi-fix
-# ... make changes ...
+artifact_type: story
+created_at: '2025-11-25T16:23:21.880801Z'
 git add . && git commit -m "fix: Something"
-cd /Users/nitindhawan/Downloads/CodeRepository/pilot-synaptictrading
-git checkout main && git merge issue-123-rsi-fix && git push origin main
-
-# Cleanup merged worktrees
-./scripts/worktree/cleanup_merged_worktrees.sh
-```
-
+id: AUTO-README
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.880805Z'
 ---
 
 ## Helper Scripts

@@ -1,24 +1,17 @@
-# Nautilus Paper Trading Best Practices
-
-**Created**: 2025-10-13 07:12:55
-**Last Updated**: 2025-10-13 07:12:55
-**Purpose**: Guide for implementing paper trading with Nautilus Trader framework
-**Applies To**: Options spread strategy paper trading with Zerodha integration
-
 ---
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Paper Trading Architecture](#paper-trading-architecture)
-3. [Zerodha Integration](#zerodha-integration)
-4. [Trading Node Setup](#trading-node-setup)
-5. [Same Strategy, Different Environment](#same-strategy-different-environment)
-6. [Order Simulation](#order-simulation)
-7. [Risk Management](#risk-management)
-8. [Monitoring & Logging](#monitoring--logging)
-9. [Migration from Current System](#migration-from-current-system)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.804604Z'
+id: AUTO-01_PAPER_TRADING_BEST_PRACTICES
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for 01_PAPER_TRADING_BEST_PRACTICES
+updated_at: '2025-11-25T16:23:21.804611Z'
 ---
 
 ## Introduction

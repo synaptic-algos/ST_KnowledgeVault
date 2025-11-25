@@ -1,23 +1,17 @@
-# Backtrader Architecture Overview
-
-**Created**: 2025-11-19
-**Purpose**: Document Backtrader architecture patterns and compare with Nautilus/SynapticTrading design
-**Source**: Web research and community best practices
-
 ---
-
-## Table of Contents
-
-1. [Architecture Overview](#architecture-overview)
-2. [Core Components](#core-components)
-3. [Event-Driven Pattern](#event-driven-pattern)
-4. [Data Feed Architecture](#data-feed-architecture)
-5. [Strategy Lifecycle](#strategy-lifecycle)
-6. [Order Execution Simulation](#order-execution-simulation)
-7. [Comparison with Nautilus](#comparison-with-nautilus)
-8. [Comparison with SynapticTrading Design](#comparison-with-synaptictrading-design)
-9. [Best Practices](#best-practices)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.883225Z'
+id: AUTO-BACKTRADER_ARCHITECTURE_OVERVIEW
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for BACKTRADER_ARCHITECTURE_OVERVIEW
+updated_at: '2025-11-25T16:23:21.883229Z'
 ---
 
 ## Architecture Overview

@@ -1,3 +1,19 @@
+---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.790611Z'
+id: AUTO-getting_started
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for getting_started
+updated_at: '2025-11-25T16:23:21.790614Z'
+---
+
 # Getting Started
 
 ## Audience

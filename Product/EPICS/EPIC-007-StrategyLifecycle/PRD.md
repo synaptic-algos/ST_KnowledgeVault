@@ -1,28 +1,23 @@
 ---
-id: prd-epic-007-strategy-lifecycle
-seq: 7
-title: "EPIC-007 Strategy Lifecycle PRD"
-owner: strategy_ops_team
-status: draft
 artifact_type: prd
-related_epic:
-  - EPIC-007
-related_feature:
-  - FEATURE-007-ResearchPipeline
-  - FEATURE-007-PrioritisationGovernance
-  - FEATURE-007-ImplementationBridge
-  - FEATURE-007-DeploymentRunbooks
-  - FEATURE-007-ContinuousOptimization
-related_story: []
-created_at: 2025-11-03T00:00:00Z
-updated_at: 2025-11-03T00:00:00Z
-last_review: 2025-11-03
-change_log:
-  - 2025-11-03 – strategy_ops_team – Initial PRD outline for strategy lifecycle – REQ-EPIC007-001
-version: 0.1.0
-scope_level: epic
-lifecycle_phase: G0
+change_log: null
+created_at: '2025-11-25T16:23:21.660203Z'
+id: prd-epic-007-strategy-lifecycle
 last_approved_by: TBD
+last_review: 2025-11-03
+lifecycle_phase: G0
+manual_update: true
+owner: strategy_ops_team
+related_epic: null
+related_feature: null
+related_story: []
+requirement_coverage: TBD
+scope_level: epic
+seq: 7
+status: draft
+title: EPIC-007 Strategy Lifecycle PRD
+updated_at: '2025-11-25T16:23:21.660207Z'
+version: 0.1.0
 ---
 
 ## 1. Summary

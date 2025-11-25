@@ -1,23 +1,20 @@
 ---
-id: trace-feature-007-prioritisationgovernance
-seq: 7
-title: "Prioritisation Council & Scoring Traceability"
-owner: strategy_ops_team
-status: draft
 artifact_type: feature_traceability
-related_epic:
-  - EPIC-007
-related_feature:
-  - FEATURE-007-PrioritisationGovernance
-related_story:
-  - STORY-007-02-01
-  - STORY-007-02-02
-  - STORY-007-02-03
-created_at: 2025-11-03T00:00:00Z
-updated_at: 2025-11-03T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.671598Z'
+id: trace-feature-007-prioritisationgovernance
 last_review: 2025-11-03
-change_log:
-  - 2025-11-03 – strategy_ops_team – Seeded traceability entries – n/a
+manual_update: true
+owner: strategy_ops_team
+progress_pct: 0
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: TBD
+seq: 7
+status: draft
+title: Prioritisation Council & Scoring Traceability
+updated_at: '2025-11-25T16:23:21.671601Z'
 version: 0.1.0
 ---
 

@@ -1,24 +1,17 @@
-# EPIC-007 + STRAT-001 Implementation Proposal
-
-**Document Version**: 1.0.0
-**Created**: 2025-11-04
-**Status**: Proposal - Awaiting Approval
-**Related**:
-- EPIC-007: Strategy Lifecycle
-- STRAT-001: Options Weekly Monthly Hedge
-- EPIC-001: Foundation (completed - ports defined ✅)
-
 ---
-
-## Executive Summary
-
-This document proposes the implementation approach for:
-1. **EPIC-007**: Strategy Lifecycle framework (research → deploy → optimize)
-2. **STRAT-001**: Nikhil's Options Weekly Monthly Hedge strategy (bull/bear spreads with weekly hedge)
-3. **Backtest Execution**: Run STRAT-001 on both NautilusTrader and Backtrader frameworks
-
-**Key Insight**: EPIC-007 is NOT about framework adapters - it's about **strategy lifecycle governance**. The framework adapters (Nautilus/Backtrader) are infrastructure dependencies, not the epic's core deliverable.
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.598824Z'
+id: AUTO-EPIC-007-STRAT-001-IMPLEMENTATION-PROPOSAL
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for EPIC-007-STRAT-001-IMPLEMENTATION-PROPOSAL
+updated_at: '2025-11-25T16:23:21.598829Z'
 ---
 
 ## 1. Understanding EPIC-007 (Strategy Lifecycle)

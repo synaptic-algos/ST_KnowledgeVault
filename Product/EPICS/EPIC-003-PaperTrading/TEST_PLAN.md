@@ -1,14 +1,20 @@
 ---
-id: TESTPLAN-EPIC-003
+artifact_type: epic
+created_at: '2025-11-25T16:23:21.634970Z'
 epic_id: EPIC-003
-status: draft
-owner: qa_architecture_team
+id: TESTPLAN-EPIC-003
 last_review: 2025-02-15
-related_features:
-  - FEATURE-001-PaperAdapter
-  - FEATURE-002-SimulatedExecution
-  - FEATURE-003-ShadowMode
-  - FEATURE-004-Validation
+manual_update: true
+owner: qa_architecture_team
+related_epic: TBD
+related_feature: TBD
+related_features: null
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: draft
+title: Auto-generated title for TEST_PLAN
+updated_at: '2025-11-25T16:23:21.634974Z'
 ---
 
 # EPIC-003: Paper Trading – Test Plan

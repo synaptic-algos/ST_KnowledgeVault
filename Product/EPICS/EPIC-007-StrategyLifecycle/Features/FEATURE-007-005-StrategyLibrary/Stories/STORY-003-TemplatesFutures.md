@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.693582Z'
+id: AUTO-STORY-003-TemplatesFutures
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-003-TemplatesFutures
+updated_at: '2025-11-25T16:23:21.693586Z'
 ---
 
 # STORY-008-05-03: Publish Futures Strategy Template

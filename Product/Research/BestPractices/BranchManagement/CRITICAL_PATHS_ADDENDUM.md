@@ -1,83 +1,17 @@
-# Critical Paths & Data Architecture - Addendum
-
-## Overview
-
-This document addresses critical path configurations and data storage architecture that are essential for making the nikhilwm-opt-v2 project truly self-contained and portable.
-
 ---
-
-## 1. Results Path Configuration
-
-### ❌ Problem: Absolute Path to Parent Repository
-
-**Original Configuration (v2_config.py line 90):**
-```python
-results_base_path: str = "/Users/nitindhawan/Downloads/CodeRepository/synpatictrading/backtest_results"
-```
-
-**Issues:**
-- Points outside the v2 project directory
-- Breaks self-contained principle
-- Not portable across environments
-- Mixes results with other projects
-
-### ✅ Solution: Relative Path Within Project
-
-**Fixed Configuration (v2_config.py line 90):**
-```python
-# Results Path - Relative to project root for portability
-results_base_path: str = str(Path(__file__).parent / "backtest_results")
-```
-
-**Benefits:**
-- ✅ Self-contained within v2 project
-- ✅ Portable across environments
-- ✅ Works in standalone deployment
-- ✅ Clear separation from other projects
-
-### Directory Structure
-
-```
-nikhilwm-opt-v2/
-├── backtest_results/          # ✅ Results now stored here
-│   ├── 20251006/
-│   │   ├── 172309_nikhilwm_opt_v2/
-│   │   │   ├── trade_log_nikhilwm_opt.csv
-│   │   │   ├── performance_metrics.json
-│   │   │   └── equity_curve.csv
-│   │   └── ...
-│   └── .gitkeep
-└── ...
-```
-
-### Update .gitignore
-
-Add to `.gitignore`:
-```gitignore
-# Backtest results
-backtest_results/*
-!backtest_results/.gitkeep
-```
-
-### Verification
-
-Test the configuration:
-```bash
-cd /Users/nitindhawan/Downloads/CodeRepository/synpatictrading/src/pilot/nikhilwm-opt-v2
-
-# Test results path
-python -c "
-from v2_config import Config
-config = Config()
-print(f'Results path: {config.results_base_path}')
-print(f'Test run dir: {config.get_results_dir()}')
-"
-
-# Should output:
-# Results path: /Users/nitindhawan/.../nikhilwm-opt-v2/backtest_results
-# Test run dir: /Users/nitindhawan/.../nikhilwm-opt-v2/backtest_results/20251006/183045_nikhilwm_opt_v2
-```
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.873191Z'
+id: AUTO-CRITICAL_PATHS_ADDENDUM
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for CRITICAL_PATHS_ADDENDUM
+updated_at: '2025-11-25T16:23:21.873194Z'
 ---
 
 ## 2. Meta-Indexed Parquet Data Architecture

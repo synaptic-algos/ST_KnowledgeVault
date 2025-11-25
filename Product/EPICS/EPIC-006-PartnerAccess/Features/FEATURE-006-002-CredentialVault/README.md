@@ -1,19 +1,21 @@
 ---
+artifact_type: feature
+created_at: '2025-11-25T16:23:21.773216Z'
 id: FEATURE-006-002-CredentialVault
-parent_epic: EPIC-006
+manual_update: true
 owner: platform_security_team
-status: planned
+parent_epic: EPIC-006
 priority: high
 progress_pct: 0
-created_at: 2025-02-15
-updated_at: 2025-02-15
-references:
-  - documentation/localresearch/multi_user_partner_auth_inventory.md
-  - documentation/vault_prd/09_PartnerAccess/PRD.md
-  - documentation/vault_design/09_PartnerAccess/IDENTITY_AND_CREDENTIAL_DESIGN.md
-  - SynpaticTradingV2/docs/features/in_progress/FEAT-2025-0043-INT_Broker_Connections_Management.md
-  - SynpaticTradingV2/docs/features/implemented/FEAT-2025-0043-INT-001_Database_Security_Layer.md
-  - SynpaticTradingV2/PRODUCT_MANAGEMENT/OPTIONS_TRADING/zerodha_integration.yaml
+references: null
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: planned
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.773223Z'
 ---
 
 # Feature: Partner Credential Vault & Key Operations

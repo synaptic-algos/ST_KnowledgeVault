@@ -1,56 +1,17 @@
-# SynapticTrading Vault
-
-A collaborative Obsidian vault for Synaptic Trading platform development and knowledge management.
-
-## Overview
-
-This vault contains all documentation, planning, and knowledge artifacts for the **Synaptic Trading Platform** - a framework-agnostic algorithmic trading system.
-
-**Vault Type**: Product Vault
-**Code Repository**: `/Users/nitindhawan/Downloads/CodeRepository/SynapticTrading/`
-**Methodology**: Follows [UPMS](/Users/nitindhawan/KnowledgeVaults/UPMS_Vault/) standards
-
 ---
-
-## ⚠️ MANDATORY: VaultGuide Compliance
-
-**All team members MUST read and comply with the VaultGuide before contributing to this vault.**
-
-### Required Reading
-- **[VaultGuide/README.md](./VaultGuide/README.md)** - How this vault works (MANDATORY)
-- **[VaultGuide/SPRINT_TRACEABILITY_GUIDE.md](./VaultGuide/SPRINT_TRACEABILITY_GUIDE.md)** - Sprint completion process (MANDATORY)
-- **[VaultGuide/VAULT_ARCHITECTURE.md](./VaultGuide/VAULT_ARCHITECTURE.md)** - Vault structure and integration
-
-### Mandatory Processes
-
-#### 1. Sprint Traceability (MANDATORY)
-**After every sprint**, you MUST follow the Sprint Traceability Process to update Story → Feature → EPIC status.
-
-**See**: [VaultGuide/SPRINT_TRACEABILITY_GUIDE.md](./VaultGuide/SPRINT_TRACEABILITY_GUIDE.md)
-
-**Quality Gate**: Sprints cannot be marked "Complete" without following this process.
-
-**Why This Matters**: Sprint completion must flow back to update planned work (EPICs/Features/Stories). Without this, planning is disconnected from reality and progress tracking breaks down.
-
-#### 2. Symlink Usage
-Engineers access vault content through symlinks in the code repository. Never duplicate content.
-
-**See**: [VaultGuide/README.md](./VaultGuide/README.md#symlink-integration-strategy)
-
-#### 3. UPMS Templates
-Use UPMS templates for all product artifacts (EPICs, Features, Stories, Sprints, Design Docs).
-
-**See**: `/Users/nitindhawan/KnowledgeVaults/UPMS_Vault/Templates/`
-
-### Non-Compliance Consequences
-- ❌ Sprint retrospectives rejected at review
-- ❌ Pull requests blocked until traceability complete
-- ❌ Progress metrics become inaccurate
-- ❌ Stakeholder visibility compromised
-- ❌ Gate approvals delayed
-
-**Before Your First Contribution**: Read the VaultGuide completely. It takes 15 minutes and saves hours of rework.
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.541286Z'
+id: AUTO-README
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.541290Z'
 ---
 
 ## Vault Structure

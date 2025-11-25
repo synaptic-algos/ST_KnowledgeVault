@@ -1,3 +1,19 @@
+---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.605285Z'
+id: AUTO-README
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.605289Z'
+---
+
 # Design Library
 
 ## 01 Framework Agnostic

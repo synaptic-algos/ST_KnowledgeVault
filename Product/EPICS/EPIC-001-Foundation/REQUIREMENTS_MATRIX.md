@@ -1,24 +1,19 @@
 ---
-id: req-matrix-epic-001
-seq: 1
-title: "EPIC-001 Requirements Matrix"
-owner: product_ops_team
-status: draft
 artifact_type: requirements_matrix
-related_epic:
-  - EPIC-001
-related_feature:
-  - FEATURE-001-PortInterfaces
-  - FEATURE-002-DomainModel
-  - FEATURE-003-StrategyBase
-  - FEATURE-004-Orchestration
-  - FEATURE-005-Testing
-related_story: []
-created_at: 2025-11-03T00:00:00Z
-updated_at: 2025-11-03T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.652079Z'
+id: req-matrix-epic-001
 last_review: 2025-11-03
-change_log:
-  - 2025-11-03 – product_ops_team – Seeded initial requirements from legacy epic plan – REQ-EPIC001-001
+manual_update: true
+owner: product_ops_team
+related_epic: null
+related_feature: null
+related_story: []
+requirement_coverage: TBD
+seq: 1
+status: draft
+title: EPIC-001 Requirements Matrix
+updated_at: '2025-11-25T16:23:21.652083Z'
 version: 0.1.0
 ---
 

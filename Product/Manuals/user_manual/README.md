@@ -1,3 +1,19 @@
+---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.789734Z'
+id: AUTO-README
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.789738Z'
+---
+
 # Synaptic Trading Platform – User Manual
 
 This manual grows incrementally after every sprint/epic so traders, quants, and analysts always have an up-to-date reference for what shipped. Each section links to deeper topic pages you can expand as features mature.

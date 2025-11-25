@@ -1,32 +1,30 @@
 ---
-id: EPIC-QUALITY-001-CodeTraceability
-seq: 1
-title: Code Traceability Enhancement & AI Agent Standards
-status: completed
-progress_pct: 100.0
-created_at: 2024-11-25 21:15:00+00:00
-updated_at: 2024-11-25 21:15:00+00:00
-owner: engineering_team
-priority: high
-category: quality_assurance
-tags:
-- code_quality
-- traceability
-- ai_agents
-- compliance
-business_value: high
-compliance_impact: true
-regulatory_requirements:
-- FINRA
-- SOX
-- FASB
-risk_level: medium
-blocking_epics: []
+artifact_type: epic
 blocked_by: []
+blocking_epics: []
+business_value: high
+category: quality_assurance
+completed_story_points: 8
+compliance_impact: true
+created_at: '2025-11-25T16:23:21.646855Z'
 dependencies: []
 estimated_story_points: 55
-completed_story_points: 8
-manual_update: false
+id: EPIC-QUALITY-001-CodeTraceability
+manual_update: true
+owner: engineering_team
+priority: high
+progress_pct: 100.0
+regulatory_requirements: null
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+risk_level: medium
+seq: 1
+status: completed
+tags: null
+title: Code Traceability Enhancement & AI Agent Standards
+updated_at: '2025-11-25T16:23:21.646859Z'
 ---
 
 # EPIC-QUALITY-001: Code Traceability Enhancement & AI Agent Standards

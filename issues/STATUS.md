@@ -1,21 +1,17 @@
-# Issues Management - Status Summary
-
-**Last Updated**: 2025-11-16 18:15:00
-**Total Issues**: 0 (0 resolved, 0 identified, 0 in progress)
-
 ---
-
-## Current Status
-
-### Active Issues (0)
-None currently
-
-### In Progress (0)
-None currently
-
-### Resolved (0)
-None currently
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.557911Z'
+id: AUTO-STATUS
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for STATUS
+updated_at: '2025-11-25T16:23:21.557915Z'
 ---
 
 ## Issue Breakdown by Severity

@@ -1,77 +1,17 @@
-# Backtesting Engine Design
-
-## Table of Contents
-1. [Overview](#overview)
-2. [Architecture Components](#architecture-components)
-3. [Historical Data Replay](#historical-data-replay)
-4. [Simulated Execution](#simulated-execution)
-5. [Performance Analysis](#performance-analysis)
-6. [Adapter Implementation](#adapter-implementation)
-
 ---
-
-## 1. Overview
-
-### 1.1 Purpose
-
-The backtesting engine provides deterministic historical simulation of strategy performance. It replays recorded market data through the strategy core while simulating order execution, fills, and portfolio accounting.
-
-### 1.2 Design Goals
-
-- **Deterministic Replay**: Identical inputs produce identical outputs
-- **High Fidelity**: Realistic fill simulation with slippage, commissions, market impact
-- **Performance**: Process years of data in minutes
-- **Auditability**: Complete event log for debugging and compliance
-- **Framework Agnostic**: Strategies run unmodified from live/paper modes
-
-### 1.3 Key Components
-
-```
-┌─────────────────────────────────────────────────────┐
-│             Backtesting Runtime                     │
-├─────────────────────────────────────────────────────┤
-│                                                     │
-│  ┌──────────────┐      ┌──────────────┐           │
-│  │  Historical  │      │   Simulated  │           │
-│  │ Data Loader  │─────▶│    Clock     │           │
-│  └──────────────┘      └───────┬──────┘           │
-│         │                       │                  │
-│         │                       ▼                  │
-│         │              ┌──────────────┐            │
-│         └─────────────▶│Event Replayer│            │
-│                        └───────┬──────┘            │
-│                                │                   │
-│                                ▼                   │
-│                       ┌─────────────────┐          │
-│                       │ TickDispatcher  │          │
-│                       └────────┬────────┘          │
-│                                │                   │
-│                                ▼                   │
-│                         ┌──────────┐               │
-│                         │ Strategy │               │
-│                         └─────┬────┘               │
-│                               │                    │
-│                               ▼                    │
-│                      ┌────────────────┐            │
-│                      │ Simulated      │            │
-│                      │ Execution      │            │
-│                      │ Engine         │            │
-│                      └────────┬───────┘            │
-│                               │                    │
-│                               ▼                    │
-│                      ┌────────────────┐            │
-│                      │   Portfolio    │            │
-│                      │   Accounting   │            │
-│                      └────────┬───────┘            │
-│                               │                    │
-│                               ▼                    │
-│                      ┌────────────────┐            │
-│                      │  Performance   │            │
-│                      │   Analytics    │            │
-│                      └────────────────┘            │
-└─────────────────────────────────────────────────────┘
-```
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.845084Z'
+id: AUTO-BACKTEST_ENGINE
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for BACKTEST_ENGINE
+updated_at: '2025-11-25T16:23:21.845087Z'
 ---
 
 ## 2. Architecture Components

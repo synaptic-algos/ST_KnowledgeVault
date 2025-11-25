@@ -1,27 +1,30 @@
 ---
-id: STORY-QUALITY-001-01-CriticalFinancialCode
-related_epic: [EPIC-QUALITY-001-CodeTraceability]
-related_feature: [FEATURE-QUALITY-001-LegacyEnhancement]
-title: "Critical Financial Code Traceability Enhancement"
-status: completed
-progress_pct: 100
-created_at: 2024-11-25T21:25:00Z
-updated_at: 2024-11-25T22:35:00Z
-story_points: 8
-estimated_hours: 16
-priority: high
-complexity: medium
-
-# Sprint Planning
-sprint: "2024-11-25_CodeTraceability_Sprint1"
-assignee: ai_agents_with_human_review
-reviewer: risk_management_team
-
-# Technical Details
 acceptance_criteria_count: 5
-tasks_total: 5
-tasks_completed: 5
+artifact_type: story
+assignee: ai_agents_with_human_review
+complexity: medium
+created_at: '2025-11-25T16:23:21.768748Z'
+estimated_hours: 16
+id: STORY-QUALITY-001-01-CriticalFinancialCode
 manual_update: true
+owner: Auto-assigned
+priority: high
+progress_pct: 100
+related_epic:
+- EPIC-QUALITY-001-CodeTraceability
+related_feature:
+- FEATURE-QUALITY-001-LegacyEnhancement
+related_story: TBD
+requirement_coverage: TBD
+reviewer: risk_management_team
+seq: 1
+sprint: 2024-11-25_CodeTraceability_Sprint1
+status: completed
+story_points: 8
+tasks_completed: 5
+tasks_total: 5
+title: Critical Financial Code Traceability Enhancement
+updated_at: '2025-11-25T16:23:21.768752Z'
 ---
 
 # STORY-QUALITY-001-01: Critical Financial Code Traceability Enhancement

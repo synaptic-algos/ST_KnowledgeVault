@@ -1,9 +1,20 @@
 ---
-status: completed
-progress_pct: 100
-started_date: 2025-11-20
+artifact_type: feature
 completed_date: 2025-11-21
+created_at: '2025-11-25T16:23:21.781408Z'
+id: AUTO-README
 manual_update: true
+owner: Auto-assigned
+progress_pct: 100
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+started_date: 2025-11-20
+status: completed
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.781412Z'
 ---
 
 # FEATURE-003: Cross-Engine Validation

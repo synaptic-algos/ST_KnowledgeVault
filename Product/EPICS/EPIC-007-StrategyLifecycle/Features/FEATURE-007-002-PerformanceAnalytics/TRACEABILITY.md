@@ -1,23 +1,20 @@
 ---
-id: trace-feature-008-performanceanalytics
-seq: 8
-title: "FEATURE-002 Performance Analytics Traceability"
-owner: strategy_ops_team
-status: draft
 artifact_type: feature_traceability
-related_epic:
-  - EPIC-008
-related_feature:
-  - FEATURE-008-PerformanceAnalytics
-related_story:
-  - STORY-008-02-01
-  - STORY-008-02-02
-  - STORY-008-02-03
-created_at: 2025-11-04T00:00:00Z
-updated_at: 2025-11-04T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.677849Z'
+id: trace-feature-008-performanceanalytics
 last_review: 2025-11-04
-change_log:
-  - 2025-11-04 – strategy_ops_team – Seeded performance analytics traceability – REQ-EPIC008-005
+manual_update: true
+owner: strategy_ops_team
+progress_pct: 0
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: TBD
+seq: 8
+status: draft
+title: FEATURE-002 Performance Analytics Traceability
+updated_at: '2025-11-25T16:23:21.677852Z'
 version: 0.1.0
 ---
 

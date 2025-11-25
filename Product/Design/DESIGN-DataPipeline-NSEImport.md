@@ -1,20 +1,18 @@
 ---
-id: DESIGN-DataPipeline-NSEImport
-title: "NSE Historical Data Import Pipeline Design"
-status: draft
 artifact_type: design
-created_at: 2025-11-04T00:00:00Z
-updated_at: 2025-11-04T00:00:00Z
-related_story:
-  - STORY-006-01
-related_feature:
-  - FEATURE-006
-tags:
-  - data-pipeline
-  - nse
-  - csv-import
-  - timescaledb
-  - nautilus
+created_at: '2025-11-25T16:23:21.597655Z'
+id: DESIGN-DataPipeline-NSEImport
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: null
+related_story: null
+requirement_coverage: TBD
+seq: 1
+status: draft
+tags: null
+title: NSE Historical Data Import Pipeline Design
+updated_at: '2025-11-25T16:23:21.597660Z'
 ---
 
 # DESIGN: NSE Historical Data Import Pipeline

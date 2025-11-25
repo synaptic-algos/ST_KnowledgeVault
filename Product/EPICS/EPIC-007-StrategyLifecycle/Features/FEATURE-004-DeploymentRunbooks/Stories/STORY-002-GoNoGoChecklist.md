@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.699315Z'
+id: AUTO-STORY-002-GoNoGoChecklist
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-002-GoNoGoChecklist
+updated_at: '2025-11-25T16:23:21.699318Z'
 ---
 
 # STORY-007-04-02: Define Go/No-Go Checklist & Rollback Plan

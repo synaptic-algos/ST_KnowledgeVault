@@ -1,82 +1,17 @@
-# Research Summary: Instrument Pre-Computation for Nautilus Backtesting
-
-**Date**: 2024-10-20
-**Researcher**: Claude Code
-**Topic**: Pre-computing instrument selection for options backtesting in Nautilus Trader
-**Outcome**: ✅ Comprehensive documentation with implementation guide
-
 ---
-
-## Research Conducted
-
-### Web Searches Performed
-
-1. **Nautilus Trader Documentation**:
-   - Backtest instrument filtering and pre-computation strategies
-   - Options backtesting with large universes
-   - BacktestEngine performance optimization
-   - ParquetDataCatalog instrument filtering
-   - GitHub discussions on large universe handling (#1415)
-
-2. **Industry Best Practices**:
-   - Options backtesting platforms (AlgoTest, OptionOmega, ORATS)
-   - Strike selection methodologies (ATM-based, delta-based)
-   - Two-pass backtesting approaches
-   - Walk-forward optimization techniques
-   - Universe selection and backtesting biases
-
-3. **Performance Optimization**:
-   - Instrument universe pre-filtering strategies
-   - Data loading performance characteristics
-   - Memory usage optimization
-   - Large universe handling patterns
-
-### Key Research Findings
-
-#### Finding 1: Pre-Computation is Industry Standard
-
-While not explicitly called "pre-computation," the pattern aligns with:
-- **Options platforms**: All major platforms (AlgoTest, OptionOmega, ORATS) provide pre-filtering by delta, DTE, and ATM
-- **Universe selection**: QuantConnect LEAN and Zipline support algorithmically selected assets
-- **Walk-forward analysis**: Two-stage validation approach is well-established
-- **Community practice**: Traders filter to 100-200 instruments for live trading
-
-#### Finding 2: Nautilus Architecture Supports This
-
-Pre-computation respects Nautilus constraints:
-- ✅ Instruments registered before `engine.run()`
-- ✅ Complete `instrument_ids` provided to catalog upfront
-- ✅ Works within event-driven replay model
-- ✅ No modifications to Nautilus core required
-
-#### Finding 3: Performance Characteristics
-
-**Measured/Estimated Performance**:
-| Approach | Instruments | Registration Time | Setup Time | Accuracy |
-|----------|-------------|-------------------|------------|----------|
-| No filtering | 33,408 | 30+ min | 30+ min | 100% |
-| Generous buffer | 500-1,500 | 2-7 min | 2-7 min | ~95% |
-| Pre-computation | 20-40 | <10 sec | 30-40 sec | 99.9% |
-| Pre-comp + buffer | 30-60 | 8-12 sec | 50-60 sec | 99.99% |
-
-**Conclusion**: Pre-computation achieves 30x-180x speedup vs generous buffer, 45x-900x vs no filtering.
-
-#### Finding 4: Critical Success Factors
-
-Pre-computation requires:
-1. ⚠️ **Deterministic strike selection** - Based on spot, timestamp, expiry logic
-2. ⚠️ **Exact logic match** - Pre-computer must mirror strategy entry logic
-3. ⚠️ **Shared utilities** - Single source of truth for ATM, expiry calculations
-4. ⚠️ **Monthly validation** - Ensure logic hasn't diverged
-
-#### Finding 5: Production Best Practices
-
-From community and platform research:
-- Add 10-20% buffer for safety (regime changes, logic approximations)
-- Validate monthly (compare pre-computed vs actual instruments used)
-- Cache pre-computation results (no need to recompute for same date range)
-- Log decisions for debugging (timestamp, spot, strikes selected)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.855116Z'
+id: AUTO-RESEARCH_SUMMARY_20241020
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for RESEARCH_SUMMARY_20241020
+updated_at: '2025-11-25T16:23:21.855119Z'
 ---
 
 ## Documentation Created

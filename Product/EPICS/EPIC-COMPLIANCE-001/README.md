@@ -1,52 +1,44 @@
 ---
-id: EPIC-COMPLIANCE-001
-seq: 1
-title: Work Item Validation & Financial Compliance Framework
-owner: ai_agent_governance_team
-status: in_progress
+FEAT-VALIDATION-001: 0
+FEAT-VALIDATION-002: 0
 artifact_type: epic_overview
-related_epic:
-- EPIC-COMPLIANCE-001
-related_feature:
-- FEAT-VALIDATION-001
-- FEAT-VALIDATION-002
-related_story: []
-created_at: 2025-11-25 00:00:00+00:00
-updated_at: '2025-11-25T12:00:00Z'
-last_review: '2025-11-25'
-change_log:
-- "2025-11-25 – AI Agent Governance Team – Initial creation of compliance framework epic for validation script requirements – n/a"
-progress_pct: 0.0
-manual_update: true
-requirement_coverage: 100
-feature_completion:
-  FEAT-VALIDATION-001: 0
-  FEAT-VALIDATION-002: 0
-linked_sprints: []
-last_test_run:
-  date: '2025-11-25T12:00:00Z'
-  suite: Validation Framework Tests
-  location: backend/tests/validation/
-  result: pending
-  pass_count: 0
-  fail_count: 0
-  total_count: 0
-  duration_seconds: 0
-  coverage_pct: 0
-test_run_history: []
-business_value: critical
-compliance_impact: true
-regulatory_requirements:
-- AI_AGENT_GOVERNANCE
-- WORK_ITEM_TRACEABILITY
-- FINANCIAL_COMPLIANCE_VALIDATION
-risk_level: low
-blocking_epics: []
 blocked_by: []
-dependencies:
-- EPIC-QUALITY-001-CodeTraceability
-estimated_story_points: 13
+blocking_epics: []
+business_value: critical
+change_log: null
 completed_story_points: 0
+compliance_impact: true
+coverage_pct: 0
+created_at: '2025-11-25T16:23:21.642228Z'
+date: '2025-11-25T12:00:00Z'
+dependencies: null
+duration_seconds: 0
+estimated_story_points: 13
+fail_count: 0
+feature_completion: null
+id: EPIC-COMPLIANCE-001
+last_review: '2025-11-25'
+last_test_run: null
+linked_sprints: []
+location: backend/tests/validation/
+manual_update: true
+owner: ai_agent_governance_team
+pass_count: 0
+progress_pct: 0.0
+regulatory_requirements: null
+related_epic: null
+related_feature: null
+related_story: []
+requirement_coverage: 100
+result: pending
+risk_level: low
+seq: 1
+status: in_progress
+suite: Validation Framework Tests
+test_run_history: []
+title: Work Item Validation & Financial Compliance Framework
+total_count: 0
+updated_at: '2025-11-25T16:23:21.642232Z'
 ---
 
 # EPIC-COMPLIANCE-001: Work Item Validation & Financial Compliance Framework

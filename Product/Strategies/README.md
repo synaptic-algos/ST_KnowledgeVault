@@ -1,3 +1,19 @@
+---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.610684Z'
+id: AUTO-README
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.610688Z'
+---
+
 # Strategy Catalogue & Lifecycle Tracker
 
 This directory captures every trading strategy, its lifecycle state, and links to implementation artefacts. Use the asset-class templates in `Templates/` when proposing new strategies.

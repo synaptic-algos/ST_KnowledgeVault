@@ -1,3 +1,18 @@
+---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.542782Z'
+id: AUTO-CLAUDE
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for CLAUDE
+updated_at: '2025-11-25T16:23:21.542786Z'
+---
 # CLAUDE.md - SynapticTrading Vault Guide
 
 This file provides guidance to Claude Code (claude.ai/code) when working with the SynapticTrading vault and its associated code repositories.

@@ -1,29 +1,21 @@
 ---
-id: EPIC-005-Adapters
-title: Framework Adapters
-status: in_progress
 artifact_type: epic_overview
-created_at: '2025-11-20T04:09:26.837850+00:00'
-updated_at: '2025-11-20T23:00:00+00:00'
-progress_pct: 75.0
-manual_update: true
-seq: 5
-owner: product_ops_team
-related_epic: []
-related_feature:
-- FEAT-005-01
-- FEAT-005-02
-- FEAT-005-03
-- FEAT-005-04
-related_story: []
+change_log: null
+created_at: '2025-11-25T16:23:21.636329Z'
+id: EPIC-005-Adapters
 last_review: '2025-11-20'
-change_log:
-- "2025-11-20 \u2013 eng_team \u2013 Started FEAT-005-01 (Nautilus Integration) -\
-  \ Design & Planning phase complete \u2013 SPRINT-20251120-epic005-feat01-nautilus"
-- "2025-11-20 \u2013 system \u2013 Migrated to frontmatter \u2013 PROC-2025-001"
+linked_sprints: null
+manual_update: true
+owner: product_ops_team
+progress_pct: 75.0
+related_epic: []
+related_feature: null
+related_story: []
 requirement_coverage: 10
-linked_sprints:
-- SPRINT-20251120-epic005-feat01-nautilus
+seq: 5
+status: in_progress
+title: Framework Adapters
+updated_at: '2025-11-25T16:23:21.636333Z'
 ---
 
 # EPIC-005: Framework Adapters

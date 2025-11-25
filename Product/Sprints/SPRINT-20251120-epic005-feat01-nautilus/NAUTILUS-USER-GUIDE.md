@@ -1,25 +1,17 @@
-# Nautilus Trader Integration - User Guide
-
-**Version**: 1.0
-**Last Updated**: 2025-11-20
-**Sprint**: SPRINT-20251120-epic005-feat01-nautilus
-**Audience**: Strategy Developers
-
 ---
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Quick Start](#quick-start)
-3. [How It Works](#how-it-works)
-4. [Basic Usage](#basic-usage)
-5. [Configuration Options](#configuration-options)
-6. [Running Backtests](#running-backtests)
-7. [Interpreting Results](#interpreting-results)
-8. [Best Practices](#best-practices)
-9. [Troubleshooting](#troubleshooting)
-10. [FAQ](#faq)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.820782Z'
+id: AUTO-NAUTILUS-USER-GUIDE
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for NAUTILUS-USER-GUIDE
+updated_at: '2025-11-25T16:23:21.820786Z'
 ---
 
 ## Introduction

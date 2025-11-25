@@ -1,31 +1,21 @@
 ---
-id: FEATURE-002-DomainModel
-seq: 2
-title: Canonical Domain Model
-owner: product_ops_team
-status: in_progress
 artifact_type: feature_overview
-related_epic:
-- EPIC-001
-related_feature:
-- FEATURE-002-DomainModel
-related_story:
-- STORY-001-02-01
-- STORY-001-02-02
-- STORY-001-02-03
-- STORY-001-02-04
-created_at: 2025-11-03 00:00:00+00:00
-updated_at: '2025-11-13T06:08:09Z'
+change_log: null
+created_at: '2025-11-25T16:23:21.738265Z'
+id: FEATURE-002-DomainModel
 last_review: '2025-11-13'
-change_log:
-- "2025-11-06 \u2013 Sprint 0 prep \u2013 Domain model traceability seeded and tooling\
-  \ ready."
-- "2025-11-03 \u2013 product_ops_team \u2013 Stubbed canonical domain model feature\
-  \ structure \u2013 n/a"
+linked_sprints: null
+manual_update: true
+owner: product_ops_team
 progress_pct: 0.0
+related_epic: null
+related_feature: null
+related_story: null
 requirement_coverage: 0
-linked_sprints:
-- SPRINT-20251104-epic001-foundation-prep
+seq: 2
+status: in_progress
+title: Canonical Domain Model
+updated_at: '2025-11-25T16:23:21.738268Z'
 ---
 
 # FEATURE-002: Canonical Domain Model

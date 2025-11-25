@@ -1,24 +1,17 @@
-# Backtrader Integration Architecture
-
-**Product**: SynapticTrading Platform
-**Feature**: EPIC-005 FEATURE-002 (Backtrader Adapter)
-**Audience**: Software Engineers, Architects
-**Last Updated**: 2025-11-20
-**Status**: Production Ready
-
 ---
-
-## Executive Summary
-
-The Backtrader Integration provides a clean adapter enabling domain strategies to run on the Backtrader backtesting framework without modifications. The implementation maintains framework independence through a port-based architecture and adapter pattern.
-
-**Key Metrics**:
-- **Production Code**: 1,164 lines (3 main components)
-- **Test Code**: 870 lines (unit + integration)
-- **Documentation**: 3,721 lines
-- **Sprint Duration**: 10 days
-- **Status**: Production Ready
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.611464Z'
+id: AUTO-BACKTRADER_ARCHITECTURE
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for BACKTRADER_ARCHITECTURE
+updated_at: '2025-11-25T16:23:21.611467Z'
 ---
 
 ## Architecture Overview

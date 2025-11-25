@@ -1,16 +1,23 @@
-# Sprint 3 - Backtest Adapter & Event Replay
-
 ---
-id: SPRINT-20251118-epic002-adapter-replay
-title: "Sprint 3 - Backtest Adapter & Event Replay"
-status: planned
-start_date: 2025-11-18
-target_end_date: 2025-12-01
+artifact_type: story
+created_at: '2025-11-25T16:23:21.829436Z'
 duration: 2 weeks
 execution_summary_file: execution_summary.yaml
+id: SPRINT-20251118-epic002-adapter-replay
+manual_update: true
+owner: Auto-assigned
 progress_cursor_file: progress_cursor.yaml
-related_epics:
-  - EPIC-002-Backtesting
+related_epic: TBD
+related_epics: null
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+start_date: 2025-11-18
+status: planned
+target_end_date: 2025-12-01
+title: Sprint 3 - Backtest Adapter & Event Replay
+updated_at: '2025-11-25T16:23:21.829439Z'
 ---
 
 ## Sprint Overview

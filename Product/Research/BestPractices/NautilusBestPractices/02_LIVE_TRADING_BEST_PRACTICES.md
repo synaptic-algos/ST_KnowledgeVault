@@ -1,26 +1,17 @@
-# Nautilus Live Trading Best Practices
-
-**Created**: 2025-10-13 07:15:29
-**Last Updated**: 2025-10-13 07:15:29
-**Purpose**: Guide for implementing live trading with Nautilus Trader framework
-**Applies To**: Options spread strategy live trading with Zerodha integration
-**WARNING**: This document covers real money trading. Follow all recommendations carefully.
-
 ---
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Pre-Go-Live Checklist](#pre-go-live-checklist)
-3. [Live Trading Architecture](#live-trading-architecture)
-4. [Zerodha Execution Client](#zerodha-execution-client)
-5. [Risk Management & Circuit Breakers](#risk-management--circuit-breakers)
-6. [Order Management](#order-management)
-7. [Monitoring & Alerts](#monitoring--alerts)
-8. [Error Handling & Recovery](#error-handling--recovery)
-9. [Gradual Rollout Strategy](#gradual-rollout-strategy)
-10. [Production Checklist](#production-checklist)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.871068Z'
+id: AUTO-02_LIVE_TRADING_BEST_PRACTICES
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for 02_LIVE_TRADING_BEST_PRACTICES
+updated_at: '2025-11-25T16:23:21.871072Z'
 ---
 
 ## Introduction

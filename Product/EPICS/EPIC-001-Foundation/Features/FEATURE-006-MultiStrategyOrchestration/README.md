@@ -1,14 +1,19 @@
 ---
-id: FEATURE-006-MultiStrategyOrchestration
-title: Unified Strategy Orchestration Domain Model
 artifact_type: feature_specification
-status: proposed
-created_at: '2025-11-20T22:00:00+00:00'
-updated_at: '2025-11-21T00:00:00+00:00'
+created_at: '2025-11-25T16:23:21.747845Z'
+id: FEATURE-006-MultiStrategyOrchestration
+manual_update: true
 owner: system_architect
-related_epic: [EPIC-001-Foundation]
-related_feature: []
 progress_pct: 0
+related_epic:
+- EPIC-001-Foundation
+related_feature: []
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: proposed
+title: Unified Strategy Orchestration Domain Model
+updated_at: '2025-11-25T16:23:21.747853Z'
 ---
 
 # FEATURE-006: Unified Strategy Orchestration Domain Model

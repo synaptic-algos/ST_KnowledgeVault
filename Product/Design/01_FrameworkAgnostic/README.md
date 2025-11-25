@@ -1,3 +1,18 @@
+---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.843433Z'
+id: AUTO-README
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.843439Z'
+---
 # Framework-Agnostic Trading Platform - Design Specification
 
 ## Overview

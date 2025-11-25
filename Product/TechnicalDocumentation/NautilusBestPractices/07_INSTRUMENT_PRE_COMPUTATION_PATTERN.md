@@ -1,27 +1,18 @@
-# Instrument Pre-Computation Pattern for Options Backtesting
-
-**Created**: 2024-10-20 12:00:00
-**Last Updated**: 2024-10-20 12:00:00
-**Research Status**: Deep research completed with industry best practices
-**Purpose**: Document the pre-computation pattern for determining exact instruments needed before Nautilus backtest execution
-**Related Docs**: [05_OPTIONS_BACKTESTING_BEST_PRACTICES.md](05_OPTIONS_BACKTESTING_BEST_PRACTICES.md), [06_DYNAMIC_INSTRUMENT_REGISTRATION_INVESTIGATION.md](06_DYNAMIC_INSTRUMENT_REGISTRATION_INVESTIGATION.md)
-
 ---
-
-## Table of Contents
-
-1. [Executive Summary](#executive-summary)
-2. [The Pre-Computation Pattern](#the-pre-computation-pattern)
-3. [Why This Works with Nautilus](#why-this-works-with-nautilus)
-4. [Research Findings](#research-findings)
-5. [Implementation Guide](#implementation-guide)
 6. [Comparison: Pre-Computation vs Buffer Filtering](#comparison-pre-computation-vs-buffer-filtering)
-7. [Advanced Techniques](#advanced-techniques)
-8. [Gotchas and Edge Cases](#gotchas-and-edge-cases)
-9. [Production Recommendations](#production-recommendations)
-10. [Code Examples](#code-examples)
-11. [References](#references)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.810394Z'
+id: AUTO-07_INSTRUMENT_PRE_COMPUTATION_PATTERN
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for 07_INSTRUMENT_PRE_COMPUTATION_PATTERN
+updated_at: '2025-11-25T16:23:21.810397Z'
 ---
 
 ## Executive Summary

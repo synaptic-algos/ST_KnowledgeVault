@@ -1,24 +1,18 @@
-# Nautilus Best Practices: Options Spread Position Tracking
-
-**Research Date**: 2025-11-06
-**Nautilus Version**: 1.220.0+ (Latest stable with options spread support)
-**Issue Context**: #20251106_160000 - Stop loss not triggering due to P&L calculation
-**Research Status**: Comprehensive
-
 ---
-
-## Table of Contents
-
-1. [Executive Summary](#executive-summary)
-2. [Multi-Leg Order Types in Nautilus](#multi-leg-order-types-in-nautilus)
-3. [Position Tracking Patterns](#position-tracking-patterns)
-4. [P&L Calculation for Spreads](#pl-calculation-for-spreads)
-5. [Position Metadata Management](#position-metadata-management)
-6. [Code Examples from Nautilus](#code-examples-from-nautilus)
-7. [Recommendations for Our Strategy](#recommendations-for-our-strategy)
-8. [References](#references)
 9. [Appendix: Investigation Log](#appendix-investigation-log)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.857926Z'
+id: AUTO-12_OPTIONS_SPREAD_POSITION_TRACKING
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for 12_OPTIONS_SPREAD_POSITION_TRACKING
+updated_at: '2025-11-25T16:23:21.857929Z'
 ---
 
 ## Executive Summary

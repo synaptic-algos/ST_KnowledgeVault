@@ -1,12 +1,19 @@
 ---
-id: UNIFIED_STRATEGY_MIGRATION_GUIDE
-title: Migration Guide - Unified Strategy Support
 artifact_type: migration_guide
-version: 1.0.0
-created_at: '2025-11-21T01:30:00+00:00'
-updated_at: '2025-11-21T01:30:00+00:00'
 author: developer_experience
+created_at: '2025-11-25T16:23:21.623514Z'
+id: UNIFIED_STRATEGY_MIGRATION_GUIDE
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: draft
+title: Migration Guide - Unified Strategy Support
+updated_at: '2025-11-25T16:23:21.623518Z'
+version: 1.0.0
 ---
 
 # Migration Guide: Unified Strategy Support

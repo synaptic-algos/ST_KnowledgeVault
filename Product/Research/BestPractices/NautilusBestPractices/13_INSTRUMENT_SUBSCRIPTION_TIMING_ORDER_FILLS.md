@@ -1,57 +1,17 @@
-# 13. Nautilus Bar Timing and Order Fill Accuracy
-
-**Date**: 2025-11-07
-**Issue**: Orders filled using stale bar prices (previous timestamp)
-**Initial Hypothesis**: Dynamic instrument subscription leads to missing market data
-**Root Cause**: Nautilus architecture processes bars for execution BEFORE sending to strategy
-**Solution**: Fix prices in enricher using catalog lookup at order submission timestamp
-
 ---
-
-## Problem Statement
-
-### The Issue
-
-When using Nautilus BacktestEngine with hourly bar data, market orders were being filled at prices from the **previous hour's bar** instead of the current hour:
-
-**Evidence** (2024-01-08, SPREAD_0001):
-```
-Order Time | Instrument  | Fill Price | Source Bar | Correct Bar | Error
------------|-------------|------------|------------|-------------|-------
-04:30      | 21650 PUT   | 217.24     | 03:30      | 04:30       | -1 hour
-04:30      | 21450 PUT   | 134.62     | 03:30      | 04:30       | -1 hour
-05:30      | 21650 PUT   | 238.31     | 04:30      | 05:30       | -1 hour
-05:30      | 21450 PUT   | 175.37     | 05:30      | 05:30       | ✓ Correct
-```
-
-**Impact**:
-- 75% of fills used wrong timestamp (9-11% price error)
-- False stop loss triggers
-- Invalid backtest P&L calculations
-- Entire backtest results compromised
-
-### Root Cause
-
-**Original Strategy Pattern** (WRONG):
-```python
-def _create_spread(self, leg1_symbol, leg2_symbol):
-    # Submit orders immediately
-    self.submit_order(leg1_order)
-    self.submit_order(leg2_order)
-
-    # Subscribe to bars AFTER orders (for P&L tracking)
-    self.subscribe_bars(leg1_bar_type)  # ❌ TOO LATE!
-    self.subscribe_bars(leg2_bar_type)
-```
-
-**What Happens**:
-1. Strategy receives NIFTY.NSE 04:30 bar (spot index)
-2. Strategy submits orders for option instruments (21650 PUT, 21450 PUT)
-3. **Problem**: Option instruments have NO market updates yet!
-4. Nautilus FillModel uses "last available price" = 03:30 bar (1 hour stale)
-5. Orders fill at wrong prices
-6. Subscription happens AFTER fill (too late to help)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.867271Z'
+id: AUTO-13_INSTRUMENT_SUBSCRIPTION_TIMING_ORDER_FILLS
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for 13_INSTRUMENT_SUBSCRIPTION_TIMING_ORDER_FILLS
+updated_at: '2025-11-25T16:23:21.867273Z'
 ---
 
 ## Nautilus Best Practices

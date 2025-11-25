@@ -1,24 +1,17 @@
-# Nautilus Backtesting Best Practices
-
-**Created**: 2025-10-16 15:13:12
-**Last Updated**: 2025-10-16 15:13:12
-**Purpose**: Guide for implementing backtesting with Nautilus Trader framework
-**Applies To**: Options spread strategy backtesting with capital management
-
 ---
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Backtest Engine Architecture](#backtest-engine-architecture)
-3. [Data Loading](#data-loading)
-4. [Strategy Implementation](#strategy-implementation)
-5. [Actor Integration](#actor-integration)
-6. [Configuration](#configuration)
-7. [Running Backtests](#running-backtests)
-8. [Performance Optimization](#performance-optimization)
-9. [Migration from Current System](#migration-from-current-system)
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.860333Z'
+id: AUTO-04_BACKTESTING_BEST_PRACTICES
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for 04_BACKTESTING_BEST_PRACTICES
+updated_at: '2025-11-25T16:23:21.860337Z'
 ---
 
 ## Introduction

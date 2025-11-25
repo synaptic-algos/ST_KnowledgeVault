@@ -1,29 +1,17 @@
-# DESIGN-008-02: Performance Monitoring & Reporting
-
-**Version**: 1.0.0
-**Last Updated**: 2025-11-21
-**Status**: Implemented
-**Related Story**: STORY-008-02-01
-**Feature**: FEATURE-002-PerformanceAnalytics
-**Epic**: EPIC-008-StrategyEnablement
-
 ---
-
-## Table of Contents
-
-1. [Purpose](#purpose)
-2. [Overview](#overview)
-3. [Performance Metrics](#performance-metrics)
-4. [Data Collection Architecture](#data-collection-architecture)
-5. [Metrics Calculation](#metrics-calculation)
-6. [Performance Analytics](#performance-analytics)
-7. [Alerting & Thresholds](#alerting--thresholds)
-8. [Reporting & Visualization](#reporting--visualization)
-9. [Integration with Existing Systems](#integration-with-existing-systems)
-10. [Data Model](#data-model)
-11. [Technical Architecture](#technical-architecture)
-12. [Implementation Plan](#implementation-plan)
-
+artifact_type: feature
+created_at: '2025-11-25T16:23:21.680049Z'
+id: AUTO-DESIGN-008-02-PerformanceMonitoring
+manual_update: true
+owner: Auto-assigned
+progress_pct: 0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+title: Auto-generated title for DESIGN-008-02-PerformanceMonitoring
+updated_at: '2025-11-25T16:23:21.680052Z'
 ---
 
 ## Purpose

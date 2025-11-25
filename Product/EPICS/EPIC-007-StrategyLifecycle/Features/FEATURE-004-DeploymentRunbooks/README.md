@@ -1,26 +1,21 @@
 ---
-id: FEATURE-004-DeploymentRunbooks
-seq: 4
-title: "Deployment & Rollout Playbooks"
-owner: strategy_ops_team
-status: planned
 artifact_type: feature_overview
-related_epic:
-  - EPIC-007
-related_feature:
-  - FEATURE-004-DeploymentRunbooks
-related_story:
-  - STORY-001-PaperTrialPlaybook
-  - STORY-002-GoNoGoChecklist
-  - STORY-003-LiveRolloutRunbook
-created_at: 2025-11-03T00:00:00Z
-updated_at: 2025-11-03T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.690293Z'
+id: FEATURE-004-DeploymentRunbooks
 last_review: 2025-11-03
-change_log:
-  - 2025-11-03 – strategy_ops_team – Scaffolded feature documentation – n/a
-progress_pct: 0
-requirement_coverage: 0
 linked_sprints: []
+manual_update: true
+owner: strategy_ops_team
+progress_pct: 0
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: 0
+seq: 4
+status: planned
+title: Deployment & Rollout Playbooks
+updated_at: '2025-11-25T16:23:21.690297Z'
 ---
 
 # FEATURE-004: Deployment & Rollout Playbooks

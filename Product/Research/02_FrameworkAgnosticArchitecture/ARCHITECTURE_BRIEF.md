@@ -1,3 +1,19 @@
+---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.850837Z'
+id: AUTO-ARCHITECTURE_BRIEF
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for ARCHITECTURE_BRIEF
+updated_at: '2025-11-25T16:23:21.850841Z'
+---
+
 # Architecture Brief: Framework-Agnostic Trading Platform
 
 ## Objective

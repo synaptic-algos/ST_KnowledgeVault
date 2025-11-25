@@ -1,24 +1,25 @@
 ---
-id: FEATURE-004-Portfolio
-parent_epic: EPIC-002
-title: Portfolio Accounting
-owner: eng_team
-status: completed
 artifact_type: feature_overview
-created_at: '2025-11-20T09:30:00+00:00'
-updated_at: '2025-11-20T10:00:00+00:00'
-progress_pct: 100
+change_log:
+- '2025-11-20 – eng_team – Marked complete: implementation from EPIC-007 satisfies
+  requirements – RECONCILIATION'
+created_at: '2025-11-25T16:23:21.730551Z'
+id: FEATURE-004-Portfolio
+last_review: '2025-11-20'
+linked_sprints: []
 manual_update: true
-seq: 4
-related_epic: [EPIC-007]
+owner: eng_team
+parent_epic: EPIC-002
+progress_pct: 100
+related_epic:
+- EPIC-007
 related_feature: []
 related_story: []
-last_review: '2025-11-20'
-change_log:
-  - '2025-11-20 – eng_team – Marked complete: implementation from EPIC-007 satisfies requirements – RECONCILIATION'
-  - '2025-11-20 – system – Feature placeholder created – EPIC-002'
 requirement_coverage: 95
-linked_sprints: []
+seq: 4
+status: completed
+title: Portfolio Accounting
+updated_at: '2025-11-25T16:23:21.730555Z'
 ---
 
 # FEATURE-004: Portfolio Accounting

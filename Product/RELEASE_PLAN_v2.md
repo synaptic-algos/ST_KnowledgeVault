@@ -1,24 +1,17 @@
-# Synaptic Trading Platform - Release Plan v2.0
-
-**Document Version**: 2.0
-**Created**: 2025-11-20
-**Last Updated**: 2025-11-20
-**Owner**: Product Operations Team
-**Status**: 🟢 Active
-
 ---
-
-## Executive Summary
-
-**Key Change**: Multi-framework support for backtesting, paper trading, and live trading. Users can choose between Custom, Nautilus, or Backtrader engines for all trading modes.
-
-**Rationale**:
-- Framework-agnostic architecture enables user choice and ecosystem leverage
-- EPIC-005 (Framework Adapters) establishes integration patterns used across all EPICs
-- Nautilus and Backtrader provide mature market data and execution ecosystems
-
-**Impact**: EPIC-002 is **NOT complete** - only custom engine delivered. Nautilus and Backtrader backtesting pending EPIC-005.
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.550661Z'
+id: AUTO-RELEASE_PLAN_v2
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for RELEASE_PLAN_v2
+updated_at: '2025-11-25T16:23:21.550664Z'
 ---
 
 ## Revised EPIC Sequencing

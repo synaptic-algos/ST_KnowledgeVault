@@ -1,21 +1,21 @@
 ---
-id: EPIC-009
-seq: 9
-title: "Partner Community"
-owner: product_ops_team
-status: planned
 artifact_type: epic_overview
+change_log: null
+created_at: '2025-11-25T16:23:21.643933Z'
+id: EPIC-009
+last_review: 2025-11-21
+linked_sprints: []
+manual_update: true
+owner: product_ops_team
+progress_pct: 0
 related_epic: []
 related_feature: []
 related_story: []
-created_at: 2025-11-21T00:00:00Z
-updated_at: 2025-11-21T00:00:00Z
-last_review: 2025-11-21
-change_log:
-  - 2025-11-21 – product_ops_team – Placeholder created during epic renumbering
-progress_pct: 0
 requirement_coverage: 0
-linked_sprints: []
+seq: 9
+status: planned
+title: Partner Community
+updated_at: '2025-11-25T16:23:21.643936Z'
 ---
 
 # EPIC-009 Partner Community

@@ -1,23 +1,22 @@
 ---
-id: FEATURE-002-EventReplay
-parent_epic: EPIC-002
-title: Event Replay Engine
-owner: eng_team
-status: completed
 artifact_type: feature_overview
-created_at: '2025-11-18T00:00:00+00:00'
-updated_at: '2025-11-20T09:30:00+00:00'
-progress_pct: 100
+change_log: null
+created_at: '2025-11-25T16:23:21.734710Z'
+id: FEATURE-002-EventReplay
+last_review: '2025-11-20'
+linked_sprints: []
 manual_update: true
-seq: 2
+owner: eng_team
+parent_epic: EPIC-002
+progress_pct: 100
 related_epic: []
 related_feature: []
 related_story: []
-last_review: '2025-11-20'
-change_log:
-  - '2025-11-20 – eng_team – FEATURE-002 completed and merged to main via PR #3 – EPIC-002'
 requirement_coverage: 100
-linked_sprints: []
+seq: 2
+status: completed
+title: Event Replay Engine
+updated_at: '2025-11-25T16:23:21.734714Z'
 ---
 
 # FEATURE-002: Event Replay Engine

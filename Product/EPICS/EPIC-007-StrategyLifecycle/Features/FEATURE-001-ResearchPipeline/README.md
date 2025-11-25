@@ -1,34 +1,22 @@
 ---
-id: FEATURE-007-ResearchPipeline
-seq: 1
-title: Research Intake & Discovery Workflow
-owner: strategy_ops_team
-status: completed
 artifact_type: feature_overview
-related_epic:
-- EPIC-007
-related_feature:
-- FEATURE-007-ResearchPipeline
-related_story:
-- STORY-007-01-01
-- STORY-007-01-02
-- STORY-007-01-03
-- STORY-007-01-04
-created_at: 2025-11-03 00:00:00+00:00
-updated_at: 2025-11-21 00:00:00+00:00
+change_log: null
 completed_at: 2025-11-19 00:00:00+00:00
+created_at: '2025-11-25T16:23:21.666781Z'
+id: FEATURE-007-ResearchPipeline
 last_review: 2025-11-21
-change_log:
-- "2025-11-03 \u2013 strategy_ops_team \u2013 Created research pipeline feature scaffold\
-  \ \u2013 n/a"
-- "2025-11-19 \u2013 sprint_team \u2013 Completed all 4 stories with 180+ tests \u2013\
-  \ 100%"
-- "2025-11-21 \u2013 nitindhawan \u2013 Updated vault to reflect completed status\
-  \ \u2013 sync fix"
+linked_sprints: null
+manual_update: true
+owner: strategy_ops_team
 progress_pct: 100.0
+related_epic: null
+related_feature: null
+related_story: null
 requirement_coverage: 100
-linked_sprints:
-- SPRINT-20251118-epic007-research-pipeline
+seq: 1
+status: completed
+title: Research Intake & Discovery Workflow
+updated_at: '2025-11-25T16:23:21.666787Z'
 ---
 
 # FEATURE-001: Research Intake & Discovery Workflow

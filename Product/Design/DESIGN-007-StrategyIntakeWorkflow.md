@@ -1,21 +1,21 @@
 ---
-id: DESIGN-007-StrategyIntakeWorkflow
-title: "Strategy Intake Workflow Design"
-owner: strategy_ops_team
-status: draft
-artifact_type: design_document
-related_epic:
-  - EPIC-007
-related_feature:
-  - FEATURE-001-ResearchPipeline
-related_story:
-  - STORY-007-01-01
-created_at: 2025-11-19T00:00:00Z
-updated_at: 2025-11-19T00:00:00Z
-last_review: 2025-11-19
-version: 0.1.0
-reviewers: []
 approval_status: pending
+artifact_type: design_document
+created_at: '2025-11-25T16:23:21.603973Z'
+id: DESIGN-007-StrategyIntakeWorkflow
+last_review: 2025-11-19
+manual_update: true
+owner: strategy_ops_team
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: TBD
+reviewers: []
+seq: 1
+status: draft
+title: Strategy Intake Workflow Design
+updated_at: '2025-11-25T16:23:21.603977Z'
+version: 0.1.0
 ---
 
 # DESIGN-007: Strategy Intake Workflow

@@ -1,89 +1,17 @@
-# Git Worktrees Quick Reference
-
-One-page cheat sheet for common worktree operations.
-
-## Essential Commands
-
-### Create Worktree
-```bash
-# Using helper script (recommended)
-./scripts/create_worktree.sh 123 "RSI fix"
-
-# Manual creation
-git worktree add -b issue-123-rsi-fix ../worktrees/issue-123-rsi-fix main
-```
-
-### List Worktrees
-```bash
-# Detailed status (recommended)
-./scripts/list_worktrees.sh
-
-# Basic list
-git worktree list
-```
-
-### Remove Worktree
-```bash
-# Automatic cleanup of merged branches
-./scripts/cleanup_merged_worktrees.sh
-
-# Manual removal
-git worktree remove ../worktrees/issue-123-rsi-fix
-```
-
-### Cleanup
-```bash
-# Prune stale worktree references
-git worktree prune
-
-# Delete local branch after merge
-git branch -d issue-123-rsi-fix
-
-# Delete remote branch
-git push origin --delete issue-123-rsi-fix
-```
-
 ---
-
-## Typical Workflow
-
-### 1. Start New Issue
-```bash
-# Create worktree
-./scripts/create_worktree.sh 123 "Fix RSI classification"
-
-# Navigate and launch Claude
-cd /Users/nitindhawan/Downloads/CodeRepository/worktrees/issue-123-fix-rsi-classification
-claude
-```
-
-### 2. Work on Issue
-```bash
-# Claude makes changes...
-
-# Commit and push
-git add .
-git commit -m "fix: RSI > 70 now classified correctly"
-git push -u origin issue-123-fix-rsi-classification
-```
-
-### 3. Create PR
-```bash
-gh pr create --title "Issue #123: Fix RSI classification" \
-             --body "Fixes #123"
-```
-
-### 4. After Merge
-```bash
-# Cleanup automatically
-./scripts/cleanup_merged_worktrees.sh
-
-# Or manual cleanup
-cd /Users/nitindhawan/Downloads/CodeRepository/pilot-synaptictrading
-git worktree remove ../worktrees/issue-123-fix-rsi-classification
-git branch -d issue-123-fix-rsi-classification
-```
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.882029Z'
+id: AUTO-QUICK_REFERENCE
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for QUICK_REFERENCE
+updated_at: '2025-11-25T16:23:21.882032Z'
 ---
 
 ## Multi-Computer Workflow

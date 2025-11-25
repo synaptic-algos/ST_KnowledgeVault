@@ -1,9 +1,21 @@
 ---
-template_id: equities-strategy-template
-version: 1.0.0
-last_review: 2025-11-04
+artifact_type: story
 asset_class: equities
+created_at: '2025-11-25T16:23:21.837015Z'
+id: AUTO-Equities_Strategy_Template
+last_review: 2025-11-04
+manual_update: true
 owner: strategy_ops_team
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+template_id: equities-strategy-template
+title: Auto-generated title for Equities_Strategy_Template
+updated_at: '2025-11-25T16:23:21.837018Z'
+version: 1.0.0
 ---
 
 # Equities Strategy Template

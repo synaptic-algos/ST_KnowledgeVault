@@ -1,27 +1,21 @@
 ---
-id: FEATURE-008-StrategyLibrary
-seq: 5
-title: "Strategy Template & Library System"
-owner: strategy_ops_team
-status: planned
 artifact_type: feature_overview
-related_epic:
-  - EPIC-008
-related_feature:
-  - FEATURE-008-StrategyLibrary
-related_story:
-  - STORY-008-05-01
-  - STORY-008-05-02
-  - STORY-008-05-03
-  - STORY-008-05-04
-created_at: 2025-11-04T00:00:00Z
-updated_at: 2025-11-04T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.692340Z'
+id: FEATURE-008-StrategyLibrary
 last_review: 2025-11-04
-change_log:
-  - 2025-11-04 – strategy_ops_team – Created strategy library feature – n/a
-progress_pct: 0
-requirement_coverage: 0
 linked_sprints: []
+manual_update: true
+owner: strategy_ops_team
+progress_pct: 0
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: 0
+seq: 5
+status: planned
+title: Strategy Template & Library System
+updated_at: '2025-11-25T16:23:21.692344Z'
 ---
 
 # FEATURE-005: Strategy Template & Library System

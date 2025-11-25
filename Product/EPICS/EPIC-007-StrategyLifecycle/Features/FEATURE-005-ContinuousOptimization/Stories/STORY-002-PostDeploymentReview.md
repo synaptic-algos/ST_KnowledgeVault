@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.721228Z'
+id: AUTO-STORY-002-PostDeploymentReview
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-002-PostDeploymentReview
+updated_at: '2025-11-25T16:23:21.721232Z'
 ---
 
 # STORY-007-05-02: Schedule Post-Deployment Review Cadence

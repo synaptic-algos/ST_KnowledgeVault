@@ -1,18 +1,21 @@
 ---
+artifact_type: feature
+created_at: '2025-11-25T16:23:21.777546Z'
 id: FEATURE-006-003-PartnerWorkspace
-parent_epic: EPIC-006
+manual_update: true
 owner: partner_success_team
-status: planned
+parent_epic: EPIC-006
 priority: medium
 progress_pct: 0
-created_at: 2025-02-15
-updated_at: 2025-02-15
-references:
-  - documentation/localresearch/multi_user_partner_auth_inventory.md
-  - documentation/vault_prd/09_PartnerAccess/PRD.md
-  - documentation/vault_design/09_PartnerAccess/IDENTITY_AND_CREDENTIAL_DESIGN.md
-  - SynpaticTradingV2/PRODUCT_MANAGEMENT/PARTNER_VIEWS/README.md
-  - SynpaticTradingV2/docs/features/implemented/FEAT-2025-0043-INT-004_Frontend_Components.md
+references: null
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: planned
+title: Auto-generated title for README
+updated_at: '2025-11-25T16:23:21.777550Z'
 ---
 
 # Feature: Partner Workspace & Delegated Access

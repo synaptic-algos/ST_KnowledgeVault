@@ -1,3 +1,19 @@
+---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.792800Z'
+id: AUTO-release_notes
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for release_notes
+updated_at: '2025-11-25T16:23:21.792804Z'
+---
+
 # User Manual Release Notes
 
 | Sprint / Epic | Date | Summary | Manual Sections Updated |

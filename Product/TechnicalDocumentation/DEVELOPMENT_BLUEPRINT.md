@@ -1,17 +1,17 @@
-# Development Blueprint: Hybrid UPMS Implementation
-
-**Document ID**: `dev-blueprint-20251104-hybrid-upms`
-**Created**: 2025-11-04
-**Owner**: Engineering Team
-**Status**: Active
-**Version**: 1.0.0
-
 ---
-
-## Purpose
-
-This blueprint defines how to develop code in the **SynapticTrading code repository** while maintaining traceability and development status in the **Obsidian Knowledge Vault**. It implements a pragmatic hybrid of UPMS methodology (Option C) that balances rigor with velocity.
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.612711Z'
+id: AUTO-DEVELOPMENT_BLUEPRINT
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for DEVELOPMENT_BLUEPRINT
+updated_at: '2025-11-25T16:23:21.612715Z'
 ---
 
 ## Core Principles

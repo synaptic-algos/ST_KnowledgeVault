@@ -1,19 +1,17 @@
-# Nautilus Trader Architecture - Overview & Best Practices
-
-**Created**: 2025-10-13 07:07:57
-**Last Updated**: 2025-10-13 07:07:57
-**Purpose**: Guide integration with NautilusTrader framework for options trading system
-**Audience**: Developers working on backtesting, paper trading, and live trading components
-
 ---
-
-## Executive Summary
-
-This document outlines how to properly integrate our options trading strategy with the NautilusTrader framework to ensure consistency across backtesting, paper trading, and live trading environments.
-
-**Current State**: Custom adapter pattern (reads Nautilus parquet data but doesn't use framework)
-**Target State**: Full Nautilus framework integration with native objects and proper architecture
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.815839Z'
+id: AUTO-00_OVERVIEW
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for 00_OVERVIEW
+updated_at: '2025-11-25T16:23:21.815842Z'
 ---
 
 ## What is NautilusTrader?

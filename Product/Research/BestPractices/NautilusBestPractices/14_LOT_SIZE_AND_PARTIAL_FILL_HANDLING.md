@@ -1,17 +1,17 @@
-# 14. Nautilus Lot Size & Partial Fill Handling
-
-**Date**: 2025-11-08  
-**Owner**: Backtest Reliability Guild  
-**Related Work**: `documentation/nautilusbestpractices/12_OPTIONS_SPREAD_POSITION_TRACKING.md`, `src/execution/atomic_spread_executor.py`, `src/enrichment/trade_enricher.py`
-
 ---
-
-## Executive Summary
-- Nautilus measures option quantities in **units** (shares/contracts), not lots. Instrument definitions must therefore set `lot_size`, `min_quantity`, and `quantity_step` correctly so that spread orders translate from “lots” to raw units without drift (`src/runners/backtest/execution/single_executor.py:533-567`).
-- Partial fills are tracked per leg via `LegExecutionState` and can be rejected, accepted, or rolled back depending on strategy config (`src/execution/atomic_spread_executor.py:55-157`, `src/config/strategy_config.py:173-211`). Even when we disallow partials logically, Nautilus may still emit a partially filled leg before we cancel, so downstream components must handle them gracefully.
-- Realistic P&L and reporting require recovering the **original submitted quantity** because `position.peak_qty` only reflects the amount actually filled. The enricher already reaches back into `opening_order_id` for this (`src/enrichment/trade_enricher.py:378-414`); strategies must do the same when calculating stop-loss percentage per leg.
-- Best practice is to (1) convert lots → units at the last possible hop, (2) store the per-leg `lot_size` alongside spread metadata, (3) keep `allow_partial_fills` and `rollback_on_partial` consistent, and (4) instrument rollbacks so orphaned legs are flattened automatically.
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.869811Z'
+id: AUTO-14_LOT_SIZE_AND_PARTIAL_FILL_HANDLING
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for 14_LOT_SIZE_AND_PARTIAL_FILL_HANDLING
+updated_at: '2025-11-25T16:23:21.869814Z'
 ---
 
 ## Nautilus Quantity Model

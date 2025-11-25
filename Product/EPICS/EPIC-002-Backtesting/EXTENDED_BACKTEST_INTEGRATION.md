@@ -1,11 +1,20 @@
 ---
-id: EPIC-002-Backtesting-Extended
-title: Extended Backtesting Engine Integration
 artifact_type: technical_specification
-created_at: '2025-11-20T20:00:00+00:00'
-updated_at: '2025-11-20T20:00:00+00:00'
 author: system_architect
-related_epic: [EPIC-002-Backtesting, EPIC-005-Adapters, EPIC-007-StrategyLifecycle]
+created_at: '2025-11-25T16:23:21.656304Z'
+id: EPIC-002-Backtesting-Extended
+manual_update: true
+owner: Auto-assigned
+related_epic:
+- EPIC-002-Backtesting
+- EPIC-005-Adapters
+- EPIC-007-StrategyLifecycle
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+title: Extended Backtesting Engine Integration
+updated_at: '2025-11-25T16:23:21.656307Z'
 ---
 
 # EPIC-002: Extended Backtesting Engine Integration

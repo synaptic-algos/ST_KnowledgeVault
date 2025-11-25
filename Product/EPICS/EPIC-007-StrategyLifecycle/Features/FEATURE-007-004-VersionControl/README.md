@@ -1,26 +1,21 @@
 ---
-id: FEATURE-008-VersionControl
-seq: 4
-title: "Strategy Versioning & Change Management"
-owner: strategy_ops_team
-status: planned
 artifact_type: feature_overview
-related_epic:
-  - EPIC-008
-related_feature:
-  - FEATURE-008-VersionControl
-related_story:
-  - STORY-008-04-01
-  - STORY-008-04-02
-  - STORY-008-04-03
-created_at: 2025-11-04T00:00:00Z
-updated_at: 2025-11-04T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.682951Z'
+id: FEATURE-008-VersionControl
 last_review: 2025-11-04
-change_log:
-  - 2025-11-04 – strategy_ops_team – Created version control feature – n/a
-progress_pct: 0
-requirement_coverage: 0
 linked_sprints: []
+manual_update: true
+owner: strategy_ops_team
+progress_pct: 0
+related_epic: null
+related_feature: null
+related_story: null
+requirement_coverage: 0
+seq: 4
+status: planned
+title: Strategy Versioning & Change Management
+updated_at: '2025-11-25T16:23:21.682955Z'
 ---
 
 # FEATURE-004: Strategy Versioning & Change Management

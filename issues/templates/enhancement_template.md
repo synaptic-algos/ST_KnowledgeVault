@@ -1,17 +1,17 @@
-# Enhancement: [Short Title]
-
-**Date**: YYYY-MM-DD HH:MM:SS
-**Priority**: HIGH | MEDIUM | LOW
-**Status**: Proposed | Accepted | In Progress | Implemented
-**Component**: [Backend API | Frontend UI | Database | Integration]
-**Related Story**: [Link to Feature/Story if applicable]
-
 ---
-
-## Summary
-
-[Brief 1-2 sentence description of the enhancement]
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.562429Z'
+id: AUTO-enhancement_template
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for enhancement_template
+updated_at: '2025-11-25T16:23:21.562433Z'
 ---
 
 ## Problem Statement

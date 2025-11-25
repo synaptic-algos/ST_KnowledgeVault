@@ -1,3 +1,19 @@
+---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.851810Z'
+id: AUTO-RISK_TRADEOFF_LOG
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
+status: pending
+title: Auto-generated title for RISK_TRADEOFF_LOG
+updated_at: '2025-11-25T16:23:21.851817Z'
+---
+
 # Risk & Trade-Off Log
 
 | Date | Decision | Benefit | Risk / Trade-off | Mitigation |

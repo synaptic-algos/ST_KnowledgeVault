@@ -1,27 +1,17 @@
-# Nautilus ParquetDataCatalog Performance Deep Dive
-
-**Document Metadata**:
-- **Created**: 2025-10-20 23:20:00 IST
-- **Author**: Claude Code (AI Assistant)
-- **Sprint**: Sprint 29 - Quick Wins (Task 7)
-- **Investigation**: Deep research into Nautilus catalog query performance
-- **Session**: Continuation session after Sprint 29 Task 1-4 completion
-
 ---
-
-## Executive Summary
-
-**Problem**: Nautilus `ParquetDataCatalog.bars()` queries are prohibitively slow (5+ minutes) when querying large catalogs (937K files) even with instrument filtering.
-
-**Root Cause**: The catalog's `_query_files()` method performs **O(N × M)** filtering (N = file count, M = instrument count) before passing files to Rust backend, resulting in ~31 billion comparisons for our use case.
-
-**Solution**: Two-stage catalog filtering approach that leverages Nautilus's efficient date-based partitioning before instrument filtering.
-
-**Performance Impact**:
-- Before: 7.7 hours for 230-instrument filtered catalog creation
-- After: 30-40 minutes (Stage 1: 5-10 min, Stage 2: 20-30 min)
-- Speedup: ~12-15x
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.871701Z'
+id: AUTO-10_NAUTILUS_PARQUET_CATALOG_PERFORMANCE_DEEP_DIVE
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for 10_NAUTILUS_PARQUET_CATALOG_PERFORMANCE_DEEP_DIVE
+updated_at: '2025-11-25T16:23:21.871704Z'
 ---
 
 ## Investigation Methodology

@@ -1,38 +1,17 @@
-# Local Merge Workflow with Git Worktrees
-
-## Table of Contents
-1. [Overview](#overview)
-2. [Basic Local Merge](#basic-local-merge)
-3. [Step-by-Step Guide](#step-by-step-guide)
-4. [Understanding Merge Types](#understanding-merge-types)
-5. [Handling Merge Conflicts](#handling-merge-conflicts)
-6. [Testing Before Merge](#testing-before-merge)
-7. [Complete Examples](#complete-examples)
-8. [Troubleshooting](#troubleshooting)
-9. [Quick Reference](#quick-reference)
-
 ---
-
-## Overview
-
-You can merge branches **locally** without using GitHub Pull Requests. This is useful for:
-
-- ✅ Solo development
-- ✅ Quick iterations
-- ✅ Testing multiple approaches
-- ✅ Local experimentation
-- ✅ Private changes
-
-**When to use local merge vs GitHub PR:**
-
-| **Local Merge** | **GitHub PR** |
-|----------------|---------------|
-| Solo development | Team collaboration |
-| Quick fixes | Code review needed |
-| Experimental changes | Important features |
-| Immediate integration | CI/CD checks required |
-| Private work | Documentation needed |
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.881439Z'
+id: AUTO-LOCAL_MERGE_WORKFLOW
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for LOCAL_MERGE_WORKFLOW
+updated_at: '2025-11-25T16:23:21.881442Z'
 ---
 
 ## Basic Local Merge

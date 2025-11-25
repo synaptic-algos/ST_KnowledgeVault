@@ -1,10 +1,23 @@
 ---
-id: PROC-2025-002
-type: epic_reconciliation
+artifact_type: story
+created_at: '2025-11-25T16:23:21.631164Z'
 date: 2025-11-20
-epics_involved: [EPIC-002, EPIC-007]
 decision_maker: eng_team
+epics_involved:
+- EPIC-002
+- EPIC-007
+id: PROC-2025-002
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: completed
+title: Auto-generated title for PROC-2025-002-EPIC-Reconciliation-007-002
+type: epic_reconciliation
+updated_at: '2025-11-25T16:23:21.631168Z'
 ---
 
 # PROC-2025-002: EPIC-002/EPIC-007 Code Reconciliation

@@ -1,12 +1,19 @@
 ---
-id: UNIFIED_STRATEGY_INTEGRATION_SUMMARY
-title: Unified Strategy Support - Integration Summary
 artifact_type: executive_summary
-version: 1.0.0
-created_at: '2025-11-21T01:45:00+00:00'
-updated_at: '2025-11-21T01:45:00+00:00'
 author: product_manager
+created_at: '2025-11-25T16:23:21.616726Z'
+id: UNIFIED_STRATEGY_INTEGRATION_SUMMARY
+manual_update: true
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: final
+title: Unified Strategy Support - Integration Summary
+updated_at: '2025-11-25T16:23:21.616730Z'
+version: 1.0.0
 ---
 
 # Unified Strategy Support - Integration Summary

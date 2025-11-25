@@ -1,26 +1,21 @@
 ---
-id: EPIC-006
-seq: 6
-title: "Partner Access & Credential Security"
-owner: security_architecture_team
-status: planned
 artifact_type: epic_overview
-related_epic:
-  - EPIC-006
-related_feature:
-  - FEATURE-006-001-IdentityFederation
-  - FEATURE-006-002-CredentialVault
-  - FEATURE-006-003-PartnerWorkspace
-  - FEATURE-006-004-MultiStrategyIsolation
-related_story: []
-created_at: 2025-02-15T00:00:00Z
-updated_at: 2025-02-15T00:00:00Z
+change_log: null
+created_at: '2025-11-25T16:23:21.639641Z'
+id: EPIC-006
 last_review: 2025-02-15
-change_log:
-  - 2025-02-15 – security_architecture_team – Created epic after reviewing `documentation/research/multi_user_partner_auth_inventory.md` – documentation/research/multi_user_partner_auth_inventory.md
-progress_pct: 0
-requirement_coverage: 0
 linked_sprints: []
+manual_update: true
+owner: security_architecture_team
+progress_pct: 0
+related_epic: null
+related_feature: null
+related_story: []
+requirement_coverage: 0
+seq: 6
+status: planned
+title: Partner Access & Credential Security
+updated_at: '2025-11-25T16:23:21.639645Z'
 ---
 
 # EPIC-006: Partner Access & Credential Security

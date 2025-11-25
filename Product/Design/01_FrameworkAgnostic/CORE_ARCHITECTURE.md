@@ -1,64 +1,17 @@
-# Core Architecture Design - Ports, Domain Model & Application Layer
-
-## Table of Contents
-1. [Architectural Layers](#architectural-layers)
-2. [Strategy Port Specifications](#strategy-port-specifications)
-3. [Canonical Domain Model](#canonical-domain-model)
-4. [Application Orchestration Layer](#application-orchestration-layer)
-5. [Dependency Management](#dependency-management)
-6. [Error Handling & Resilience](#error-handling--resilience)
-
 ---
-
-## 1. Architectural Layers
-
-### 1.1 Layer Responsibilities
-
-#### Domain Layer (`src/domain/`)
-**Purpose**: Pure business logic, framework-agnostic domain entities
-
-**Components**:
-- **Aggregates**: Strategy state, Position, Order
-- **Value Objects**: InstrumentId, Price, Quantity, TimeInForce
-- **Domain Services**: SignalGenerator, PositionSizer, RiskCalculator
-- **Domain Events**: SignalGenerated, PositionOpened, OrderFilled
-
-**Rules**:
-- ❌ NO imports from `adapters/` or `application/`
-- ❌ NO framework-specific libraries
-- ✅ Only pure Python + domain value objects
-- ✅ 100% deterministic, testable with mocks
-
-#### Application Layer (`src/application/`)
-**Purpose**: Orchestrate domain logic, coordinate ports
-
-**Components**:
-- **RuntimeBootstrapper**: DI container, wires ports to adapters
-- **TickDispatcher**: Receives engine events, dispatches to strategies
-- **CommandBus**: Routes trade intents to execution port
-- **RiskOrchestrator**: Pre-trade risk checks before submission
-- **MetricsCollector**: Aggregates telemetry across adapters
-
-**Rules**:
-- ✅ Depends on domain + port interfaces
-- ❌ Never imports concrete adapter implementations
-- ✅ Stateless services, pure orchestration
-
-#### Adapter Layer (`src/adapters/frameworks/`)
-**Purpose**: Translate between canonical model and engine APIs
-
-**Components**:
-- **NautilusAdapter**: Implements ports using Nautilus SDK
-- **BacktraderAdapter**: Wraps Backtrader Strategy + Cerebro
-- **ZiplineAdapter**: Integrates with Zipline TradingAlgorithm
-- **CustomAdapter**: Reference implementation
-
-**Rules**:
-- ✅ Implements ALL port contracts
-- ✅ Maintains bidirectional ID mappings
-- ✅ Handles async → sync translation
-- ❌ Never accesses domain internals directly
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.841389Z'
+id: AUTO-CORE_ARCHITECTURE
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for CORE_ARCHITECTURE
+updated_at: '2025-11-25T16:23:21.841392Z'
 ---
 
 ## 2. Strategy Port Specifications

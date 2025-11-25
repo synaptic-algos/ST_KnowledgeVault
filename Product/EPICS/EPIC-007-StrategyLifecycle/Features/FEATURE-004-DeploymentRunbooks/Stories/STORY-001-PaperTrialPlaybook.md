@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.698429Z'
+id: AUTO-STORY-001-PaperTrialPlaybook
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-001-PaperTrialPlaybook
+updated_at: '2025-11-25T16:23:21.698432Z'
 ---
 
 # STORY-007-04-01: Author Paper Trial Playbook

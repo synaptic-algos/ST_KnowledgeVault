@@ -1,35 +1,17 @@
-# DESIGN – Documentation Synchronisation Workflow
-
-**Design ID**: DESIGN-VAULT-001
-**Related Epic**: [[../EPICS/EPIC-001-Synchronisation/README.md|EPIC-001: Vault Synchronisation]]
-**Related Story**: [[../EPICS/EPIC-001-Synchronisation/Stories/STORY-001-DocRouter/README.md|STORY-001: Doc Router]]
-**Status**: Draft
-**Owner**: DevOps Team
-**Created**: 2025-11-05
-**Updated**: 2025-11-12
-
 ---
-
-## Context
-
-Claude Code sessions produce implementation artifacts (implementation summaries, design documents, schemas, quickstart guides) inside the code repository workspace. These docs must live in the knowledge vault for long-term curation while remaining accessible to engineers working in the code base via symlinks.
-
-### Problem Statement
-
-**Current Pain**:
-- Engineers manually copy Claude-generated docs to vault
-- YAML frontmatter often missing or inconsistent
-- EPIC/Feature/Story links not established
-- Symlinks break when vault structure changes
-- Time-consuming and error-prone process
-
-**Desired State**:
-- Automated detection and routing of generated documentation
-- Consistent metadata on all artifacts
-- Bidirectional traceability (doc ↔ EPIC/Feature/Story)
-- Healthy symlinks maintained automatically
-- < 1 minute from doc generation to vault integration
-
+artifact_type: story
+created_at: '2025-11-25T16:23:21.564080Z'
+id: AUTO-DOC_ROUTER_DESIGN
+manual_update: 'true'
+owner: Auto-assigned
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: '001'
+status: pending
+title: Auto-generated title for DOC_ROUTER_DESIGN
+updated_at: '2025-11-25T16:23:21.564083Z'
 ---
 
 ## Goals

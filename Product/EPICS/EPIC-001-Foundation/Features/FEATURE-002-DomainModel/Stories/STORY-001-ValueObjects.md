@@ -1,6 +1,18 @@
 ---
+artifact_type: story
+created_at: '2025-11-25T16:23:21.761625Z'
+id: AUTO-STORY-001-ValueObjects
+manual_update: true
+owner: Auto-assigned
 progress_pct: 0.0
+related_epic: TBD
+related_feature: TBD
+related_story: TBD
+requirement_coverage: TBD
+seq: 1
 status: planned
+title: Auto-generated title for STORY-001-ValueObjects
+updated_at: '2025-11-25T16:23:21.761628Z'
 ---
 
 # STORY-001-02-01: Implement Core Value Objects
