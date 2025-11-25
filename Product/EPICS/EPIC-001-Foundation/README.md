@@ -13,6 +13,8 @@ related_feature:
 - FEATURE-003-StrategyBase
 - FEATURE-004-Orchestration
 - FEATURE-005-Testing
+- FEATURE-006-MultiStrategyOrchestration
+- FEATURE-007-MultiStrategyComposition
 related_story: []
 created_at: 2025-11-03 00:00:00+00:00
 updated_at: '2025-11-15T10:30:00Z'
@@ -27,6 +29,7 @@ change_log:
 - "2025-11-03 \u2013 product_ops_team \u2013 Added UPMS metadata, PRD and requirements\
   \ references \u2013 n/a"
 progress_pct: 0.0
+manual_update: true
 requirement_coverage: 100
 feature_completion:
   FEATURE-001-PortInterfaces: 100
@@ -112,14 +115,16 @@ Establish the foundational architecture for the framework-agnostic platform, inc
 
 | Feature ID | Feature Name | Stories | Est. Days | Status |
 |------------|--------------|---------|-----------|--------|
-| [FEATURE-001-PortInterfaces](./FEATURE-001-PortInterfaces/README.md) | Port Interface Definitions | 5 | 5 | ✅ Complete |
-| [FEATURE-002-DomainModel](./FEATURE-002-DomainModel/README.md) | Canonical Domain Model | 4 | 4 | ✅ Complete |
-| [FEATURE-003-StrategyBase](./FEATURE-003-StrategyBase/README.md) | Base Strategy Class | 3 | 3 | ✅ Complete |
-| [FEATURE-004-Orchestration](./FEATURE-004-Orchestration/README.md) | Application Orchestration | 2 | 4 | ✅ Complete |
-| [FEATURE-005-Testing](./FEATURE-005-Testing/README.md) | Testing Infrastructure | 1 | 4 | ✅ Complete |
+| [FEATURE-001-PortInterfaces](./Features/FEATURE-001-PortInterfaces/README.md) | Port Interface Definitions | 5 | 5 | ✅ Complete |
+| [FEATURE-002-DomainModel](./Features/FEATURE-002-DomainModel/README.md) | Canonical Domain Model | 4 | 4 | ✅ Complete |
+| [FEATURE-003-StrategyBase](./Features/FEATURE-003-StrategyBase/README.md) | Base Strategy Class | 3 | 3 | ✅ Complete |
+| [FEATURE-004-Orchestration](./Features/FEATURE-004-Orchestration/README.md) | Application Orchestration | 2 | 4 | ✅ Complete |
+| [FEATURE-005-Testing](./Features/FEATURE-005-Testing/README.md) | Testing Infrastructure | 1 | 4 | ✅ Complete |
+| [FEATURE-006-MultiStrategyOrchestration](./Features/FEATURE-006-MultiStrategyOrchestration/README.md) | Multi-Strategy Orchestration | 0 | TBD | ✅ Complete |
+| [FEATURE-007-MultiStrategyComposition](./Features/FEATURE-007-MultiStrategyComposition/README.md) | Multi-Strategy Composition & Coordination | 6 | 12 | 📋 Planned |
 
-**Total**: 5 Features, 15 Stories, ~20 days
-**Completed**: 5/5 Features (100%)
+**Total**: 7 Features, 21 Stories, ~32 days
+**Completed**: 6/7 Features (86%)
 
 ## Milestone
 

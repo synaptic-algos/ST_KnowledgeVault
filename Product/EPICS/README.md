@@ -13,6 +13,8 @@ related_epic:
   - EPIC-005
   - EPIC-006
   - EPIC-007
+  - EPIC-008
+  - EPIC-009
 related_feature: []
 related_story: []
 created_at: 2025-11-03T00:00:00Z
@@ -32,9 +34,12 @@ change_log:
 | [[SynapticTrading_Product/EPICS/EPIC-003-PaperTrading/README|EPIC-003 Paper Trading]] | Paper execution | G0 draft | 📋 Planned | 0% |
 | [[SynapticTrading_Product/EPICS/EPIC-004-LiveTrading/README|EPIC-004 Live Trading]] | Live controls & monitoring | G0 draft | 📋 Planned | 0% |
 | [[SynapticTrading_Product/EPICS/EPIC-005-Adapters/README|EPIC-005 Adapters]] | Engine adapter suite | G0 draft | 📋 Planned | 0% |
-| [[SynapticTrading_Product/EPICS/EPIC-006-Hardening/README|EPIC-006 Hardening]] | Performance, security, rollout | G0 draft | 📋 Planned | 0% |
-| [[SynapticTrading_Product/EPICS/EPIC-007-StrategyLifecycle/README|EPIC-007 Strategy Lifecycle]] | Strategy intake → deployment | G0 draft | 📋 Planned | 0% |
-| [[SynapticTrading_Product/EPICS/EPIC-009-PartnerAccess/README|EPIC-009 Partner Access]] | Multi-tenant auth & credential security | Pre-G0 | 📋 Planned | 0% |
+| [[SynapticTrading_Product/EPICS/EPIC-006-PartnerAccess/README|EPIC-006 Partner Access]] | Multi-tenant auth & credential security | Pre-G0 | 📋 Planned | 0% |
+| [[SynapticTrading_Product/EPICS/EPIC-007-StrategyLifecycle/README|EPIC-007 Strategy Lifecycle]] | Strategy intake → deployment (incl. enablement) | G0 draft | 📋 Planned | 0% |
+| [[SynapticTrading_Product/EPICS/EPIC-008-Administration/README|EPIC-008 Administration]] | Portal administration (ops/config/audit) | Pre-G0 | 📋 Planned | 0% |
+| [[SynapticTrading_Product/EPICS/EPIC-009-PartnerCommunity/README|EPIC-009 Partner Community]] | Partner collaboration & sharing | Pre-G0 | 📋 Planned | 0% |
+
+Hardening/reliability is now tracked as part of the Definition of Done for each epic (no standalone hardening epic).
 
 Each epic directory also contains a `TEST_PLAN.md` (see UPMS template) that maps requirements to the test suites that live under `tests/epics/<epic_slug>/`.
 

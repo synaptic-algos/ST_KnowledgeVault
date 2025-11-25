@@ -1,24 +1,25 @@
 ---
 id: FEATURE-007-PrioritisationGovernance
 seq: 2
-title: "Prioritisation Council & Scoring"
+title: Prioritisation Council & Scoring
 owner: strategy_ops_team
-status: planned
+status: completed
 artifact_type: feature_overview
 related_epic:
-  - EPIC-007
+- EPIC-007
 related_feature:
-  - FEATURE-007-PrioritisationGovernance
+- FEATURE-007-PrioritisationGovernance
 related_story:
-  - STORY-007-02-01
-  - STORY-007-02-02
-  - STORY-007-02-03
-created_at: 2025-11-03T00:00:00Z
-updated_at: 2025-11-03T00:00:00Z
+- STORY-007-02-01
+- STORY-007-02-02
+- STORY-007-02-03
+created_at: 2025-11-03 00:00:00+00:00
+updated_at: 2025-11-03 00:00:00+00:00
 last_review: 2025-11-03
 change_log:
-  - 2025-11-03 – strategy_ops_team – Scaffolded feature documentation – n/a
-progress_pct: 0
+- "2025-11-03 \u2013 strategy_ops_team \u2013 Scaffolded feature documentation \u2013\
+  \ n/a"
+progress_pct: 100.0
 requirement_coverage: 0
 linked_sprints: []
 ---

@@ -4,6 +4,7 @@ title: NSE Data Import & Black-Scholes Greeks Calculation Pipeline
 feature_id: FEATURE-006
 epic_id: EPIC-007
 status: completed
+manual_update: true
 priority: P0
 owner: data_engineering_team
 estimated_effort: 10d

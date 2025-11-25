@@ -1,0 +1,114 @@
+name: Vault-Code Sync Check
+
+on:
+  pull_request:
+    branches: [ main, develop ]
+  push:
+    branches: [ main ]
+
+jobs:
+  check-vault-sync:
+    name: Verify Vault-Code Synchronization
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyyaml click rich
+        
+    - name: Check vault-code synchronization
+      run: |
+        echo "🔍 Checking vault-code synchronization..."
+        make check-status || {
+          echo "❌ ERROR: Vault documentation does not match code implementation!"
+          echo ""
+          echo "This usually means:"
+          echo "1. You completed work but didn't update vault status"
+          echo "2. Sprint records show completion but vault shows planned"
+          echo ""
+          echo "To fix:"
+          echo "1. Run 'make sync-status' locally"
+          echo "2. Review and commit vault changes"
+          echo "3. Push updated vault status with your code"
+          echo ""
+          echo "For help, see: documentation/CLAUDE.md"
+          exit 1
+        }
+        echo "✅ Vault-code synchronization check passed!"
+        
+    - name: Generate sync report
+      if: always()
+      run: |
+        make check-status --verbose > sync-report.txt || true
+        
+    - name: Upload sync report
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: vault-sync-report
+        path: sync-report.txt
+        
+    - name: Comment PR with sync status
+      if: failure() && github.event_name == 'pull_request'
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const fs = require('fs');
+          const report = fs.readFileSync('sync-report.txt', 'utf8');
+          
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: `## ❌ Vault-Code Sync Check Failed
+            
+            The vault documentation does not match the code implementation.
+            
+            <details>
+            <summary>Sync Report</summary>
+            
+            \`\`\`
+            ${report}
+            \`\`\`
+            </details>
+            
+            **To fix this:**
+            1. Run \`make sync-status\` in your local repository
+            2. Review the vault updates
+            3. Commit and push the vault changes
+            
+            See \`documentation/CLAUDE.md\` for detailed instructions.`
+          })
+
+  validate-manual-updates:
+    name: Validate Manual Update Flags
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Check for manual_update conflicts
+      run: |
+        # Find files marked as completed but missing manual_update flag
+        echo "🔍 Checking for missing manual_update flags..."
+        
+        find documentation/vault_* -name "*.md" -type f | while read file; do
+          if grep -q "status: completed" "$file" && ! grep -q "manual_update: true" "$file"; then
+            echo "⚠️  WARNING: $file is marked completed but missing manual_update flag"
+            echo "This may cause the sync tool to revert the completed status"
+          fi
+        done
+        
+        echo "✅ Manual update flag check complete"

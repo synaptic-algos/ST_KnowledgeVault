@@ -1,0 +1,110 @@
+#!/bin/bash
+# Enhanced pre-commit hook with vault-code sync enforcement
+
+set -e
+
+echo "🔍 Running pre-commit checks..."
+
+# 1. Check vault-code synchronization
+echo "📊 Checking vault-code synchronization..."
+if ! make check-status > /tmp/sync-check.log 2>&1; then
+    echo "❌ ERROR: Vault status does not match code implementation!"
+    echo ""
+    cat /tmp/sync-check.log
+    echo ""
+    echo "This means your code changes are not reflected in the vault documentation."
+    echo ""
+    echo "To fix this issue:"
+    echo "1. Run: make sync-status"
+    echo "2. Review the vault updates"
+    echo "3. Stage the vault changes: git add documentation/vault_*"
+    echo "4. Commit again"
+    echo ""
+    echo "If you completed work, ensure you also add 'manual_update: true' to the frontmatter."
+    echo ""
+    echo "For more help, see: documentation/CLAUDE.md"
+    exit 1
+fi
+echo "✅ Vault-code sync check passed"
+
+# 2. Check for common sync issues
+echo "🔍 Checking for common sync issues..."
+
+# Check for completed status without manual_update flag
+MISSING_MANUAL_UPDATE=$(grep -r "status: completed" documentation/vault_* 2>/dev/null | grep -v "manual_update: true" || true)
+if [ ! -z "$MISSING_MANUAL_UPDATE" ]; then
+    echo "⚠️  WARNING: Found completed items without manual_update flag:"
+    echo "$MISSING_MANUAL_UPDATE" | head -5
+    echo ""
+    echo "These may be reverted by automatic sync. Add 'manual_update: true' to preserve status."
+    echo ""
+    read -p "Continue anyway? (y/N) " -n 1 -r
+    echo
+    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+        exit 1
+    fi
+fi
+
+# 3. Check for sprint cursor updates
+if [ -f ".sprint_cursor" ]; then
+    if git diff --cached --name-only | grep -q "^\.sprint_cursor$"; then
+        echo "✅ Sprint cursor is being updated"
+    else
+        if git diff --name-only | grep -q "^\.sprint_cursor$"; then
+            echo "⚠️  WARNING: Sprint cursor has changes but isn't staged"
+            echo "Consider: git add .sprint_cursor"
+        fi
+    fi
+fi
+
+# 4. Check commit message format
+if [ -f ".git/COMMIT_EDITMSG" ]; then
+    COMMIT_MSG=$(cat .git/COMMIT_EDITMSG)
+    if echo "$COMMIT_MSG" | grep -qE "^\[(STORY|TASK|EPIC|FEATURE)-[0-9]+-?[0-9]*-?[0-9]*\]"; then
+        echo "✅ Commit message includes proper artifact reference"
+    else
+        echo "⚠️  WARNING: Commit message should start with [STORY-XXX], [TASK-XXX], etc."
+    fi
+fi
+
+# 5. Python code quality checks (if Python files changed)
+if git diff --cached --name-only | grep -q "\.py$"; then
+    echo "🐍 Running Python checks..."
+    
+    # Run black check
+    if command -v black &> /dev/null; then
+        if ! black --check $(git diff --cached --name-only | grep "\.py$"); then
+            echo "❌ Python formatting issues detected. Run: black ."
+            exit 1
+        fi
+    fi
+    
+    # Run ruff check
+    if command -v ruff &> /dev/null; then
+        if ! ruff check $(git diff --cached --name-only | grep "\.py$"); then
+            echo "❌ Python linting issues detected. Run: ruff check --fix"
+            exit 1
+        fi
+    fi
+fi
+
+# 6. Large file check
+echo "📦 Checking for large files..."
+LARGE_FILES=$(git diff --cached --name-only | xargs -I {} find {} -size +5M 2>/dev/null || true)
+if [ ! -z "$LARGE_FILES" ]; then
+    echo "⚠️  WARNING: Large files detected (>5MB):"
+    echo "$LARGE_FILES"
+    echo "Consider using Git LFS for large files"
+    read -p "Continue anyway? (y/N) " -n 1 -r
+    echo
+    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+        exit 1
+    fi
+fi
+
+echo "✅ All pre-commit checks passed!"
+echo ""
+echo "Remember: The vault is the single source of truth."
+echo "If you completed work, ensure vault status is updated."
+
+exit 0

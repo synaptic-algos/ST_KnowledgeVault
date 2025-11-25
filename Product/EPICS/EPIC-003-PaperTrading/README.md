@@ -1,3 +1,24 @@
+---
+id: EPIC-003-PaperTrading
+title: Paper Trading
+status: planned
+artifact_type: epic_overview
+created_at: '2025-11-20T04:09:26.835806+00:00'
+updated_at: '2025-11-20T04:09:26.835806+00:00'
+progress_pct: 0
+manual_update: false
+seq: 3
+owner: product_ops_team
+related_epic: []
+related_feature: []
+related_story: []
+last_review: '2025-11-20'
+change_log:
+- "2025-11-20 \u2013 system \u2013 Migrated to frontmatter \u2013 PROC-2025-001"
+requirement_coverage: 0
+linked_sprints: []
+---
+
 # EPIC-003: Paper Trading
 
 ## Epic Overview

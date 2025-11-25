@@ -1,7 +1,7 @@
 ---
 id: EPIC-007
 seq: 7
-title: Strategy Lifecycle
+title: Strategy Lifecycle & Enablement
 owner: strategy_ops_team
 status: in_progress
 artifact_type: epic_overview
@@ -14,6 +14,11 @@ related_feature:
 - FEATURE-004-DeploymentRunbooks
 - FEATURE-005-ContinuousOptimization
 - FEATURE-006-DataPipeline
+- FEATURE-007-001-StrategyImplementation
+- FEATURE-007-002-PerformanceAnalytics
+- FEATURE-007-003-CollaborationHub
+- FEATURE-007-004-VersionControl
+- FEATURE-007-005-StrategyLibrary
 related_story:
 - STORY-006-01
 created_at: 2025-11-03 00:00:00+00:00
@@ -27,7 +32,8 @@ change_log:
 - 2025-11-12 - Updated progress to 17% (1/6 Features complete)
 - 2025-11-04 - Sprint 0 completed (FEATURE-006-DataPipeline)
 - 2025-11-03 - Scaffolded strategy lifecycle epic structure
-progress_pct: 16.67
+progress_pct: 33.33
+manual_update: true
 requirement_coverage: 17
 linked_sprints:
 - SPRINT-20251104-epic007-data-pipeline
@@ -58,7 +64,9 @@ test_run_history:
   notes: Parser validation, batch verification, catalog integration
 ---
 
-# EPIC-007: Strategy Lifecycle
+# EPIC-007: Strategy Lifecycle & Enablement
+
+> **CONSOLIDATED**: Includes former EPIC-008 Strategy Enablement features for complete end-to-end strategy operations.
 
 - **PRD**: [EPIC-007 Strategy Lifecycle PRD](./PRD.md)
 - **Requirements**: [Requirements Matrix](./REQUIREMENTS_MATRIX.md)
@@ -82,42 +90,63 @@ test_run_history:
 **Title**: Strategy Lifecycle  
 **Duration**: Continuous, reviewed quarterly  
 **Status**: 📋 Planned  
-**Priority**: P0 (Drives revenue roadmap)  
+**Priority**: P0 (Drives revenue release plan)  
 **Owner**: Strategy Operations Team + Product Owner
 
 ## Description
 
-Define and operate the end-to-end lifecycle that takes a trading strategy from ideation through research, governance, implementation, deployment, and ongoing optimisation. The lifecycle provides backward integration into platform work, ensuring each strategy is production-ready and observable.
+Define and operate the complete end-to-end strategy lifecycle from conception to multi-strategy deployment, including research, governance, implementation enablement, deployment, and ongoing optimization. Provides comprehensive tooling, templates, and operational workflows that ensure strategies are production-ready, observable, and properly integrated into the platform's multi-strategy orchestration framework.
 
 ## Business Value
 
-- Ensures strategy pipeline is transparent and prioritised against capital allocation goals
-- Creates repeatable hand-offs between research, engineering, and operations
-- Improves deployment readiness and compliance documentation
-- Provides telemetry for post-trade evaluation and continuous improvement
+- **Complete Strategy Operations**: End-to-end pipeline from conception through multi-strategy deployment
+- **Development Velocity**: Templates, scaffolding, and automation reduce strategy implementation time  
+- **Operational Excellence**: Standardized monitoring, alerting, and performance analytics
+- **Quality Assurance**: Automated testing, code standards, and review workflows
+- **Knowledge Management**: Centralized documentation, templates, and best practices
+- **Governance & Compliance**: Version control, audit trails, and change management
+- **Transparent Pipeline**: Strategy prioritization aligned with capital allocation goals
+- **Repeatable Handoffs**: Standardized processes between research, engineering, and operations
 
 ## Success Criteria
 
+**Lifecycle Framework:**
 - [ ] Strategy intake process documented with scoring model and approval gates
-- [ ] Research artefacts standardised with template and storage conventions
+- [ ] Research artefacts standardised with template and storage conventions  
 - [ ] Implementation hand-off package defined (design brief, acceptance checklist)
 - [ ] Deployment runbooks implemented for paper → live transitions
 - [ ] Post-deployment reviews scheduled with KPIs + guardrails
 - [ ] Strategies catalogued with status tracking (Idea → Research → Prioritised → In Dev → Paper → Live → Retired)
 
+**Enablement Tooling:**
+- [ ] Strategy template library with asset-class specific patterns (equities, options, futures)
+- [ ] Scaffold CLI generates compliant, testable strategy packages  
+- [ ] Performance dashboards with standardized KPIs and automated alerting
+- [ ] Collaboration workflows with review processes and documentation requirements
+- [ ] Strategy library with versioning, search, and metadata management
+- [ ] CI/CD integration with automated testing and deployment pipelines
+
 ## Features
 
 | Feature ID | Feature Name | Stories | Est. Days | Actual | Status |
 |------------|--------------|---------|-----------|--------|--------|
-| [FEATURE-001-ResearchPipeline](./FEATURE-001-ResearchPipeline/README.md) | Research Intake & Discovery Workflow | 4 | 6 | - | 📋 Planned |
-| [FEATURE-002-PrioritisationGovernance](./FEATURE-002-PrioritisationGovernance/README.md) | Prioritisation Council & Scoring | 3 | 4 | - | 📋 Planned |
-| [FEATURE-003-ImplementationBridge](./FEATURE-003-ImplementationBridge/README.md) | Implementation Handoff & Traceability | 3 | 4 | - | 📋 Planned |
-| [FEATURE-004-DeploymentRunbooks](./FEATURE-004-DeploymentRunbooks/README.md) | Deployment & Rollout Playbooks | 3 | 5 | - | 📋 Planned |
-| [FEATURE-005-ContinuousOptimization](./FEATURE-005-ContinuousOptimization/README.md) | Post-Trade Analytics & Iteration | 4 | 5 | - | 📋 Planned |
-| [FEATURE-006-DataPipeline](./FEATURE-006-DataPipeline/README.md) | Historical Data Pipeline & Greeks Calculation | 1 | 10 | 1d | ✅ Complete |
+| [FEATURE-001-ResearchPipeline](./Features/FEATURE-001-ResearchPipeline/README.md) | Research Intake & Discovery Workflow | 4 | 6 | 4d | ✅ Complete |
+| [FEATURE-002-PrioritisationGovernance](./Features/FEATURE-002-PrioritisationGovernance/README.md) | Prioritisation Council & Scoring | 3 | 4 | 3d | ✅ Complete |
+| [FEATURE-003-CapitalAllocation](./Features/FEATURE-003-CapitalAllocation/README.md) | Capital Allocation Management | 3 | 6 | 3d | ✅ Complete |
+| [FEATURE-003-ImplementationBridge](./Features/FEATURE-003-ImplementationBridge/README.md) | Implementation Handoff & Traceability* | 3 | 4 | - | 📋 Planned |
+| [FEATURE-004-DeploymentRunbooks](./Features/FEATURE-004-DeploymentRunbooks/README.md) | Deployment & Rollout Playbooks | 3 | 5 | - | 📋 Planned |
+| [FEATURE-005-ContinuousOptimization](./Features/FEATURE-005-ContinuousOptimization/README.md) | Post-Trade Analytics & Iteration | 4 | 5 | - | 📋 Planned |
+| [FEATURE-006-DataPipeline](./Features/FEATURE-006-DataPipeline/README.md) | Historical Data Pipeline & Greeks Calculation | 1 | 10 | 1d | ✅ Complete |
+| [FEATURE-007-001-StrategyImplementation](./Features/FEATURE-007-001-StrategyImplementation/README.md) | Strategy Implementation Pipeline | 4 | 8 | - | 📋 Planned |
+| [FEATURE-007-002-PerformanceAnalytics](./Features/FEATURE-007-002-PerformanceAnalytics/README.md) | Strategy Performance Analytics | 4 | 8 | - | 📋 Planned |
+| [FEATURE-007-003-CollaborationHub](./Features/FEATURE-007-003-CollaborationHub/README.md) | Strategy Collaboration & Review | 4 | 7 | - | 📋 Planned |
+| [FEATURE-007-004-VersionControl](./Features/FEATURE-007-004-VersionControl/README.md) | Strategy Versioning & Change Management | 4 | 7 | - | 📋 Planned |
+| [FEATURE-007-005-StrategyLibrary](./Features/FEATURE-007-005-StrategyLibrary/README.md) | Strategy Template & Library System | 5 | 9 | - | 📋 Planned |
 
-**Total**: 6 Features, 18 Stories
-**Progress**: 1/6 Features complete (17%)
+**Total**: 12 Features, 43 Stories, ~80 days
+**Progress**: 4/12 Features complete (33%)
+
+*Note: FEATURE-003 has a numbering conflict. Capital Allocation was implemented as FEATURE-003 during sprint execution, while Implementation Bridge was originally planned as FEATURE-003. This needs resolution.
 **Completed**: [[../../Sprints/SPRINT-20251104-epic007-data-pipeline/SUMMARY|Sprint 0: Data Pipeline]] (2025-11-04)
 
 ## Milestones
@@ -139,17 +168,25 @@ Define and operate the end-to-end lifecycle that takes a trading strategy from i
 
 ## Key Deliverables
 
-### Process Deliverables
+### Lifecycle Process Deliverables
 - Strategy intake form & scoring rubric
-- Research artefact template with reproducibility checklist
+- Research artefact template with reproducibility checklist  
 - Implementation handoff package (architecture brief, test plan, risk assessment)
 - Deployment runbook covering paper and live transition steps
 - Post-deployment review template with KPI dashboards
 
+### Enablement Tool Deliverables  
+- Strategy scaffold CLI & asset-class specific templates
+- Strategy coding standards and lint configuration
+- Performance dashboards with KPI definitions and automated alerting
+- Collaboration workspace (review checklist, retrospectives, knowledge base)
+- Version-controlled strategy library with search/indexing
+
 ### Documentation Deliverables
 - Strategy catalogue with lifecycle status board
-- Governance council charter and meeting cadence
+- Governance council charter and meeting cadence  
 - Backward integration playbook aligning strategy artefacts to platform components
+- Knowledge base with best practices, troubleshooting guides, and examples
 
 ## Risks & Mitigation
 
