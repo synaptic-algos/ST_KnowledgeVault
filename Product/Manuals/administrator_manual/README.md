@@ -22,5 +22,6 @@ Operational procedures for platform administrators, SREs, and partner support. U
 - [Environment Setup](./environment_setup.md)
 - [Vault & Documentation Governance](./vault_governance.md)
 - [Prioritisation Council Operations](./council_operations.md) ⭐ NEW
+- [Strategy Lifecycle Operations](./strategy_lifecycle_operations.md) ⭐ NEW - EPIC-007 Git integration and A/B testing
 - [Automation & CI Jobs](./automation.md)
 - [Manual Update Checklist](./manual_update_checklist.md)

@@ -6,10 +6,11 @@ This manual provides comprehensive development guidance for the SynapticTrading 
 ## Table of Contents
 
 ### Core Platform APIs
-- [Backtesting Framework API](./backtesting_api.md) - EPIC-002 implementation
-- [Strategy Lifecycle API](./strategy_lifecycle_api.md) - EPIC-007 implementation  
+- [Backtesting Framework API](./backtesting_api.md) - EPIC-002 basic implementation
+- [Advanced Backtesting API](./advanced_backtesting_api.md) - EPIC-002 advanced features (Node A)
+- [Strategy Lifecycle API](./strategy_lifecycle_api.md) - EPIC-007 Git integration and A/B testing (Node B)  
 - [Trading Adapters API](./trading_adapters_api.md) - EPIC-005 implementation
-- [Data Pipeline API](./data_pipeline_api.md) - Data Pipeline v2 implementation
+- [Data Pipeline API](./data_pipeline_api.md) - Data Pipeline v2 implementation (Node D)
 
 ### Integration Guides
 - [Port Interfaces](./port_interfaces.md) - Domain port implementations

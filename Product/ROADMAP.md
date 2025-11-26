@@ -1,17 +1,25 @@
 ---
-artifact_type: story
-created_at: '2025-11-25T16:23:21.549587Z'
+document_type: product_roadmap
+product: SynapticTrading
+version: "1.1"
+created: "2025-11-12"
+updated: "2025-11-25"
+owner: product_ops_team
+upms_phase: G3
+status: active
+current_sprint: SPRINT-1-EPIC-001-foundation
+sprint_status: in_progress
+release_strategy: phased_incremental
+target_v1_date: "2026-01-31"
 id: AUTO-ROADMAP
-manual_update: 'true'
-owner: Auto-assigned
-related_epic: TBD
-related_feature: TBD
-related_story: TBD
-requirement_coverage: TBD
 seq: '001'
-status: pending
-title: Auto-generated title for ROADMAP
+artifact_type: roadmap
 updated_at: '2025-11-25T16:23:21.549591Z'
+related_epic: EPIC-001
+related_feature: FEAT-001
+related_story: STORY-001
+requirement_coverage: 95
+manual_update: 'true'
 ---
 
 ## Roadmap Overview

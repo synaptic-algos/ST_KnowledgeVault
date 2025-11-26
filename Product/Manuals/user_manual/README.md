@@ -22,7 +22,9 @@ This manual grows incrementally after every sprint/epic so traders, quants, and 
 - [Getting Started](./getting_started.md)
 - [Navigation & Vault Explorer](./navigation.md)
 - [Status Dashboards](./dashboards.md)
-- [Strategy Governance & Prioritisation](./strategy_governance.md) ⭐ NEW
+- [Advanced Backtesting](./advanced_backtesting.md) - Multi-timeframe, stress testing, Monte Carlo
+- [Strategy Lifecycle Management](./strategy_lifecycle_management.md) ⭐ NEW - Git integration and A/B testing
+- [Strategy Governance & Prioritisation](./strategy_governance.md)
 - [Partner Workspace](./partner_workspace.md)
 - [Release Notes](./release_notes.md)
 
